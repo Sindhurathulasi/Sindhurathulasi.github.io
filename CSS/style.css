@@ -1,0 +1,2426 @@
+* {
+	box-sizing: border-box;
+}
+
+/*** HOME ***/
+
+body {
+	max-width: 1280vw;
+	width: 100%;
+	
+	margin: 0;
+}
+
+article {
+}
+
+.home-content {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_pattern {
+	max-width: 500px;
+	width: 100%;
+}
+
+.home_logo {
+	max-width: 250px;
+	width: 100%;
+	
+	margin-top: 20px;
+}
+
+.home_menu {
+	max-width: 50px;
+	width: 100%;
+	
+	margin-top: 60px;	
+} 
+
+/***
+
+.menu_bar {
+	background-image: url("../Images/Home_menu.png");
+	max-width: 50px;
+	width: 100%;
+	
+	margin-top: 60px;	
+}
+
+.menu_bar:hover {
+	background-image: url("../Images/Menu_hover-07.png");	
+}
+
+***/
+
+
+/*** HOME-2 ***/
+
+.wrapper {
+	background: url(../Images/Home_BG.png) no-repeat;
+	height: 100vh;
+	
+	background-size: cover;
+	background-position: center;
+	
+	width: 100%;
+	margin: 0;
+}
+
+.header {
+	max-width: 1280vw;
+	width: 100%;
+	
+	height: 120px;
+	
+	position: absolute;
+	top: 0;
+	
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.small_logo {
+	max-width: 103px;
+	width: 100%;
+	
+	margin: 10px 50px;
+}
+
+nav {
+	
+}
+
+ul {
+	
+}
+
+li {
+	display: inline-block;
+	
+	font-family: "gillsans";
+	font-size: 1.1em;
+	
+	
+	padding: 40px 0;
+	margin: 20px 90px;	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.intro-home {
+	position: absolute;
+	left: 6%;
+	top: 30%;
+}
+
+.intro-home p {
+	color: white;
+	font-family: 'Titillium';
+	
+	font-size: 1.2em;
+}
+
+.intro-home strong {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	color: white;
+	border: solid white 2px;
+	border-radius: 3px;
+	
+	position: absolute;
+	left: 6%;
+	top: 67%;
+	
+	margin: 0;
+	padding: 12px 50px;
+}
+
+h3:hover {
+	color: rgba(48, 198, 169, 1);
+	background-color: white;
+}
+
+.menuWhite {
+	margin-right: 20px;
+	
+	display: none;
+}
+
+
+/*** ABOUT ***/
+
+.hello {
+	color: rgba(48, 198, 169, 1);
+	font-family: 'Gillsans', sans-serif;
+	
+	font-size: 1.4em;
+	font-weight: 600;
+	
+	padding-top: 30px;
+	margin: 50px 170px;
+}
+
+.about-content {
+	margin: 40px 170px;
+	font-family: 'Gillsans', sans-serif;
+	font-size: 1.1em;	
+	
+	text-align: center;
+}
+
+.about-content p {
+	text-align: left;
+}
+
+.about-content a {
+	text-decoration: none;
+}
+
+.about-content h4 {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	color: rgba(48, 198, 169, 1);
+	border: solid rgba(48, 198, 169, 1) 2px;
+	border-radius: 3px;
+	
+	margin-top: 40px;
+	padding: 12px 0;
+
+}
+
+.about-content h4:hover {
+	color: white;
+	background-color: rgba(48, 198, 169, 1);
+}
+
+/*** PORTFOLIO ***/
+
+.portfolio {
+	
+}
+
+.portfolio .header {
+	max-width: 1280vw;
+	width: 100%;
+	height: 100px;
+	
+	background-color: white;
+	
+	position: fixed;	
+}
+
+.portfolio .small_logo {
+	max-width: 103px;
+	width: 100%;
+	
+	margin: 10px 50px;
+}
+
+.portfolio nav {
+}
+
+.portfolio ul {
+	
+}
+
+
+.portfolio li {
+	display: inline-block;
+	
+	font-family: "gillsans";
+	font-size: 1.1em;
+	
+	
+	padding: 40px 0;
+	margin: 20px 90px;	
+}
+
+.portfolio a {
+	color: black;
+}
+
+.menuBlack {
+	margin-right: 20px;
+	
+	display: none;	
+}
+
+.portfolio-content {
+	max-width: 1280vw;
+	width: 100%;
+	
+	margin-top: 100px;
+	
+	min-height: 668vh;
+	
+	background-color: rgba(249,249,249,1);
+}
+
+/*** SAMSUNG ***/
+
+.samsung {
+	max-width: 1280vw;
+	min-height: 565px;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.portfolio-left {
+	max-width: 500px;
+	width: 100%;
+	
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.shelf-left {
+	max-width: 500px;
+	width: 100%;
+}
+
+.portfolio-right {
+	width: 300px;
+	
+	margin-right: 200px;
+	margin-top: 124px;
+}
+
+.portfolio-right strong {
+	font-size: 1.5em;
+}
+
+.portfolio-right p {
+	font-family: 'Titillium';
+	font-size: 1.1em;	
+}
+
+.portfolio-text {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.portfolio-right .portfolio-button {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	border: solid rgba(48,198,169,1) 2px;
+	border-radius: 3px;
+	
+	text-align: center;
+	
+	color: rgba(48,198,169,1);
+	
+	padding: 12px 30px;
+}
+
+.portfolio-right .portfolio-button:hover {
+	background-color: rgba(48,198,169,1);
+	color: rgba(249,249,249,1);
+}
+
+a .portfolio-right .portfolio-button {
+	text-decoration: none;
+}
+
+
+/*** ATM ***/
+
+.atm {
+	max-width: 1280vw;
+	min-height: 100px;	
+}
+
+.atm .portfolio-left {
+	width: 300px;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.atm .portfolio-left strong {
+	font-size: 1.5em;
+}
+
+.atm .portfolio-left p {
+	font-family: 'Titillium';
+	font-size: 1.1em;	
+}
+
+.atm .portfolio-text {
+	margin-top: 50px;
+	margin-bottom: 55px;
+}
+
+.portfolio-left .portfolio-button {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	border: solid rgba(48,198,169,1) 2px;
+	border-radius: 3px;
+	
+	text-align: center;
+	
+	color: rgba(48,198,169,1);
+	
+	padding: 12px 30px;
+}
+
+.portfolio-left .portfolio-button:hover {
+	background-color: rgba(48,198,169,1);
+	color: rgba(249,249,249,1);
+}
+
+.atm .portfolio-right {
+	width: 40%;
+	
+	float: right;
+	
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.atm .shelf-right {
+	max-width: 500px;
+	width: 100%;
+}
+
+/*** SAMSUNG CONTENT ***/
+
+.samsung-content {
+}
+
+.first {
+	text-align: center;
+}
+
+.samsung-top {
+	max-width: 400px;
+	width: 100%;
+	
+	display: flex;
+	left: 0;
+}
+
+.samsung-logo {
+	max-width: 450px;
+	width: 100%;
+	
+	margin-top: 80px;
+	margin-bottom: 140px;
+}
+
+.second {
+	margin: 20px 170px;
+	text-align: center;
+}
+
+.second p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+}
+
+.samsung-landing {
+	max-width: 300px;
+	width: 100%;
+	
+	margin: 30px 0;
+}
+
+.third {
+	margin: 100px 170px;
+	text-align: center;
+}
+
+.third h4 {
+	font-family: 'Gillsans';
+	font-size: 1.6em;
+}
+
+.samsung-color {
+	max-width: 1000px;
+	width: 100%;
+	
+	margin-top: 90px;
+	margin-bottom: 110px;
+}
+
+.third p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	
+	margin-top: 80px;
+}
+
+.third .font {
+	font-family: 'Ailerons';
+	font-size: 3em;
+	
+	margin-top: 90px;
+	
+	text-align: center;
+}
+
+.fourth {
+	margin: 160px 170px;
+	text-align: center;
+}
+
+.fourth h4 {
+	font-family: 'Gillsans';
+	font-size: 1.6em;
+}
+
+.fourth p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+}
+
+.samsung-icons {
+	max-width: 650px;
+	width: 100%;
+	
+	margin-top: 40px;
+}
+
+.samsung-shadow {
+	max-width: 650px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+.samsung-screens {
+	max-width: 880px;
+	width: 100%;
+}
+
+.samsung-families {
+	max-width: 600px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+.samsung-swipe {
+	max-width: 630px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+.samsung-clean {
+	max-width: 880px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+.samsung-prize {
+	max-width: 630px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+/*** HYPHEN PRESS CONTENT ***/
+
+.hyphen-content {
+}
+
+.opening {
+	text-align: center;
+}
+
+.opening h1 {
+	font-family: 'Titillium';
+	font-size: 2.5em;
+	
+	margin-top: 180px;
+	margin-bottom: 0;
+}
+
+.opening h2 {
+	font-family: 'Titillium';
+	font-size: 2.2em;
+	
+	margin-top: 0;
+	margin-bottom: 200px;
+}
+
+.hyphen-opening {
+	max-width: 1300px;
+	width: 100%;
+}
+
+.hyphen-content p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	
+	margin: 90px 170px;
+}
+
+.sketches {
+	margin: 20px 0;
+	text-align: center;
+	
+	background-color: rgba(43, 43, 43, 1);
+}
+
+.sketch1 {
+	max-width: 800px;
+	width: 100%;
+	
+	margin-bottom: 70px;
+}
+
+.sampleBook {
+	margin: 100px 0;
+	text-align: center;
+}
+
+.sampleBG {
+	margin: 20px 0;
+	background-color: rgba(43, 43, 43, 1);
+}
+
+.sampleImg {
+	max-width: 650px;
+	width: 100%;
+	
+	margin: 50px 0;
+}
+
+.font {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.fontImg {
+	background-color: white;
+}
+
+.fontImg img {
+	max-width: 650px;
+	width: 100%;
+}
+
+.font p {
+	margin-top: 50px;
+}
+
+hr {
+	border: solid rgba(43, 43, 43, 1) 0.5px;
+	margin-bottom: 20px;
+}
+
+.color {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.color p {
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.colorImg {
+	width: 100%;
+}
+
+.hyphen1 {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.hyphen2 {
+	max-width: 1280px;
+	width: 100%;
+	
+	border-bottom: solid rgba(221, 35, 29, 1) 15px;
+}
+
+/*** BYE CONTENT ***/
+
+.bye-content {
+}
+
+.bye-content .first {
+	text-align: center;
+}
+
+.bye-content h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.5em;
+	
+	padding-top: 70px;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+.bye-content h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	
+	margin-top: 0;
+	margin-bottom: 90px;
+}
+
+.bye-content p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	margin: 30px 170px;
+}
+
+.bye-landing {
+	text-align: center; 
+}
+
+.bye-landing img {
+	max-width: 280px;
+	width: 100%;
+	
+	margin: 20px 0;
+}
+
+.bye-content .second {
+	margin: 20px 0;
+}
+
+.bye-content .second .homeImg {	
+	background-color: rgba(43, 43, 43, 1);
+	text-align: center;
+}
+
+.second .homeImg img {
+	max-width: 730px;
+	width: 100%;
+}
+
+.bye-content .second p {
+	margin: 90px 170px;
+}
+
+.bye-content .third {
+	margin: 20px 0;
+	
+	text-align: center;
+	background-color: rgba(43, 43, 43, 1);
+}
+
+.bye-content .third .about {
+	max-width: 730px;
+	width: 100%;
+}
+
+.bye-content .fourth {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.donateIcon {
+	max-width: 165px;
+	width: 100%;
+	
+	margin: 60px 170px;
+}
+
+.donateScreens img {
+	max-width: 730px;
+	width: 100%;
+}
+
+.bye-content .buttons {
+	margin-top: 50px;
+}
+
+.bye-content .fourth p {
+	font-size: 1.2em;
+	
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.bye-content .fifth {
+	margin: 20px 0;
+	text-align: center;
+	
+	background-color: rgba(43, 43, 43, 1);
+}
+
+.bye-content .volunteer {
+	max-width: 750px;
+	width: 100%;
+}
+
+.bye-content .sixth {
+	text-align: center;
+}
+
+.feedIcon {
+	max-width: 220px;
+	width: 100%;
+	
+	margin: 60px 0;
+}
+
+.feedImg img {
+	max-width: 300px;
+	width: 100%;
+}
+
+.feedButtons {
+	max-width: 600px;
+	width: 100%;
+	
+	margin: 50px;
+}
+
+.bye-content .sixth p {
+	margin-bottom: 100px;
+}
+
+.feedScreens {
+	background-color: rgba(43, 43, 43, 1);
+}
+
+.feedScreens img {
+	max-width: 950px;
+	width: 100%;
+}
+
+.bye-content .seventh {
+	margin: 20px 0;
+	text-align: center;
+	
+	border-bottom: solid rgba(216, 180, 32, 1) 15px;
+}
+
+.bye-content .seventh h2 {
+	margin-top: 120px;
+}
+
+.bye-content .seventh .contact {
+	max-width: 300px;
+	width: 100%;
+	
+	margin-bottom: 60px;
+}
+
+/*** EUROPE-CONTENT ***/
+
+.europe-content {
+}
+
+.europe-content .first {
+	text-align: center;
+}
+
+.europe-content h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.5em;
+	
+	padding-top: 160px;
+	margin-bottom: 0;
+}
+
+.europe-content h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 400;
+	
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+.europe-content .first p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	margin: 30px 170px;
+}
+
+.europe-content .design {
+	text-align: center;
+}
+
+.europe-content .design h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.creatures {
+	max-width: 1000px;
+	width: 100%;
+}
+
+.europe-content .design p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	margin: 30px 170px;
+}
+
+.water {
+	text-align: center;
+}
+
+.water h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+.water-BG {
+	max-width: 1024px;
+	width: 100%
+}
+
+.water h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin: 50px 0;	
+}
+
+.waterTicket {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.waterTicket img {
+	max-width: 1024px;
+	width: 100%;
+}
+
+.waterBody {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.waterBody img {
+	max-width: 550px;
+	width: 100%;
+}
+
+.waterPoster {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.land {
+	text-align: center;
+}
+
+.land h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+.land-BG {
+	max-width: 1024px;
+	width: 100%
+}
+
+.land h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin: 50px 0;
+}
+
+.landTicket {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.landTicket img {
+	max-width: 1024px;
+	width: 100%;
+}
+
+.land-body {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.land-body img {
+	max-width: 600px;
+	width: 100%;
+	
+	margin: 50px 90px;
+}
+
+.landPoster {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.air {
+	text-align: center;
+}
+
+.air h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+.air-BG {
+	max-width: 1024px;
+	width: 100%
+}
+
+.air h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin: 50px 0;
+}
+
+.airTicket {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.airTicket img {
+	max-width: 1024px;
+	width: 100%;
+}
+
+.air-body {
+	background-color: rgba(225, 225, 225, 1);
+}
+
+.air-body img {
+	max-width: 600px;
+	width: 100%;
+	
+	margin: 50px 90px;
+}
+
+.airPoster {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.allPosters {
+	max-width: 1024px;
+	width: 100%;
+}
+
+/*** CALONGE-CONTENT ***/
+
+.calonge-content {
+}
+
+.calonge-content .opening {
+	text-align: center;
+}
+
+.calonge-content h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.5em;
+	
+	padding-top: 50px;
+	
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+.calonge-content .landing {
+	max-width: 950px;
+	width: 100%;
+}
+
+.calonge-content p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	margin: 30px 170px;
+}
+
+.calonge-design {
+	text-align: center;
+}
+
+.calonge-design h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.calonge-design .design-first {
+	max-width: 900px;
+	width: 100%;
+}
+
+.calonge-design .product-page {
+	max-width: 900px;
+	width: 100%;
+}
+
+.calonge-design .last-video {
+	max-width: 800px;
+	width: 100%;
+}
+
+/*** SMILE-CONTENT ***/
+
+.smile-content {
+}
+
+.smile-content .opening {
+	text-align: center;
+}
+
+.smile-content h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.5em;
+	
+	margin-top: 90px;
+	margin-bottom: 20px;
+}
+
+.smile-content p {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	text-align: left;
+	margin: 30px 170px;
+}
+
+.openingImg {
+	max-width: 270px;
+	width: 100%;
+	
+	margin-bottom: 30px;
+}
+
+.smile-logo {
+	text-align: center;
+	
+	border-bottom: solid rgba(29, 221, 185, 1) 12px;
+}
+
+.smile-logo h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+	
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.smile-logo .oldLogo {
+	background-color: white;
+}
+
+.smile-logo .oldLogo img {
+	max-width: 600px;
+	width: 100%;
+}
+
+.smile-logo .newLogo {
+	background-color: white;
+}
+
+.smile-logo .newLogo img {
+	max-width: 750px;
+	width: 100%;
+}
+
+.smile-intro {
+	max-width: 400px;
+	width: 100%;
+	
+	margin: 30px 100px 0 100px;
+}
+
+.smile-screens {
+	max-width: 850px;
+	width: 100%;
+	
+	margin-top: 65px;	
+}
+
+.smile-video {
+	max-width: 400px;
+	width: 100%;
+	
+	margin: 30px 100px 50px 100px;
+}
+
+
+.scroll {
+	max-width: 60px;
+	width: 100%;
+	
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+
+/*** MEDIA QUERY ***/
+
+
+@media (max-width: 1044px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 1024vw;
+	}
+
+	.home_pattern {
+		max-width: 500px;
+	}
+
+	.home_logo {
+		max-width: 230px;
+	}
+
+	.home_menu {
+		max-width: 50px;	
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 1024vw;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 1.1em;
+	
+		padding: 10px 0;
+		margin: 20px 60px;
+	}
+
+	.intro-home {
+		left: 7%;
+	}
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 7%;
+		top: 67%;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		color: white;
+		background-color: rgba(48, 198, 169, 1);
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 1024vw;
+	}
+
+	.portfolio .small_logo {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 50px;
+	}
+
+	.portfolio li {
+		display: inline-block;
+
+		font-family: "gillsans";
+		font-size: 1.1em;
+		
+		margin: 20px 60px;
+	}
+
+	.portfolio a {
+		color: black;
+	}
+
+	.portfolio-content {
+		max-width: 1024vw;
+		width: 100%;
+	}
+	
+	
+	/*** SAMSUNG CONTENT ***/
+
+
+	.samsung-top {
+		max-width: 350px;
+	}
+
+	.samsung-logo {
+		max-width: 350px;
+		width: 100%;
+
+		margin-top: 100px;
+		margin-bottom: 200px;
+	}
+
+	.second {
+		margin: 20px 110px;
+	}
+
+	.second p {
+		font-size: 1.1em;
+	}
+
+	.samsung-landing {
+		max-width: 200px;
+		width: 100%;
+
+		margin: 50px 0;
+	}
+
+	.third {
+		margin: 70px 110px;
+	}
+
+	.third h4 {
+		font-size: 1.4em;
+	}
+
+	.samsung-color {
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+
+	.third p {
+		font-size: 1.1em;
+
+		margin-top: 40px;
+	}
+
+	.third .font {
+		font-size: 2.5em;
+
+		margin-top: 60px;
+	}
+
+	.fourth {
+		margin: 80px 110px;
+	}
+
+	.fourth h4 {
+		font-size: 1.4em;
+	}
+
+	.fourth p {
+		font-size: 1.1em;
+		
+		margin-top: 30px;
+	}
+
+	.samsung-icons {
+		margin-top: 30px;
+	}
+
+	.samsung-shadow {
+		margin: 80px 0;
+	}
+	
+	.samsung-screens {
+		max-width: 880px;
+		width: 100%;
+	}
+
+	.samsung-families {
+		max-width: 450px;
+		width: 100%;
+		
+		margin: 50px 0;
+	}
+
+	.samsung-swipe {
+		margin: 50px 0;
+	}
+
+	.samsung-clean {
+		margin: 20px 0;
+	}
+
+	.samsung-prize {
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	
+	/*** EUROPE-CONTENT ***/
+	
+
+	.europe-content h1 {
+		font-size: 2.3em;
+
+		padding-top: 80px;
+	}
+
+	.europe-content h2 {
+		font-size: 2.1em;
+
+		margin-bottom: 80px;
+	}
+
+	.europe-content .first p {
+		font-size: 1.1em;
+		margin: 30px 110px;
+	}
+
+	.europe-content .design {
+		text-align: center;
+	}
+
+	.europe-content .design h2 {
+		font-size: 2.1em;
+
+		margin-top: 100px;
+	}
+
+	.europe-content .design p {
+		font-size: 1.1em;
+		
+		margin: 30px 110px;
+	}
+
+	.water h2 {
+		font-size: 2.1em;
+
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.water h4 {
+		font-size: 2.1em;
+
+		margin: 30px 0;	
+	}
+
+	.waterTicket img {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.land h2 {
+		font-size: 2.1em;
+		
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.land h4 {
+		font-size: 2.1em;
+
+		margin: 30px 0;
+	}
+
+	.land-body img {
+		max-width: 420px;
+	}
+
+	.air h2 {
+		font-size: 2.1em;
+
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.air h4 {
+		font-size: 2.1em;
+
+		margin: 30px 0;
+	}
+
+	.air-body img {
+		max-width: 450px;
+		width: 100%;
+
+		margin: 50px 90px;
+	}
+	
+	/*** CALONGE-CONTENT ***/
+
+	
+	.calonge-content h1 {
+		font-size: 2.4em;
+
+		padding-top: 50px;
+	}
+
+	.calonge-content .landing {
+		max-width: 850px;
+		width: 100%;
+	}
+
+	.calonge-content p {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		text-align: left;
+		margin: 30px 110px;
+	}
+
+	.calonge-design h2 {
+		font-size: 2.1em;
+
+		margin-top: 90px;
+		margin-bottom: 50px;
+	}
+
+	.calonge-design .design-first {
+		max-width: 790px;
+	}
+
+	.calonge-design .product-page {
+		max-width: 790px;
+	}
+
+	.calonge-design .last-video {
+		max-width: 790px;
+	}
+	
+	/*** SCROLL ***/
+	
+	.scroll {
+		max-width: 55px;
+	}
+}
+
+@media (max-width: 868px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 768vw;
+	}
+
+	.home_pattern {
+		max-width: 450px;
+	}
+
+	.home_logo {
+		max-width: 210px;
+	}
+
+	.home_menu {
+		max-width: 45px;
+		
+		margin-top: 85px;
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 768vw;
+	}
+
+	li {
+		font-size: 1em;
+	
+		padding: 40px 0;
+		margin: 20px 40px;
+	}
+
+	.intro-home {
+		left: 7%;
+	}
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 7%;
+		top: 64%;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		display: none;
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 768vw;
+	}
+
+	.portfolio li {
+		display: inline-block;
+
+		font-family: "gillsans";
+		font-size: 1em;
+		
+		margin: 20px 40px;
+	}
+
+	.portfolio-content {
+		max-width: 768vw;
+	}
+	
+	
+	/*** SAMSUNG CONTENT ***/
+
+
+	.samsung-top {
+		max-width: 330px;
+	}
+
+	.samsung-logo {
+		max-width: 350px;
+		width: 100%;
+
+		margin-top: 120px;
+		margin-bottom: 80px;
+	}
+
+	.second {
+		margin: 20px 100px;
+	}
+
+	.second p {
+		font-size: 1.1em;
+	}
+
+	.samsung-landing {
+		max-width: 200px;
+		width: 100%;
+
+		margin: 30px 0;
+	}
+
+	.third {
+		margin: 70px 100px;
+	}
+
+	.third h4 {
+		font-size: 1.4em;
+	}
+
+	.samsung-color {
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+
+	.third p {
+		font-size: 1.1em;
+
+		margin-top: 30px;
+	}
+
+	.third .font {
+		font-size: 2.4em;
+
+		margin-top: 60px;
+	}
+
+	.fourth {
+		margin: 80px 100px;
+	}
+
+	.fourth h4 {
+		font-size: 1.4em;
+	}
+
+	.fourth p {
+		font-size: 1.1em;
+		
+		margin-top: 20px;
+	}
+
+	.samsung-icons {
+		margin-top: 30px;
+	}
+
+	.samsung-shadow {
+		margin: 80px 0;
+	}
+	
+	.samsung-screens {
+		max-width: 880px;
+		width: 100%;
+	}
+
+	.samsung-families {
+		max-width: 450px;
+		width: 100%;
+		
+		margin: 40px 0;
+	}
+
+	.samsung-swipe {
+		margin: 40px 0;
+	}
+
+	.samsung-clean {
+		margin: 20px 0;
+	}
+
+	.samsung-prize {
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	
+	/*** EUROPE-CONTENT ***/
+	
+
+	.europe-content h1 {
+		font-size: 2.2em;
+
+		padding-top: 80px;
+	}
+
+	.europe-content h2 {
+		font-size: 2em;
+
+		margin-bottom: 80px;
+	}
+
+	.europe-content .first p {
+		font-size: 1.1em;
+		margin: 30px 100px;
+	}
+
+	.europe-content .design h2 {
+		font-size: 2em;
+
+		margin-top: 100px;
+	}
+
+	.europe-content .design p {
+		font-size: 1.1em;
+		
+		margin: 30px 100px;
+	}
+
+	.water h2 {
+		font-size: 2em;
+
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.water h4 {
+		font-size: 2em;
+
+		margin: 30px 0;	
+	}
+
+	.waterTicket img {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.land h2 {
+		font-size: 2em;
+		
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.land h4 {
+		font-size: 2em;
+
+		margin: 30px 0;
+	}
+
+	.land-body img {
+		max-width: 420px;
+	}
+
+	.air h2 {
+		font-size: 2em;
+
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.air h4 {
+		font-size: 2em;
+
+		margin: 30px 0;
+	}
+
+	.air-body img {
+		max-width: 450px;
+		width: 100%;
+
+		margin: 50px 90px;
+	}
+	
+	/*** CALONGE-CONTENT ***/
+
+	
+	.calonge-content h1 {
+		font-size: 2.2em;
+
+		padding-top: 50px;
+	}
+
+	.calonge-content .landing {
+		max-width: 830px;
+		width: 100%;
+	}
+
+	.calonge-content p {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		text-align: left;
+		margin: 30px 100px;
+	}
+
+	.calonge-design h2 {
+		font-size: 2.1em;
+
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+
+	.calonge-design .design-first {
+		max-width: 750px;
+	}
+
+	.calonge-design .product-page {
+		max-width: 750px;
+	}
+
+	.calonge-design .last-video {
+		max-width: 750px;
+	}
+	
+	/*** BYE CONTENT ***/
+	
+	.bye-content h1 {
+		font-size: 2.2em;
+	}
+
+	.bye-content h2 {
+		font-size: 2em;
+	}
+
+	.bye-content p {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		text-align: left;
+		margin: 20px 100px;
+	}
+
+	.bye-landing img {
+		max-width: 260px;
+		width: 100%;
+
+		margin: 30px 0;
+	}
+
+	.bye-content .second {
+		margin: 20px 0;
+	}
+
+	.second .homeImg img {
+		max-width: 660px;
+		width: 100%;
+	}
+
+	.bye-content .second p {
+		margin: 70px 100px;
+	}
+
+	.bye-content .third .about {
+		max-width: 700px;
+		width: 100%;
+	}
+
+	.bye-content .fourth {
+		margin: 20px 0;
+	}
+
+	.donateIcon {
+		max-width: 140px;
+		width: 100%;
+
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.donateScreens {
+		margin: 20px 50px;
+
+		max-width: 650px;
+		width: 100%;	
+	}
+
+	.bye-content .buttons {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	.bye-content .fifth {
+		margin: 50px 0;
+	}
+
+	.bye-content .volunteer {
+		max-width: 700px;
+		width: 100%;
+	}
+
+	.feedIcon {
+		max-width: 180px;
+		width: 100%;
+
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.feedImg {
+		margin: 40px 250px;
+
+		max-width: 300px;
+		width: 100%;
+	}
+
+	.feedButtons {
+		max-width: 490px;
+		width: 100%;
+
+		margin: 30px;
+	}
+
+	.bye-content .sixth p {
+		margin-bottom: 100px;
+	}
+
+	.feedScreens img {
+		max-width: 800px;
+		width: 100%;
+	}
+
+	.bye-content .seventh {
+		margin: 20px 0;
+	}
+
+	.bye-content .seventh h2 {
+		margin-top: 90px;
+	}
+
+	.bye-content .seventh .contact {
+		max-width: 300px;
+		width: 100%;
+		
+		margin-bottom: 50px;
+	}
+	
+	/*** SCROLL ***/
+	
+	.scroll {
+		max-width: 50px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 722vw;
+	}
+
+	.home_pattern {
+		max-width: 450px;
+	}
+
+	.home_logo {
+		max-width: 190px;
+	}
+
+	.home_menu {
+		max-width: 45px;
+		
+		margin-top: 85px;
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 722vw;
+	}
+
+	li {
+		font-size: 1em;
+	
+		padding: 40px 0;
+		margin: 20px 20px;
+	}
+
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 7%;
+		top: 64%;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		display: none;
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 722vw;
+	}
+
+	.portfolio li {
+		display: inline-block;
+
+		font-family: "gillsans";
+		font-size: 1em;
+		
+		margin: 20px 20px;
+	}
+
+	.portfolio-content {
+		max-width: 722vw;
+	}
+	
+}
+
+@media (max-width: 610px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 414vw;
+	}
+
+	.home_logo {
+		max-width: 210px;
+		
+		margin-top: 70px;
+	}
+
+	.home_menu {
+		max-width: 45px;
+		
+		margin-top: 90px;
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 414vw;
+	}
+	
+	.small_logo {
+		max-width: 90px;
+		width: 100%;
+
+		margin: 10px 20px;
+	}
+
+	li {
+		display: none;
+	}
+
+	.intro-home {
+		left: 7%;
+	}
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 7%;
+		top: 70%;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		display: none;
+	}
+	
+	.menuWhite {
+		display: block;
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 414vw;
+	}
+	
+	.portfolio .small_logo {
+		max-width: 90px;
+		width: 100%;
+
+		margin: 10px 20px;
+	}
+
+	.portfolio li {
+		display: none;
+	}
+
+	.portfolio-content {
+		max-width: 414vw;
+	}
+	
+	.menuBlack {
+		display: block;
+	}
+	
+	/*** SAMSUNG CONTENT ***/
+
+
+	.samsung-top {
+		max-width: 300px;
+	}
+
+	.samsung-logo {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 100px;
+		margin-bottom: 80px;
+	}
+
+	.second {
+		margin: 20px 70px;
+	}
+
+	.second p {
+		font-size: 1em;
+	}
+
+	.samsung-landing {
+		max-width: 200px;
+		width: 100%;
+
+		margin: 20px 0;
+	}
+
+	.third {
+		margin: 70px 70px;
+	}
+
+	.third h4 {
+		font-size: 1.3em;
+	}
+
+	.samsung-color {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.third p {
+		font-size: 1em;
+
+		margin-top: 25px;
+	}
+
+	.third .font {
+		font-size: 2.3em;
+
+		margin-top: 60px;
+	}
+
+	.fourth {
+		margin: 80px 70px;
+	}
+
+	.fourth h4 {
+		font-size: 1.3em;
+	}
+
+	.fourth p {
+		font-size: 1em;
+		
+		margin-top: 20px;
+	}
+
+	.samsung-icons {
+		margin-top: 30px;
+	}
+
+	.samsung-shadow {
+		margin: 60px 0;
+	}
+	
+	.samsung-screens {
+		max-width: 880px;
+		width: 100%;
+	}
+
+	.samsung-families {
+		max-width: 410px;
+		width: 100%;
+		
+		margin: 30px 0;
+	}
+
+	.samsung-swipe {
+		margin: 30px 0;
+	}
+
+	.samsung-clean {
+		margin: 20px 0;
+	}
+
+	.samsung-prize {
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	
+	/*** EUROPE-CONTENT ***/
+	
+
+	.europe-content h1 {
+		font-size: 2.1em;
+
+		padding-top: 80px;
+	}
+
+	.europe-content h2 {
+		font-size: 1.8em;
+
+		margin-bottom: 80px;
+	}
+
+	.europe-content .first p {
+		font-size: 1em;
+		margin: 30px 70px;
+	}
+
+	.europe-content .design h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+	}
+
+	.europe-content .design p {
+		font-size: 1em;
+		
+		margin: 30px 70px;
+	}
+
+	.water h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.water h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;	
+	}
+
+	.waterTicket img {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.land h2 {
+		font-size: 1.8em;
+		
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.land h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;
+	}
+
+	.land-body img {
+		max-width: 320px;
+		
+		margin: 30px 0;
+	}
+
+	.air h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.air h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;
+	}
+
+	.air-body img {
+		max-width: 350px;
+		width: 100%;
+
+		margin: 30px 0px;
+	}
+	
+	/*** CALONGE-CONTENT ***/
+
+	
+	.calonge-content h1 {
+		font-size: 2.1em;
+
+		padding-top: 50px;
+	}
+
+	.calonge-content .landing {
+		max-width: 860px;
+		width: 100%;
+	}
+
+	.calonge-content p {
+		font-family: 'Gillsans';
+		font-size: 1em;
+
+		text-align: left;
+		margin: 30px 70px;
+	}
+
+	.calonge-design h2 {
+		font-size: 2em;
+
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+
+	.calonge-design .design-first {
+		max-width: 750px;
+	}
+
+	.calonge-design .product-page {
+		max-width: 750px;
+	}
+
+	.calonge-design .last-video {
+		max-width: 750px;
+		
+		margin-bottom: 0px;
+	}
+	
+	/*** SCROLL ***/
+	
+	.scroll {
+		max-width: 45px;
+		
+		position: fixed;
+		bottom: 20px;
+		right: 18px;
+	}
+	
+}
+
+
