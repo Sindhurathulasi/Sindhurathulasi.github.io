@@ -1270,8 +1270,7 @@ hr {
 	}
 	
 	h3:hover {
-		color: white;
-		background-color: rgba(48, 198, 169, 1);
+		background: none;
 	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
