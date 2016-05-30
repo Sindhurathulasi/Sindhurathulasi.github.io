@@ -1610,7 +1610,7 @@ hr {
 	}
 	
 	h3:hover {
-		display: none;
+		background: none;
 	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
@@ -2053,7 +2053,7 @@ hr {
 	}
 	
 	h3:hover {
-		display: none;
+		background: none;
 	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
@@ -2142,7 +2142,7 @@ hr {
 	}
 	
 	h3:hover {
-		display: none;
+		background: none;
 	}
 	
 	.menuWhite {
