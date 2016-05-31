@@ -2087,7 +2087,7 @@ hr {
 	/*** HOME ***/
 
 	body {
-		max-width: 414vw;
+		max-width: 320vw;
 	}
 
 	.home_logo {
@@ -2105,7 +2105,7 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 414vw;
+		max-width: 320vw;
 	}
 	
 	.small_logo {
@@ -2158,7 +2158,7 @@ hr {
 	}
 
 	.portfolio .header {
-		max-width: 414vw;
+		max-width: 320vw;
 	}
 	
 	.portfolio .small_logo {
@@ -2173,7 +2173,7 @@ hr {
 	}
 
 	.portfolio-content {
-		max-width: 414vw;
+		max-width: 320vw;
 	}
 	
 	.menuBlack {
