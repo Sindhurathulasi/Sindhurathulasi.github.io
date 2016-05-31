@@ -5,7 +5,7 @@
 /*** HOME ***/
 
 body {
-	max-width: 1280vw;
+	max-width: 1280px;
 	width: 100%;
 	
 	margin: 0;
@@ -71,7 +71,7 @@ article {
 }
 
 .header {
-	max-width: 1280vw;
+	max-width: 1280px;
 	width: 100%;
 	
 	height: 120px;
@@ -215,7 +215,7 @@ h3:hover {
 }
 
 .portfolio .header {
-	max-width: 1280vw;
+	max-width: 1280px;
 	width: 100%;
 	height: 100px;
 	
@@ -261,7 +261,7 @@ h3:hover {
 }
 
 .portfolio-content {
-	max-width: 1280vw;
+	max-width: 1280px;
 	width: 100%;
 	
 	margin-top: 100px;
@@ -274,7 +274,7 @@ h3:hover {
 /*** SAMSUNG ***/
 
 .samsung {
-	max-width: 1280vw;
+	max-width: 1280px;
 	min-height: 565px;
 	
 	display: flex;
@@ -343,7 +343,7 @@ a .portfolio-right .portfolio-button {
 /*** ATM ***/
 
 .atm {
-	max-width: 1280vw;
+	max-width: 1280px;
 	min-height: 100px;	
 }
 
@@ -862,7 +862,7 @@ hr {
 }
 
 .europe-content .first p {
-	font-family: 'Gillsans';
+	font-family: 'Gillsans', sans-serif;
 	font-size: 1.2em;
 	
 	text-align: left;
@@ -888,7 +888,7 @@ hr {
 }
 
 .europe-content .design p {
-	font-family: 'Gillsans';
+	font-family: 'Gillsans', sans-serif;
 	font-size: 1.2em;
 	
 	text-align: left;
@@ -1216,7 +1216,7 @@ hr {
 	/*** HOME ***/
 
 	body {
-		max-width: 1024vw;
+		max-width: 1024px;
 	}
 
 	.home_pattern {
@@ -1234,7 +1234,7 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 1024vw;
+		max-width: 1024px;
 	}
 
 	li {
@@ -1280,7 +1280,7 @@ hr {
 	}
 
 	.portfolio .header {
-		max-width: 1024vw;
+		max-width: 1024px;
 	}
 
 	.portfolio .small_logo {
@@ -1304,7 +1304,7 @@ hr {
 	}
 
 	.portfolio-content {
-		max-width: 1024vw;
+		max-width: 1024px;
 		width: 100%;
 	}
 	
@@ -1555,7 +1555,7 @@ hr {
 	/*** HOME ***/
 
 	body {
-		max-width: 768vw;
+		max-width: 768px;
 	}
 
 	.home_pattern {
@@ -1575,7 +1575,7 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 768vw;
+		max-width: 768px;
 	}
 
 	li {
@@ -1620,7 +1620,7 @@ hr {
 	}
 
 	.portfolio .header {
-		max-width: 768vw;
+		max-width: 768px;
 	}
 
 	.portfolio li {
@@ -1633,7 +1633,7 @@ hr {
 	}
 
 	.portfolio-content {
-		max-width: 768vw;
+		max-width: 768px;
 	}
 	
 	
@@ -2002,7 +2002,7 @@ hr {
 	/*** HOME ***/
 
 	body {
-		max-width: 722vw;
+		max-width: 722px;
 	}
 
 	.home_pattern {
@@ -2022,7 +2022,7 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 722vw;
+		max-width: 722px;
 	}
 
 	li {
@@ -2064,7 +2064,7 @@ hr {
 	}
 
 	.portfolio .header {
-		max-width: 722vw;
+		max-width: 722px;
 	}
 
 	.portfolio li {
@@ -2077,7 +2077,7 @@ hr {
 	}
 
 	.portfolio-content {
-		max-width: 722vw;
+		max-width: 722px;
 	}
 	
 }
@@ -2087,7 +2087,7 @@ hr {
 	/*** HOME ***/
 
 	body {
-		max-width: 320vw;
+		max-width: 320px;
 	}
 
 	.home_logo {
@@ -2105,7 +2105,7 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 320vw;
+		max-width: 320px;
 	}
 	
 	.small_logo {
@@ -2158,7 +2158,7 @@ hr {
 	}
 
 	.portfolio .header {
-		max-width: 320vw;
+		max-width: 320px;
 	}
 	
 	.portfolio .small_logo {
@@ -2173,7 +2173,7 @@ hr {
 	}
 
 	.portfolio-content {
-		max-width: 320vw;
+		max-width: 320px;
 	}
 	
 	.menuBlack {
