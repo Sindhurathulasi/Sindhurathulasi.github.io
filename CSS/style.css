@@ -8,7 +8,7 @@ body {
 	max-width: 1280px;
 	width: 100%;
 	
-	margin: 0;
+	margin: 0 auto;
 }
 
 article {
@@ -40,27 +40,11 @@ article {
 	margin-top: 60px;	
 } 
 
-/***
-
-.menu_bar {
-	background-image: url("../Images/Home_menu.png");
-	max-width: 50px;
-	width: 100%;
-	
-	margin-top: 60px;	
-}
-
-.menu_bar:hover {
-	background-image: url("../Images/Menu_hover-07.png");	
-}
-
-***/
-
-
 /*** HOME-2 ***/
 
 .wrapper {
-	background: url(../Images/Home_BG.png) no-repeat;
+	background: url(../Images/Home-Background-01.png) no-repeat;
+	width: 100vw;
 	height: 100vh;
 	
 	background-size: cover;
@@ -68,6 +52,8 @@ article {
 	
 	width: 100%;
 	margin: 0;
+	
+	position: relative;
 }
 
 .header {
@@ -118,8 +104,8 @@ a {
 
 .intro-home {
 	position: absolute;
-	left: 6%;
-	top: 30%;
+	left: 60px;
+	top: 200px;
 }
 
 .intro-home p {
@@ -142,8 +128,8 @@ h3 {
 	border-radius: 3px;
 	
 	position: absolute;
-	left: 6%;
-	top: 67%;
+	left: 60px;
+	top: 440px;
 	
 	margin: 0;
 	padding: 12px 50px;
@@ -1211,7 +1197,7 @@ hr {
 /*** MEDIA QUERY ***/
 
 
-@media (max-width: 1044px) {
+@media (max-width: 1024px) {
 	
 	/*** HOME ***/
 
@@ -1246,7 +1232,7 @@ hr {
 	}
 
 	.intro-home {
-		left: 7%;
+		left: 60px;
 	}
 
 	.intro-home p {
@@ -1262,8 +1248,8 @@ hr {
 		border-radius: 3px;
 
 		position: absolute;
-		left: 7%;
-		top: 67%;
+		left: 60px;
+		top: 440px;
 
 		margin: 0;
 		padding: 12px 50px;
@@ -1550,7 +1536,103 @@ hr {
 	}
 }
 
-@media (max-width: 868px) {
+@media (max-width: 960px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 960px;
+	}
+
+	.home_pattern {
+		max-width: 500px;
+	}
+
+	.home_logo {
+		max-width: 230px;
+	}
+
+	.home_menu {
+		max-width: 50px;	
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 960px;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 1.1em;
+	
+		padding: 10px 0;
+		margin: 20px 40px;
+	}
+
+	.intro-home {
+		left: 60px;
+	}
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 60px;
+		top: 440px;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		color: white;
+		background: none;
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 960px;
+	}
+
+	.portfolio .small_logo {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 50px;
+	}
+
+	.portfolio li {
+		display: inline-block;
+		font-size: 1.1em;
+	
+		padding: 10px 0;
+		margin: 20px 40px;
+	}
+
+	.portfolio a {
+		color: black;
+	}
+
+	.portfolio-content {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+@media (max-width: 768px) {
 	
 	/*** HOME ***/
 
@@ -1577,16 +1659,23 @@ hr {
 	.header {
 		max-width: 768px;
 	}
+	
+	.small_logo {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 40px;
+	}
 
 	li {
 		font-size: 1em;
 	
 		padding: 40px 0;
-		margin: 20px 40px;
+		margin: 20px 30px;
 	}
 
 	.intro-home {
-		left: 7%;
+		left: 50px;
 	}
 
 	.intro-home p {
@@ -1602,8 +1691,8 @@ hr {
 		border-radius: 3px;
 
 		position: absolute;
-		left: 7%;
-		top: 64%;
+		left: 50px;
+		top: 440px;
 
 		margin: 0;
 		padding: 12px 50px;
@@ -1622,6 +1711,13 @@ hr {
 	.portfolio .header {
 		max-width: 768px;
 	}
+	
+	.portfolio .small_logo {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 40px;
+	}
 
 	.portfolio li {
 		display: inline-block;
@@ -1629,7 +1725,7 @@ hr {
 		font-family: "gillsans";
 		font-size: 1em;
 		
-		margin: 20px 40px;
+		margin: 20px 30px;
 	}
 
 	.portfolio-content {
@@ -1997,12 +2093,12 @@ hr {
 	
 }
 
-@media (max-width: 768px) {
+@media (max-width: 601px) {
 	
 	/*** HOME ***/
 
 	body {
-		max-width: 722px;
+		max-width: 601px;
 	}
 
 	.home_pattern {
@@ -2022,105 +2118,26 @@ hr {
 	/*** HOME-2 ***/
 
 	.header {
-		max-width: 722px;
-	}
-
-	li {
-		font-size: 1em;
-	
-		padding: 40px 0;
-		margin: 20px 20px;
-	}
-
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 7%;
-		top: 64%;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
-	}
-	
-	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
-	
-	.portfolio {
-	}
-
-	.portfolio .header {
-		max-width: 722px;
-	}
-
-	.portfolio li {
-		display: inline-block;
-
-		font-family: "gillsans";
-		font-size: 1em;
-		
-		margin: 20px 20px;
-	}
-
-	.portfolio-content {
-		max-width: 722px;
-	}
-	
-}
-
-@media (max-width: 610px) {
-	
-	/*** HOME ***/
-
-	body {
-		max-width: 320px;
-	}
-
-	.home_logo {
-		max-width: 210px;
-		
-		margin-top: 70px;
-	}
-
-	.home_menu {
-		max-width: 45px;
-		
-		margin-top: 90px;
-	}
-	
-	/*** HOME-2 ***/
-
-	.header {
-		max-width: 320px;
+		max-width: 601px;
 	}
 	
 	.small_logo {
-		max-width: 90px;
+		max-width: 103px;
 		width: 100%;
 
-		margin: 10px 20px;
+		margin: 10px 30px;
 	}
 
 	li {
 		display: none;
 	}
-
+	
+	.menuWhite {
+		display: block;	
+	}
+	
 	.intro-home {
-		left: 7%;
+		left: 30px;
 	}
 
 	.intro-home p {
@@ -2136,8 +2153,8 @@ hr {
 		border-radius: 3px;
 
 		position: absolute;
-		left: 7%;
-		top: 70%;
+		left: 30px;
+		top: 420px;
 
 		margin: 0;
 		padding: 12px 50px;
@@ -2148,37 +2165,34 @@ hr {
 		background: none;
 	}
 	
-	.menuWhite {
-		display: block;
-	}
-	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
 	.portfolio {
 	}
 
 	.portfolio .header {
-		max-width: 320px;
+		max-width: 601px;
 	}
 	
 	.portfolio .small_logo {
-		max-width: 90px;
+		max-width: 103px;
 		width: 100%;
 
-		margin: 10px 20px;
+		margin: 10px 30px;
 	}
 
 	.portfolio li {
 		display: none;
-	}
-
-	.portfolio-content {
-		max-width: 320px;
 	}
 	
 	.menuBlack {
 		display: block;
 	}
+
+	.portfolio-content {
+		max-width: 601px;
+	}
+	
 	
 	/*** SAMSUNG CONTENT ***/
 
@@ -2196,7 +2210,7 @@ hr {
 	}
 
 	.second {
-		margin: 20px 70px;
+		margin: 20px 40px;
 	}
 
 	.second p {
@@ -2211,7 +2225,7 @@ hr {
 	}
 
 	.third {
-		margin: 70px 70px;
+		margin: 70px 40px;
 	}
 
 	.third h4 {
@@ -2236,7 +2250,7 @@ hr {
 	}
 
 	.fourth {
-		margin: 80px 70px;
+		margin: 80px 40px;
 	}
 
 	.fourth h4 {
@@ -2299,7 +2313,7 @@ hr {
 
 	.europe-content .first p {
 		font-size: 1em;
-		margin: 30px 70px;
+		margin: 30px 40px;
 	}
 
 	.europe-content .design h2 {
@@ -2311,7 +2325,7 @@ hr {
 	.europe-content .design p {
 		font-size: 1em;
 		
-		margin: 30px 70px;
+		margin: 30px 40px;
 	}
 
 	.water h2 {
@@ -2390,7 +2404,355 @@ hr {
 		font-size: 1em;
 
 		text-align: left;
-		margin: 30px 70px;
+		margin: 30px 40px;
+	}
+
+	.calonge-design h2 {
+		font-size: 2em;
+
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+
+	.calonge-design .design-first {
+		max-width: 750px;
+	}
+
+	.calonge-design .product-page {
+		max-width: 750px;
+	}
+
+	.calonge-design .last-video {
+		max-width: 750px;
+		
+		margin-bottom: 0px;
+	}
+	
+	/* SCROLL */
+	
+	.scroll {
+		max-width: 35px;
+		
+		position: fixed;
+		bottom: 10px;
+		right: 5px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	
+	/*** HOME ***/
+
+	body {
+		max-width: 320px;
+	}
+
+	.home_logo {
+		max-width: 210px;
+		
+		margin-top: 70px;
+	}
+
+	.home_menu {
+		max-width: 45px;
+		
+		margin-top: 90px;
+	}
+	
+	/*** HOME-2 ***/
+
+	.header {
+		max-width: 320px;
+	}
+	
+	.small_logo {
+		max-width: 90px;
+		width: 100%;
+
+		margin: 10px 15px;
+	}
+
+	li {
+		display: none;
+	}
+
+	.intro-home {
+		left: 20px;
+	}
+
+	.intro-home p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		color: white;
+		border: solid white 2px;
+		border-radius: 3px;
+
+		position: absolute;
+		left: 20px;
+		top: 430px;
+
+		margin: 0;
+		padding: 12px 50px;
+	}
+	
+	h3:hover {
+		color: white;
+		background: none;
+	}
+	
+	.menuWhite {
+		display: block;
+		
+		margin-right: 15px;
+	}
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 320px;
+	}
+	
+	.portfolio .small_logo {
+		max-width: 90px;
+		width: 100%;
+
+		margin: 10px 20px;
+	}
+
+	.portfolio li {
+		display: none;
+	}
+
+	.portfolio-content {
+		max-width: 320px;
+	}
+	
+	.menuBlack {
+		display: block;
+		
+		margin-right: 15px;
+	}
+	
+	/*** SAMSUNG CONTENT ***/
+
+
+	.samsung-top {
+		max-width: 300px;
+	}
+
+	.samsung-logo {
+		max-width: 260px;
+		width: 100%;
+
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+
+	.second {
+		margin: 20px 40px;
+	}
+
+	.second p {
+		font-size: 0.8em;
+	}
+
+	.samsung-landing {
+		max-width: 200px;
+		width: 100%;
+
+		margin: 20px 0;
+	}
+
+	.third {
+		margin: 50px 40px;
+	}
+
+	.third h4 {
+		font-size: 1.3em;
+	}
+
+	.samsung-color {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.third p {
+		font-size: 0.8em;
+
+		margin-top: 25px;
+	}
+
+	.third .font {
+		font-size: 2.3em;
+
+		margin-top: 20px;
+	}
+
+	.fourth {
+		margin: 50px 40px;
+	}
+
+	.fourth h4 {
+		font-size: 1.3em;
+	}
+
+	.fourth p {
+		font-size: 0.8em;
+		
+		margin-top: 20px;
+	}
+
+	.samsung-icons {
+		margin-top: 30px;
+	}
+
+	.samsung-shadow {
+		margin: 60px 0;
+	}
+	
+	.samsung-screens {
+		max-width: 880px;
+		width: 100%;
+	}
+
+	.samsung-families {
+		max-width: 410px;
+		width: 100%;
+		
+		margin: 30px 0;
+	}
+
+	.samsung-swipe {
+		margin: 30px 0;
+	}
+
+	.samsung-clean {
+		margin: 20px 0;
+	}
+
+	.samsung-prize {
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	
+	/*** EUROPE-CONTENT ***/
+	
+
+	.europe-content h1 {
+		font-size: 2.1em;
+
+		padding-top: 80px;
+	}
+
+	.europe-content h2 {
+		font-size: 1.8em;
+
+		margin-bottom: 80px;
+	}
+
+	.europe-content .first p {
+		font-size: 0.8em;
+		margin: 30px 40px;
+	}
+
+	.europe-content .design h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+	}
+
+	.europe-content .design p {
+		font-size: 0.8em;
+		
+		margin: 30px 40px;
+	}
+
+	.water h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.water h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;	
+	}
+
+	.waterTicket img {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.land h2 {
+		font-size: 1.8em;
+		
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.land h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;
+	}
+
+	.land-body img {
+		max-width: 320px;
+		
+		margin: 30px 0;
+	}
+
+	.air h2 {
+		font-size: 1.8em;
+
+		margin-top: 90px;
+		margin-bottom: 10px;
+	}
+
+	.air h4 {
+		font-size: 1.8em;
+
+		margin: 20px 0;
+	}
+
+	.air-body img {
+		max-width: 350px;
+		width: 100%;
+
+		margin: 30px 0px;
+	}
+	
+	/*** CALONGE-CONTENT ***/
+
+	
+	.calonge-content h1 {
+		font-size: 2.1em;
+
+		padding-top: 50px;
+	}
+
+	.calonge-content .landing {
+		max-width: 860px;
+		width: 100%;
+	}
+
+	.calonge-content p {
+		font-family: 'Gillsans';
+		font-size: 1em;
+
+		text-align: left;
+		margin: 30px 40px;
 	}
 
 	.calonge-design h2 {
@@ -2417,11 +2779,11 @@ hr {
 	/*** SCROLL ***/
 	
 	.scroll {
-		max-width: 45px;
+		max-width: 32px;
 		
 		position: fixed;
-		bottom: 20px;
-		right: 18px;
+		bottom: 10px;
+		right: 3px;
 	}
 	
 }
