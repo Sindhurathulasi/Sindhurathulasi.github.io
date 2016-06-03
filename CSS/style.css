@@ -44,7 +44,6 @@ article {
 
 .wrapper {
 	background: url(../Images/Home-Background-01.png) no-repeat;
-	width: 100vw;
 	height: 100vh;
 	
 	background-size: cover;
@@ -224,7 +223,6 @@ h3:hover {
 	
 }
 
-
 .portfolio li {
 	display: inline-block;
 	
@@ -252,8 +250,6 @@ h3:hover {
 	
 	margin-top: 100px;
 	
-	min-height: 668vh;
-	
 	background-color: rgba(249,249,249,1);
 }
 
@@ -261,7 +257,6 @@ h3:hover {
 
 .samsung {
 	max-width: 1280px;
-	min-height: 565px;
 	
 	display: flex;
 	flex-flow: row wrap;
@@ -2125,7 +2120,7 @@ hr {
 		max-width: 103px;
 		width: 100%;
 
-		margin: 10px 30px;
+		margin: 10px 20px;
 	}
 
 	li {
@@ -2134,6 +2129,8 @@ hr {
 	
 	.menuWhite {
 		display: block;	
+		
+		margin-right: 15px;
 	}
 	
 	.intro-home {
@@ -2178,7 +2175,7 @@ hr {
 		max-width: 103px;
 		width: 100%;
 
-		margin: 10px 30px;
+		margin: 10px 20px;
 	}
 
 	.portfolio li {
@@ -2187,6 +2184,8 @@ hr {
 	
 	.menuBlack {
 		display: block;
+		
+		margin-right: 15px;
 	}
 
 	.portfolio-content {
