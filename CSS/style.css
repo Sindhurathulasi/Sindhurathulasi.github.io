@@ -109,7 +109,7 @@ a {
 
 .intro-home p {
 	color: white;
-	font-family: 'Titillium';
+	font-family: 'Titillium', sans-serif;
 	
 	font-size: 1.2em;
 }
@@ -267,8 +267,8 @@ h3:hover {
 	max-width: 500px;
 	width: 100%;
 	
-	margin-left: 100px;
-	margin-top: 100px;
+	margin-left: 90px;
+	margin-top: 90px;
 }
 
 .shelf-left {
@@ -279,8 +279,8 @@ h3:hover {
 .portfolio-right {
 	width: 300px;
 	
-	margin-right: 200px;
-	margin-top: 124px;
+	margin-right: 150px;
+	margin-top: 114px;
 }
 
 .portfolio-right strong {
@@ -288,13 +288,17 @@ h3:hover {
 }
 
 .portfolio-right p {
-	font-family: 'Titillium';
+	font-family: 'Titillium', sans-serif;
 	font-size: 1.1em;	
 }
 
+.portfolio-right hr {
+	margin-top: 20px;
+}
+
 .portfolio-text {
-	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .portfolio-right .portfolio-button {
@@ -320,37 +324,44 @@ a .portfolio-right .portfolio-button {
 	text-decoration: none;
 }
 
-
 /*** ATM ***/
 
 .atm {
 	max-width: 1280px;
-	min-height: 100px;	
-}
-
-.atm .portfolio-left {
-	width: 300px;
 	
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
+.atm .portfolio-left {
+	max-width: 300px;
+	width: 100%;
+	
+	margin-left: 150px;
+	margin-top: 90px;
+}
+
+
 .atm .portfolio-left strong {
 	font-size: 1.5em;
 }
 
 .atm .portfolio-left p {
-	font-family: 'Titillium';
+	font-family: 'Titillium', sans-serif;
 	font-size: 1.1em;	
 }
 
-.atm .portfolio-text {
-	margin-top: 50px;
-	margin-bottom: 55px;
+.atm .portfolio-left hr {
+	margin-top: 20px;
 }
 
-.portfolio-left .portfolio-button {
+.atm .portfolio-text {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.atm .portfolio-left .portfolio-button {
 	font-family: 'Gillsans';
 	font-size: 1.2em;
 	
@@ -364,24 +375,54 @@ a .portfolio-right .portfolio-button {
 	padding: 12px 30px;
 }
 
-.portfolio-left .portfolio-button:hover {
+.atm .portfolio-left .portfolio-button:hover {
 	background-color: rgba(48,198,169,1);
 	color: rgba(249,249,249,1);
 }
 
+.atm a .portfolio-left .portfolio-button {
+	text-decoration: none;
+}
+
 .atm .portfolio-right {
-	width: 40%;
+	max-width: 550px;
+	width: 100%;
 	
-	float: right;
-	
-	margin-right: 100px;
-	margin-top: 100px;
+	margin-right: 80px;
+	margin-top: 20px;
 }
 
 .atm .shelf-right {
-	max-width: 500px;
+	max-width: 550px;
 	width: 100%;
 }
+
+/*** CALONGE ***/
+
+.calonge {
+	max-width: 1280px;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.calonge .portfolio-left {
+	max-width: 550px;
+	width: 100%;
+	
+	margin-top: 50px;
+}
+
+.calonge .shelf-left {
+	max-width: 550px;
+	
+}
+
+.calonge .portfolio-right {
+	margin-top: 140px;
+}
+
 
 /*** SAMSUNG CONTENT ***/
 
