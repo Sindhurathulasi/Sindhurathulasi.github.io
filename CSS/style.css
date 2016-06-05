@@ -148,6 +148,11 @@ h3:hover {
 
 /*** ABOUT ***/
 
+.about {
+	max-width: 1280px;
+	width: 100%;
+}
+
 .hello {
 	color: rgba(48, 198, 169, 1);
 	font-family: 'Gillsans', sans-serif;
@@ -156,11 +161,11 @@ h3:hover {
 	font-weight: 600;
 	
 	padding-top: 30px;
-	margin: 50px 170px;
+	margin: 40px 170px;
 }
 
 .about-content {
-	margin: 40px 170px;
+	margin: 0px 170px;
 	font-family: 'Gillsans', sans-serif;
 	font-size: 1.1em;	
 	
@@ -169,6 +174,8 @@ h3:hover {
 
 .about-content p {
 	text-align: left;
+	
+	margin-top: 10px;
 }
 
 .about-content a {
@@ -185,12 +192,56 @@ h3:hover {
 	
 	margin-top: 40px;
 	padding: 12px 0;
-
 }
 
 .about-content h4:hover {
 	color: white;
 	background-color: rgba(48, 198, 169, 1);
+}
+
+.education {
+	max-width: 1280px;
+	width: 100%;
+	
+	margin-top: 80px;
+}
+
+.about-content hr {
+	border: dotted black 0.2px;
+}
+
+.about-content h2 {
+	color: black;
+	font-family: 'Gilsans', sans-serif;
+	
+	font-size: 1.5em;
+	font-weight: 600;
+	
+	letter-spacing: 20px;
+	
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.skills {
+	max-width: 800px;
+	width: 100%;
+	
+	margin: 30px 0 60px 0;
+}
+
+.languages {
+	max-width: 650px;
+	width: 100%;
+	
+	margin: 30px 0 40px 0;
+}
+
+.hobbies {
+	max-width: 700px;
+	width: 100%;
+	
+	margin: 30px 0 150px 0;
 }
 
 /*** PORTFOLIO ***/
@@ -257,6 +308,7 @@ h3:hover {
 
 .samsung {
 	max-width: 1280px;
+	width: 100%;
 	
 	display: flex;
 	flex-flow: row wrap;
@@ -328,13 +380,14 @@ a .portfolio-right .portfolio-button {
 
 .atm {
 	max-width: 1280px;
+	width: 100%;
 	
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
-.atm .portfolio-left {
+.left {
 	max-width: 300px;
 	width: 100%;
 	
@@ -343,25 +396,25 @@ a .portfolio-right .portfolio-button {
 }
 
 
-.atm .portfolio-left strong {
+.left strong {
 	font-size: 1.5em;
 }
 
-.atm .portfolio-left p {
+.left p {
 	font-family: 'Titillium', sans-serif;
 	font-size: 1.1em;	
 }
 
-.atm .portfolio-left hr {
+.left hr {
 	margin-top: 20px;
 }
 
-.atm .portfolio-text {
+.text {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
-.atm .portfolio-left .portfolio-button {
+.left .portfolio-button {
 	font-family: 'Gillsans';
 	font-size: 1.2em;
 	
@@ -375,16 +428,16 @@ a .portfolio-right .portfolio-button {
 	padding: 12px 30px;
 }
 
-.atm .portfolio-left .portfolio-button:hover {
+.left .portfolio-button:hover {
 	background-color: rgba(48,198,169,1);
 	color: rgba(249,249,249,1);
 }
 
-.atm a .portfolio-left .portfolio-button {
+a .left .portfolio-button {
 	text-decoration: none;
 }
 
-.atm .portfolio-right {
+.right {
 	max-width: 550px;
 	width: 100%;
 	
@@ -392,7 +445,7 @@ a .portfolio-right .portfolio-button {
 	margin-top: 20px;
 }
 
-.atm .shelf-right {
+.shelf-right {
 	max-width: 550px;
 	width: 100%;
 }
@@ -401,6 +454,7 @@ a .portfolio-right .portfolio-button {
 
 .calonge {
 	max-width: 1280px;
+	width: 100%;
 	
 	display: flex;
 	flex-flow: row wrap;
@@ -414,15 +468,139 @@ a .portfolio-right .portfolio-button {
 	margin-top: 50px;
 }
 
-.calonge .shelf-left {
-	max-width: 550px;
-	
-}
-
 .calonge .portfolio-right {
 	margin-top: 140px;
 }
 
+.calonge .shelf-left {
+	max-width: 550px;
+	width: 100%;
+}
+
+/*** EUROPE***/
+
+.europe {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.europe .text {
+	margin-bottom: 60px;
+}
+
+.europe .right {
+	max-width: 550px;
+	width: 100%;
+	
+	margin-right: 80px;
+	margin-top: 20px;
+}
+
+.europe .shelf-right {
+	max-width: 550px;
+	width: 100%;
+}
+
+/*** SMILE ***/
+
+.smile {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.smile .portfolio-left {
+	margin-top: 70px;
+}
+
+.smile .shelf-left {
+	max-width: 550px;
+	width: 100%;
+}
+
+/*** HYPHEN PRESS ***/
+
+.hyphenPress {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.hyphenPress .text {
+	margin-bottom: 75px;
+}
+
+.hyphenPress .right {
+	max-width: 550px;
+	width: 100%;
+	
+	margin-right: 80px;
+	margin-top: 10px;
+}
+
+/*** TYPECOOKER ***/
+
+.typecooker {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.typecooker .portfolio-left {
+	margin-top: 70px;
+}
+
+.typecooker .shelf-left {
+	max-width: 550px;
+	width: 100%;
+}
+
+.typecooker .portfolio-text {
+	margin-bottom: 60px;
+}
+
+/*** BYE ***/
+
+.bye {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.bye .text {
+	margin-bottom: 60px;
+}
+
+/*** DRAWINGS ***/
+
+.drawings {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.drawings .portfolio-text {
+	margin-bottom: 100px;
+}
 
 /*** SAMSUNG CONTENT ***/
 
@@ -1219,6 +1397,56 @@ hr {
 	margin: 30px 100px 50px 100px;
 }
 
+/*** CONTACT ***/
+
+.contact {
+	text-align: center;
+	
+	border-bottom: solid rgba(48,198,169,1) 6px;
+}
+
+.contact h1 {
+	color: rgba(48,198,169,1);
+	
+	font-family: 'Titillium', sans-serif;
+	font-size: 2.5em;
+	font-weight: 400;
+	
+	letter-spacing: 10px;
+	
+	padding-top: 69px;
+}
+
+.contactGraphic img {
+	max-width: 530px;
+	width: 100%;
+	
+	margin-top: 8px;
+}
+
+.mailIcon {
+	max-width: 80px;
+	width: 100%;
+	
+	margin-top: 20px;
+}
+
+.contact p {
+	font-size: 1.1em;
+	font-family: 'Titillium', sans-serif;
+}
+
+.callIcon {
+	max-width: 80px;
+	width: 100%;
+	
+	margin-top: 20px;
+}
+
+.call-info {
+	margin-bottom: 20px;
+}
+
 
 .scroll {
 	max-width: 60px;
@@ -1294,6 +1522,81 @@ hr {
 	h3:hover {
 		color: white;
 		background: none;
+	}
+	
+	/*** ABOUT ***/
+
+	.about {
+		max-width: 1024px;
+		width: 100%;
+	}
+	
+	.hello {
+		font-size: 1.3em;
+
+		margin: 40px 110px;
+	}
+
+	.about-content {
+		margin: 0px 110px;
+		font-size: 1.1em;	
+	}
+
+	.about-content p {
+		margin-top: 20px;
+	}
+
+	.about-content h4 {
+		font-family: 'Gillsans', sans-serif;
+		font-size: 1.2em;
+
+		margin-top: 40px;
+		padding: 12px 0;
+	}
+	
+	.about-content h4:hover {
+		color: rgba(48,198,169,1);
+		background: none;
+	}
+
+	.education {
+		max-width: 1024px;
+		width: 100%;
+
+		margin-top: 80px;
+	}
+
+	.about-content h2 {
+		color: black;
+	
+		font-size: 1.4em;
+		font-weight: 600;
+
+		letter-spacing: 20px;
+
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+
+	.skills {
+		max-width: 700px;
+		width: 100%;
+
+		margin: 30px 0 60px 0;
+	}
+
+	.languages {
+		max-width: 550px;
+		width: 100%;
+
+		margin: 30px 0 40px 0;
+	}
+
+	.hobbies {
+		max-width: 600px;
+		width: 100%;
+
+		margin: 60px 0 150px 0;
 	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
@@ -1635,6 +1938,78 @@ hr {
 		background: none;
 	}
 	
+	/*** ABOUT ***/
+
+	.about {
+		max-width: 960px;
+		width: 100%;
+	}
+	
+	.hello {
+		font-size: 1.3em;
+
+		margin: 40px 100px;
+	}
+
+	.about-content {
+		margin: 0px 100px;
+		font-size: 1.1em;	
+	}
+
+	.about-content p {
+		margin-top: 20px;
+	}
+
+	.about-content h4 {
+		font-family: 'Gillsans', sans-serif;
+		font-size: 1.2em;
+
+		margin-top: 40px;
+		padding: 12px 0;
+	}
+	
+	.about-content h4:hover {
+		color: rgba(48,198,169,1);
+		background: none;
+	}
+
+	.education {
+		max-width: 960px;
+		width: 100%;
+
+		margin-top: 80px;
+	}
+
+	.about-content h2 {
+		color: black;
+	
+		font-size: 1.3em;
+
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+
+	.skills {
+		max-width: 650px;
+		width: 100%;
+
+		margin: 30px 0 60px 0;
+	}
+
+	.languages {
+		max-width: 500px;
+		width: 100%;
+
+		margin: 30px 0 40px 0;
+	}
+
+	.hobbies {
+		max-width: 560px;
+		width: 100%;
+
+		margin: 60px 0 150px 0;
+	}
+	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
 	.portfolio {
@@ -1739,6 +2114,76 @@ hr {
 		background: none;
 	}
 	
+	/*** ABOUT ***/
+
+	.about {
+		max-width: 768px;
+		width: 100%;
+	}
+	
+	.hello {
+		font-size: 1.3em;
+
+		margin: 40px 70px;
+	}
+
+	.about-content {
+		margin: 0px 70px;
+		font-size: 1.1em;	
+	}
+
+	.about-content p {
+		margin-top: 20px;
+	}
+
+	.about-content h4 {
+		font-family: 'Gillsans', sans-serif;
+		font-size: 1.2em;
+
+		margin-top: 40px;
+		padding: 12px 0;
+	}
+	
+	.about-content h4:hover {
+		color: rgba(48,198,169,1);
+		background: none;
+	}
+
+	.education {
+		max-width: 768px;
+		width: 100%;
+	}
+
+	.about-content h2 {
+		color: black;
+	
+		font-size: 1.3em;
+
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+
+	.skills {
+		max-width: 650px;
+		width: 100%;
+
+		margin: 30px 0 60px 0;
+	}
+
+	.languages {
+		max-width: 500px;
+		width: 100%;
+
+		margin: 30px 0 40px 0;
+	}
+
+	.hobbies {
+		max-width: 560px;
+		width: 100%;
+
+		margin: 60px 0 100px 0;
+	}
+	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
 	.portfolio {
@@ -1785,7 +2230,7 @@ hr {
 	}
 
 	.second {
-		margin: 20px 100px;
+		margin: 20px 70px;
 	}
 
 	.second p {
@@ -1800,7 +2245,7 @@ hr {
 	}
 
 	.third {
-		margin: 70px 100px;
+		margin: 70px 70px;
 	}
 
 	.third h4 {
@@ -1825,7 +2270,7 @@ hr {
 	}
 
 	.fourth {
-		margin: 80px 100px;
+		margin: 80px 70px;
 	}
 
 	.fourth h4 {
@@ -1888,7 +2333,7 @@ hr {
 
 	.europe-content .first p {
 		font-size: 1.1em;
-		margin: 30px 100px;
+		margin: 30px 70px;
 	}
 
 	.europe-content .design h2 {
@@ -1900,7 +2345,7 @@ hr {
 	.europe-content .design p {
 		font-size: 1.1em;
 		
-		margin: 30px 100px;
+		margin: 30px 70px;
 	}
 
 	.water h2 {
@@ -1977,7 +2422,7 @@ hr {
 		font-size: 1.1em;
 
 		text-align: left;
-		margin: 30px 100px;
+		margin: 30px 70px;
 	}
 
 	.calonge-design h2 {
@@ -2201,6 +2646,76 @@ hr {
 	h3:hover {
 		color: white;
 		background: none;
+	}
+	
+	/*** ABOUT ***/
+
+	.about {
+		max-width: 601px;
+		width: 100%;
+	}
+	
+	.hello {
+		font-size: 1.2em;
+
+		margin: 40px 40px;
+	}
+
+	.about-content {
+		margin: 0px 40px;
+		font-size: 1em;	
+	}
+
+	.about-content p {
+		margin-top: 20px;
+	}
+
+	.about-content h4 {
+		font-family: 'Gillsans', sans-serif;
+		font-size: 1.1em;
+
+		margin-top: 30px;
+		padding: 10px 0;
+	}
+	
+	.about-content h4:hover {
+		color: rgba(48,198,169,1);
+		background: none;
+	}
+
+	.education {
+		max-width: 700px;
+		width: 100%;
+	}
+
+	.about-content h2 {
+		color: black;
+	
+		font-size: 1.2em;
+
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	.skills {
+		max-width: 650px;
+		width: 100%;
+
+		margin: 30px 0 30px 0;
+	}
+
+	.languages {
+		max-width: 500px;
+		width: 100%;
+
+		margin: 30px 0 30px 0;
+	}
+
+	.hobbies {
+		max-width: 560px;
+		width: 100%;
+
+		margin: 60px 0 100px 0;
 	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
@@ -2552,6 +3067,78 @@ hr {
 		margin-right: 15px;
 	}
 	
+	/*** ABOUT ***/
+
+	.about {
+		max-width: 320px;
+		width: 100%;
+	}
+	
+	.hello {
+		font-size: 1.2em;
+
+		margin: 40px 20px;
+	}
+
+	.about-content {
+		margin: 0px 20px;
+		font-size: 0.8em;	
+	}
+
+	.about-content p {
+		margin-top: 20px;
+	}
+
+	.about-content h4 {
+		font-family: 'Gillsans', sans-serif;
+		font-size: 1.1em;
+
+		margin-top: 30px;
+		padding: 10px 0;
+	}
+	
+	.about-content h4:hover {
+		color: rgba(48,198,169,1);
+		background: none;
+	}
+
+	.education {
+		max-width: 700px;
+		width: 100%;
+		
+		margin-top: 40px;
+	}
+
+	.about-content h2 {
+		color: black;
+	
+		font-size: 1.1em;
+
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	.skills {
+		max-width: 650px;
+		width: 100%;
+
+		margin: 10px 0 10px 0;
+	}
+
+	.languages {
+		max-width: 500px;
+		width: 100%;
+
+		margin: 10px 0 10px 0;
+	}
+
+	.hobbies {
+		max-width: 560px;
+		width: 100%;
+
+		margin: 10px 0 30px 0;
+	}
+	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
 	.portfolio {
@@ -2598,7 +3185,7 @@ hr {
 	}
 
 	.second {
-		margin: 20px 40px;
+		margin: 20px 20px;
 	}
 
 	.second p {
@@ -2613,7 +3200,7 @@ hr {
 	}
 
 	.third {
-		margin: 50px 40px;
+		margin: 50px 20px;
 	}
 
 	.third h4 {
@@ -2638,7 +3225,7 @@ hr {
 	}
 
 	.fourth {
-		margin: 50px 40px;
+		margin: 50px 20px;
 	}
 
 	.fourth h4 {
@@ -2701,7 +3288,7 @@ hr {
 
 	.europe-content .first p {
 		font-size: 0.8em;
-		margin: 30px 40px;
+		margin: 30px 20px;
 	}
 
 	.europe-content .design h2 {
@@ -2713,7 +3300,7 @@ hr {
 	.europe-content .design p {
 		font-size: 0.8em;
 		
-		margin: 30px 40px;
+		margin: 30px 20px;
 	}
 
 	.water h2 {
@@ -2789,17 +3376,17 @@ hr {
 
 	.calonge-content p {
 		font-family: 'Gillsans';
-		font-size: 1em;
+		font-size: 0.8em;
 
 		text-align: left;
-		margin: 30px 40px;
+		margin: 20px 20px;
 	}
 
 	.calonge-design h2 {
 		font-size: 2em;
 
-		margin-top: 60px;
-		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 
 	.calonge-design .design-first {
