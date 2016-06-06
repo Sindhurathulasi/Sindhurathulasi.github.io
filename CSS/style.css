@@ -99,6 +99,12 @@ li {
 a {
 	text-decoration: none;
 	color: white;
+	
+	padding: 38px 0;
+}
+
+li:hover a { 
+	border-bottom: solid white 3px;
 }
 
 .intro-home {
@@ -285,8 +291,19 @@ h3:hover {
 	margin: 20px 90px;	
 }
 
+.portfolio li:hover a {
+	color: rgba(48, 198, 169, 1);
+	border-bottom: solid rgba(48, 198, 169, 1) 3px;
+}
+
 .portfolio a {
 	color: black;
+	padding: 38px 0;
+}
+
+.portfolio li .selected-page {
+	color: rgba(48, 198, 169, 1);
+	border-bottom: solid rgba(48, 198, 169, 1) 3px;
 }
 
 .menuBlack {
@@ -1494,6 +1511,10 @@ hr {
 		padding: 10px 0;
 		margin: 20px 60px;
 	}
+	
+	li:hover a { 
+		border-bottom: none;
+	}
 
 	.intro-home {
 		left: 60px;
@@ -1623,9 +1644,19 @@ hr {
 		
 		margin: 20px 60px;
 	}
-
+	
+	.portfolio li:hover a {
+		color: black;
+		border-bottom: none;
+	}
+	
 	.portfolio a {
 		color: black;
+	}
+	
+	.portfolio li .selected-page:hover {
+		color: rgba(48, 198, 169, 1);
+		border-bottom: solid rgba(48, 198, 169, 1) 3px;
 	}
 
 	.portfolio-content {
@@ -2695,6 +2726,8 @@ hr {
 
 		margin-top: 50px;
 		margin-bottom: 30px;
+		
+		letter-spacing: 4px;
 	}
 
 	.skills {
@@ -3116,6 +3149,8 @@ hr {
 
 		margin-top: 40px;
 		margin-bottom: 10px;
+		
+		letter-spacing: 4px;
 	}
 
 	.skills {
