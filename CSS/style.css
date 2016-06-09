@@ -1608,14 +1608,14 @@ hr {
 		max-width: 350px;
 		width: 100%;
 
-		margin-top: 180px;
+		margin-top: 160px;
 
 		animation: pattern 3s ease-in-out 2s 1 forwards;
 	}
 
 	@keyframes pattern {
-		0% {max-width: 350px; margin-top: 180px;}
-		50% {max-width: 530px; margin-top: 70px;}
+		0% {max-width: 350px; margin-top: 160px;}
+		50% {max-width: 530px; margin-top: 50px;}
 		100% {max-width: 530px; margin-top: -266px;}
 	}
 
@@ -1640,7 +1640,7 @@ hr {
 		max-width: 50px;
 		width: 100%;
 
-		margin-top: 20px;
+		margin-top: 10px;
 
 		animation: upIcon 4s 1 forwards;
 	}
@@ -2287,14 +2287,14 @@ hr {
 		max-width: 350px;
 		width: 100%;
 
-		margin-top: 350px;
+		margin-top: 330px;
 
 		animation: pattern 3s ease-in-out 2s 1 forwards;
 	}
 
 	@keyframes pattern {
-		0% {max-width: 350px; margin-top: 350px;}
-		50% {max-width: 530px; margin-top: 260px;}
+		0% {max-width: 350px; margin-top: 330px;}
+		50% {max-width: 530px; margin-top: 250px;}
 		100% {max-width: 530px; margin-top: -266px;}
 	}
 
@@ -2302,7 +2302,7 @@ hr {
 		max-width: 250px;
 		width: 100%;
 
-		margin-top: 55px;
+		margin-top: 50px;
 
 		opacity: 0;
 
@@ -2324,7 +2324,7 @@ hr {
 
 		letter-spacing: 5px;
 
-		margin-top: 6px;
+		margin-top: 5px;
 
 		color: rgba(48, 198, 169, 1);
 
@@ -2893,10 +2893,10 @@ hr {
 	}
 
 	.homeLogo1 {
-		max-width: 250px;
+		max-width: 220px;
 		width: 100%;
 
-		margin-top: 55px;
+		margin-top: 40px;
 
 		opacity: 0;
 
@@ -2907,7 +2907,7 @@ hr {
 		max-width: 50px;
 		width: 100%;
 
-		margin-top: 70px;
+		margin-top: 50px;
 
 		animation: upIcon 4s 0.8s 1 forwards;
 	}
@@ -3424,14 +3424,14 @@ hr {
 		max-width: 200px;
 		width: 100%;
 
-		margin-top: 180px;
+		margin-top: 170px;
 
 		animation: pattern 3s ease-in-out 2s 1 forwards;
 	}
 
 	@keyframes pattern {
-		0% {max-width: 200px; margin-top: 180px;}
-		50% {max-width: 320px; margin-top: 110px;}
+		0% {max-width: 200px; margin-top: 170px;}
+		50% {max-width: 320px; margin-top: 100px;}
 		100% {max-width: 320px; margin-top: -160px;}
 	}
 
@@ -3450,7 +3450,7 @@ hr {
 		max-width: 50px;
 		width: 100%;
 
-		margin-top: 40px;
+		margin-top: 20px;
 
 		animation: upIcon 4s 0.8s 1 forwards;
 	}
