@@ -2287,14 +2287,14 @@ hr {
 		max-width: 350px;
 		width: 100%;
 
-		margin-top: 270px;
+		margin-top: 220px;
 
 		animation: pattern 3s ease-in-out 2s 1 forwards;
 	}
 
 	@keyframes pattern {
-		0% {max-width: 350px; margin-top: 270px;}
-		50% {max-width: 530px; margin-top: 190px;}
+		0% {max-width: 350px; margin-top: 220px;}
+		50% {max-width: 530px; margin-top: 160px;}
 		100% {max-width: 530px; margin-top: -266px;}
 	}
 
