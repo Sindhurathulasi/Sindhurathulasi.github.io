@@ -337,10 +337,9 @@ h3:hover {
 	margin: 30px 0 150px 0;
 }
 
-/*** PORTFOLIO ***/
+/************************** PORTFOLIO *************************/
 
 .portfolio {
-	
 }
 
 .portfolio .header {
@@ -354,10 +353,23 @@ h3:hover {
 }
 
 .portfolio .small_logo {
+	display: block;
+}
+
+.portfolio .small_logo img {
 	max-width: 103px;
 	width: 100%;
 	
 	margin: 10px 50px;
+}
+
+.portfolio .newSmallLogo {
+	display: none;
+}
+
+.portfolio .newSmallLogo img {
+	max-width: 200px;
+	width: 100%;
 }
 
 .portfolio nav {
@@ -378,14 +390,13 @@ h3:hover {
 	margin: 20px 90px;	
 }
 
-.portfolio li:hover a {
-	color: rgba(48, 198, 169, 1);
-	border-bottom: solid rgba(48, 198, 169, 1) 3px;
-}
-
-.portfolio a {
+.portfolio li a {
 	color: black;
 	padding: 38px 0;
+}
+
+.portfolio li:hover a {
+	border-bottom: solid rgba(48, 198, 169, 1) 3px;
 }
 
 .portfolio li .selected-page {
@@ -709,6 +720,84 @@ a .left .portfolio-button {
 .drawings .portfolio-text {
 	margin-bottom: 100px;
 }
+
+/************************* PORTFOLIO NEW *********************/
+
+.project {
+	max-width: 1280px;
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+.project .image {
+	max-width: 550px;
+	width: 100%;
+}
+
+
+.project .image img {
+	max-width: 550px;
+	width: 100%;
+	
+	margin-left: 100px;
+	margin-top: 70px;
+}
+
+.project .text {
+	width: 300px;
+	
+	margin-right: 150px;
+	margin-top: 114px;
+}
+
+.project strong {
+	font-size: 1.5em;
+}
+
+.project p {
+	font-family: 'Titillium', sans-serif;
+	font-size: 1.1em;	
+}
+
+.project hr {
+	margin-top: 20px;
+}
+
+.project .portfolio-text {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.project .portfolio-button {
+	font-family: 'Gillsans';
+	font-size: 1.2em;
+	
+	border: solid rgba(48,198,169,1) 2px;
+	border-radius: 3px;
+	
+	text-align: center;
+	
+	color: rgba(48,198,169,1);
+	
+	padding: 12px 30px;
+}
+
+.project .portfolio-button:hover {
+	background-color: rgba(48,198,169,1);
+	color: rgba(249,249,249,1);
+}
+
+a .project .portfolio-button {
+	text-decoration: none;
+}
+
+.project:nth-child(even) .image {
+	order: 1;
+}
+
 
 /*** SAMSUNG CONTENT ***/
 
@@ -1507,6 +1596,10 @@ hr {
 
 /*** CONTACT ***/
 
+.portfolio .contact {
+	min-height: 100vh;
+}
+
 .contact {
 	text-align: center;
 	
@@ -1800,12 +1893,25 @@ hr {
 	.portfolio .header {
 		max-width: 1024px;
 	}
-
+	
 	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
 		max-width: 103px;
 		width: 100%;
 
 		margin: 10px 50px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
 	}
 
 	.portfolio li {
@@ -2221,12 +2327,25 @@ hr {
 	.portfolio .header {
 		max-width: 960px;
 	}
-
+	
 	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
 		max-width: 103px;
 		width: 100%;
 
 		margin: 10px 50px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
 	}
 
 	.portfolio li {
@@ -2460,10 +2579,23 @@ hr {
 	}
 	
 	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
 		max-width: 103px;
 		width: 100%;
 
 		margin: 10px 40px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
 	}
 
 	.portfolio li {
@@ -3056,7 +3188,14 @@ hr {
 
 	.portfolio .header {
 		max-width: 601px;
+		
+		display: flex;
+		flex-direction: row wrap;
+		justify-content: center;
+		align-items: center;
 	}
+
+	/***
 	
 	.portfolio .small_logo {
 		max-width: 103px;
@@ -3073,6 +3212,67 @@ hr {
 		display: block;
 		
 		margin-right: 15px;
+	}
+	
+	***/
+	
+	.portfolio .small_logo {
+		display: none;
+	}
+	
+	.portfolio .newSmallLogo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+		position:absolute;
+	
+		width: 100%;
+		padding:0;
+		margin: 0 auto;
+	}
+
+	.portfolio .newSmallLogo img {
+		display: block;
+	}
+	
+	.portfolio nav {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	
+	.portfolio ul{
+		display: inline-block;
+	}
+	
+	.portfolio li {
+		display: inline-block;
+		font-family: "gillsans";
+		font-size: 0.9em;
+
+		
+		margin: 60px 0px 0px 0px;
+	}
+	
+	.portfolio li a {
+		color: black;
+		padding: 10px 0;
+		
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	
+	/*CORRECTION TEST */
+	
+	.portfolio li:hover a {
+		border-bottom: solid white 3px;
+	}
+
+	.portfolio li .selected-page {
+		color: rgba(48, 198, 169, 1);
+		border-bottom: solid rgba(48, 198, 169, 1) 3px;
 	}
 
 	.portfolio-content {
@@ -3867,7 +4067,7 @@ hr {
 		bottom: 10px;
 		right: 3px;
 	}
-	
 }
+
 
 
