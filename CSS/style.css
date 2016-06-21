@@ -666,30 +666,6 @@ a .left .portfolio-button {
 	margin-top: 10px;
 }
 
-/*** TYPECOOKER ***/
-
-.typecooker {
-	max-width: 1280px;
-	width: 100%;
-	
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;	
-}
-
-.typecooker .portfolio-left {
-	margin-top: 70px;
-}
-
-.typecooker .shelf-left {
-	max-width: 550px;
-	width: 100%;
-}
-
-.typecooker .portfolio-text {
-	margin-bottom: 60px;
-}
-
 /*** BYE ***/
 
 .bye {
@@ -729,13 +705,13 @@ a .left .portfolio-button {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;	
+	align-items: center;
 }
 
 .project .image {
 	max-width: 550px;
 	width: 100%;
 }
-
 
 .project .image img {
 	max-width: 550px;
@@ -749,7 +725,7 @@ a .left .portfolio-button {
 	width: 300px;
 	
 	margin-right: 150px;
-	margin-top: 114px;
+	margin-top: 90px;
 }
 
 .project strong {
@@ -795,6 +771,18 @@ a .project .portfolio-button {
 
 .project:nth-child(even) .image {
 	order: 1;
+	margin-right: 100px;
+	margin-left: 0;
+}
+
+.project:nth-child(even) .image img {
+	margin-right: 100px;
+	margin-left: 0;
+}
+
+.project:nth-child(even) .text {
+	margin-left: 170px;
+	margin-right: 0;
 }
 
 
