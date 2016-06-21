@@ -1657,8 +1657,66 @@ hr {
 	right: 30px;
 }
 
+/****************** DRAWINGS-CONTENT ***********************/
 
-/*** MEDIA QUERY ***/
+.drawings {
+	display: flex;
+	justify-content: space-between;
+	height: 550px;
+}
+
+.frame {
+	text-align: center;
+	width: 45%;
+}
+
+.frame h2 {
+	font-family: 'Tittillium', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	
+	padding-top: 30px;
+}
+
+.frame img {
+	max-width: 250px;
+	width: 100%;
+	margin: 65px 0;
+}
+
+.frame .horizontalFrame {
+	max-width: 370px;
+	width: 100%;
+	
+	margin: 90px 0;
+}
+
+.drawingImg {
+	text-align: center;
+	width: 55%;
+	
+	background-color: white;
+}
+
+.drawingImg img {
+	max-width: 450px;
+	width: 100%;
+	
+	margin-top: 30px;
+}
+
+.drawingImg .horizontalImg {
+	max-width: 550px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+
+
+
+/********************************* MEDIA QUERY ***************/
 
 
 @media (max-width: 1024px) {
