@@ -1,0 +1,442 @@
+html body main {
+	height: 100%;
+} 
+
+/********** HEADER *********/
+
+.portfolio {
+}
+
+.portfolio .header-wrap {
+	
+	position: fixed;
+	top: 0;
+
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: white;
+}
+
+.portfolio .header {
+	max-width: 1280px;
+	height: 100px;
+	
+	margin: 0 auto;
+
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.portfolio .small_logo {
+	display: block;
+}
+
+.portfolio .small_logo img {
+	max-width: 103px;
+	width: 100%;
+	
+	margin: 10px 50px;
+}
+
+.portfolio .newSmallLogo {
+	display: none;
+}
+
+.portfolio .newSmallLogo img {
+	max-width: 200px;
+	width: 100%;
+}
+
+.portfolio nav {
+}
+
+.portfolio ul {
+	
+}
+
+.portfolio li {
+	display: inline-block;
+	
+	font-family: "gillsans";
+	font-size: 1.1em;
+	
+	
+	padding: 40px 0;
+	margin: 20px 90px;	
+}
+
+.portfolio li a {
+	color: black;
+	padding: 36px 0;
+}
+
+.portfolio li:hover a {
+	border-bottom: solid rgba(48, 198, 169, 1) 3px;
+}
+
+.portfolio li .selected-page {
+	color: rgba(48, 198, 169, 1);
+	border-bottom: solid rgba(48, 198, 169, 1) 3px;
+}
+
+
+/********** PARALLAX SCROLL **********/
+
+
+.main-content {
+	height: 100%;
+	position: relative;
+	z-index: -1;
+}
+
+.fixedBG {
+	position: relative;
+	min-height: 100vh;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	z-index: -1;
+}
+
+.fixedBG h1 {
+	color: white;
+	z-index: 1;
+	
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	
+	font-family: 'Titillium', 'san-serif';
+	font-size: 2.2em;
+}
+
+.bg-1 {
+	background-image: url("../Images/HomeTrail/Myface.png");
+}
+
+.bg-2 {
+	background-image: url("../Images/HomeTrail/GraphicText-08.png");
+}
+
+.bg-3 {
+	background-image: url("../Images/HomeTrail/Chennai-08.png");
+}
+
+.notFixedBG {
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.notFixedBG .container {
+	background-color: rgba(32, 209, 154, 1);
+	height: 100vh;
+}
+
+.notFixedBG .ui {
+}
+
+.ui img {
+	max-width: 600px;
+	width: 100%;
+	
+	margin-top: 10%;
+}
+
+h2 {
+	color: white;
+	letter-spacing: 10px;
+	
+	font-family: 'Titillium Web', 'san-serif';
+	font-size: 2em;
+	
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+
+.frontEnd img {
+	max-width: 550px;
+	width: 100%;
+	
+	margin-top: 10%;
+}
+
+h3 {
+	color: white;
+	letter-spacing: 10px;
+	
+	font-family: 'Titillium Web', 'san-serif';
+	font-size: 2em;
+	
+	padding-top: 3%;
+	padding-bottom: 5%;
+	
+	z-index: 1;
+}
+
+p {
+	color: white;
+	text-align: left;
+	
+	font-family: 'Titillium Web', 'san-serif';
+	font-size: 1.3em;
+	line-height: 30px;
+	
+	padding-bottom: 30px;
+	margin: 0 170px;
+}
+
+.notFixedBG a {
+	color: white;
+	
+	font-family: 'Titillium Web', 'san-serif';
+	font-size: 1.4em;
+	
+	margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+
+/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 1024px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 50px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+
+		font-family: "gillsans";
+		font-size: 1.1em;
+		
+		margin: 20px 60px;
+	}
+	
+	.portfolio li:hover a {
+		color: black;
+		border-bottom: none;
+	}
+	
+	.portfolio a {
+		color: black;
+	}
+	
+	.portfolio li .selected-page:hover {
+		color: rgba(48, 198, 169, 1);
+		border-bottom: solid rgba(48, 198, 169, 1) 3px;
+	}
+
+	.portfolio-content {
+		max-width: 1024px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 960px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 960px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 50px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+		font-size: 1.1em;
+	
+		padding: 10px 0;
+		margin: 20px 40px;
+	}
+
+	.portfolio a {
+		color: black;
+	}
+
+	.portfolio-content {
+		max-width: 1024px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 768px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .small_logo img {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 40px;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+
+		font-family: "gillsans";
+		font-size: 1em;
+		
+		margin: 20px 30px;
+	}
+
+	.portfolio-content {
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 601px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 601px;
+		
+		display: flex;
+		flex-direction: row wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/***
+	
+	.portfolio .small_logo {
+		max-width: 103px;
+		width: 100%;
+
+		margin: 10px 20px;
+	}
+
+	.portfolio li {
+		display: none;
+	}
+	
+	.menuBlack {
+		display: block;
+		
+		margin-right: 15px;
+	}
+	
+	***/
+	
+	.portfolio .small_logo {
+		display: none;
+	}
+	
+	.portfolio .newSmallLogo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+		position:absolute;
+	
+		width: 100%;
+		padding:0;
+		margin: 0 auto;
+	}
+
+	.portfolio .newSmallLogo img {
+		display: block;
+	}
+	
+	.portfolio nav {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	
+	.portfolio ul{
+		display: inline-block;
+	}
+	
+	.portfolio li {
+		display: inline-block;
+		font-family: "gillsans";
+		font-size: 0.9em;
+
+		
+		margin: 60px 0px 0px 0px;
+	}
+	
+	.portfolio li a {
+		color: black;
+		padding: 10px 0;
+		
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+

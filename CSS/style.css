@@ -233,6 +233,78 @@ h3:hover {
 }
 
 
+/************* HOMETRAIL NEW *************************/
+
+
+.bg1 {
+	background: url(../Images/HomeTrail/Myface.png) no-repeat;
+	height: 100vh;
+	
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	width: 100%;
+	margin: 0;
+	
+	position: relative;
+	z-index: -1;
+}
+
+main {
+	position: relative;
+}
+
+main h1 {
+	color: white;
+	z-index: 1;
+	
+	position: absolute;
+	top: 400px;
+	left: 50px;
+	
+	font-family: 'Titillium', 'san-serif';
+	font-size: 2.2em;
+}
+
+.container {
+	max-width: 1280px;
+	width: 100%;
+	
+	position: absolute;
+	top: 660px;
+	z-index: -1;
+	
+	box-shadow: 0px 0px 20px black;
+}
+
+.bg2 {
+	background: url(../Images/HomeTrail/MyFaceBlur-03.png) no-repeat;
+	height: 100vh;
+	
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	width: 100%;
+	margin: 0;
+	
+	position: absolute;
+	top: 1300px;
+	z-index: -1;
+}
+
+.container2 {
+	max-width: 1280px;
+	width: 100%;
+	
+	position: absolute;
+	top: 1900px;
+	z-index: -1;
+	
+	box-shadow: 0px 0px 20px black;
+}
+
 
 /************************** PORTFOLIO *************************/
 
@@ -247,7 +319,7 @@ h3:hover {
 	width: 100%;
 	height: 100px;
 	text-align: center;
-	background-color: white;	
+	background-color: white;
 }
 
 .portfolio .header {
@@ -302,7 +374,7 @@ h3:hover {
 
 .portfolio li a {
 	color: black;
-	padding: 38px 0;
+	padding: 36px 0;
 }
 
 .portfolio li:hover a {
