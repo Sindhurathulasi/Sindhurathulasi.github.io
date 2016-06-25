@@ -94,9 +94,11 @@ html body main {
 
 .fixedBG {
 	position: relative;
-	min-height: 100vh;
+	height: 100vh;
 	
 	width: 100%;
+	margin: 0;
+	
 	
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -440,5 +442,138 @@ p {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+	
+	/********** PARALLAX SCROLL **********/
+
+
+	.main-content {
+		height: 100%;
+		position: relative;
+		z-index: -1;
+	}
+
+	.fixedBG {
+		position: relative;
+		
+		height: 395px;
+		
+		width: 100%;
+		margin: 0;
+
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+
+		z-index: -1;
+	}
+
+	.fixedBG h1 {
+		color: white;
+		z-index: 1;
+
+		position: absolute;
+		top: 50%;
+		left: 10%;
+
+		font-family: 'Titillium', 'san-serif';
+		font-size: 1.3em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+		height: 395px;
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+		height: 400px;
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/Chennai-08.png");
+		
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+
+		z-index: 2;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 320px;
+		margin-top: -90px;
+	}
+	
+	.story .container {
+		height: 100vh;
+	}
+
+	.notFixedBG .ui {
+	}
+
+	.ui img {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 2em;
+
+		padding-top: 4%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 260px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1em;
+		line-height: 23px;
+
+		padding-bottom: 30px;
+		margin: 0 30px;
+	}
+
+	.notFixedBG a {
+		color: white;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.4em;
+
+		margin-bottom: 10px;
+	}
+	
+	
 }
 
