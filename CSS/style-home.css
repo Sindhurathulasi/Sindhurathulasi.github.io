@@ -482,30 +482,28 @@ p {
 
 	.bg-1 {
 		background-image: url("../Images/HomeTrail/Myface.png");
-		height: 395px;
+		
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicText-08.png");
-		height: 400px;
+		background-image: url("../Images/HomeTrail/GraphicMobile-09.png");
+		
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/Chennai-08.png");
+		background-image: url("../Images/HomeTrail/ChennaiMobile-10.png");
 		
 	}
 
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-
 		z-index: 2;
 	}
 
 	.notFixedBG .container {
 		background-color: rgba(32, 209, 154, 1);
-		height: 320px;
-		margin-top: -90px;
+		height: 340px;
 	}
 	
 	.story .container {
