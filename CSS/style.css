@@ -551,21 +551,21 @@ article {
 .project .image {
 	max-width: 550px;
 	width: 100%;
+	
+	margin-left: 100px;
+	margin-top: 60px;
 }
 
 .project .image img {
 	max-width: 550px;
 	width: 100%;
-	
-	margin-left: 100px;
-	margin-top: 70px;
 }
 
 .project .text {
 	width: 300px;
 	
 	margin-right: 150px;
-	margin-top: 90px;
+	margin-top: 0px;
 }
 
 .project strong {
@@ -1547,6 +1547,95 @@ hr {
 /********************************* MEDIA QUERY ***************/
 
 
+
+@media (max-width: 1135px) {
+	
+	/********** PORTFOLIO NEW **********/
+
+	.project {
+		max-width: 1135px;
+	}
+
+	.project .image {
+		max-width: 520px;
+		width: 100%;
+
+		margin-left: 50px;
+	}
+
+	.project .image img {
+		max-width: 520px;
+	}
+
+	.project .text {
+		width: 270px;
+
+		margin-right: 120px;
+		margin-top: 0px;
+	}
+
+	.project strong {
+		font-size: 1.5em;
+	}
+
+	.project p {
+		font-family: 'Titillium', sans-serif;
+		font-size: 1.1em;	
+	}
+
+	.project hr {
+		margin-top: 20px;
+	}
+
+	.project .portfolio-text {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.project .portfolio-button {
+		font-family: 'Gillsans';
+		font-size: 1.2em;
+
+		border: solid rgba(48,198,169,1) 2px;
+		border-radius: 3px;
+
+		text-align: center;
+
+		color: rgba(48,198,169,1);
+
+		padding: 12px 30px;
+	}
+
+	.project .portfolio-button:hover {
+		background-color: rgba(48,198,169,1);
+		color: rgba(249,249,249,1);
+	}
+
+	a .project .portfolio-button {
+		text-decoration: none;
+	}
+
+	.project:nth-child(even) .image {
+		order: 1;
+		margin-right: 70px;
+		margin-left: 0;
+	}
+
+	.project:nth-child(even) .image img {
+		margin-right: 70px;
+		margin-left: 0;
+	}
+
+	.project:nth-child(even) .text {
+		margin-left: 110px;
+		margin-right: 0;
+	}
+
+	.samsung .text {
+		margin-top: 15px;
+	}
+}
+
 @media (max-width: 1024px) {
 	
 	/*** HOME ***/
@@ -1646,53 +1735,6 @@ hr {
 		0% {opacity: 0;}
 		90% {opacity: 0;}
 		100% {opacity: 1;}
-	}
-	
-	/*** HOME-2 ***/
-
-	.header {
-		max-width: 1024px;
-	}
-
-	li {
-		display: inline-block;
-		font-size: 1.1em;
-	
-		padding: 10px 0;
-		margin: 20px 60px;
-	}
-	
-	li:hover a { 
-		border-bottom: none;
-	}
-
-	.intro-home {
-		left: 60px;
-	}
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 60px;
-		top: 440px;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
 	}
 	
 	/*** ABOUT ***/
@@ -1825,6 +1867,103 @@ hr {
 	.portfolio-content {
 		max-width: 1024px;
 		width: 100%;
+	}
+	
+	/************************* PORTFOLIO NEW *********************/
+
+	.project {
+		max-width: 1024px;
+		
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;	
+		align-items: center;
+		
+		border-bottom: 1px dotted black;
+		
+		padding: 60px;
+	}
+
+	.project .image {
+		max-width: 520px;
+		
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.project .image img {
+		max-width: 520px;
+	}
+
+	.project .text {
+		width: 400px;
+		
+		margin-right: 0;
+		margin-top: 20px;
+	}
+
+	.project strong {
+		font-size: 1.4em;
+	}
+
+	.project p {
+		font-family: 'Titillium', sans-serif;
+		font-size: 1.1em;	
+	}
+
+	.project hr {
+		margin-top: 20px;
+	}
+
+	.project .portfolio-text {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.project .portfolio-button {
+		font-family: 'Gillsans';
+		font-size: 1.2em;
+
+		border: solid rgba(48,198,169,1) 2px;
+		border-radius: 3px;
+
+		text-align: center;
+
+		color: rgba(48,198,169,1);
+		
+		color: white;
+		background-color: rgba(48,198,169,1);
+
+		padding: 12px 30px;
+	}
+
+	.project .portfolio-button:hover {
+		color: white;
+		background-color: rgba(48,198,169,1) ; 
+	}
+
+	a .project .portfolio-button {
+		text-decoration: none;
+	}
+
+	.project:nth-child(even) .image {
+		order: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.project:nth-child(even) .image img {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.project:nth-child(even) .text {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.samsung .text {
+		margin-top: 15px;
 	}
 	
 	
@@ -3233,6 +3372,68 @@ hr {
 		max-width: 601px;
 	}
 	
+	/************************* PORTFOLIO NEW *********************/
+
+	.project {
+		max-width: 601px;
+		padding: 60px;
+	}
+
+	.project .image {
+		max-width: 420px;
+		
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.project .image img {
+		max-width: 420px;
+	}
+
+	.project .text {
+		width: 360px;
+		
+		margin-right: 0;
+		margin-top: 10px;
+	}
+
+	.project strong {
+		font-size: 1.2em;
+	}
+
+	.project p {
+		font-family: 'Titillium', sans-serif;
+		font-size: 1em;	
+	}
+
+	.project hr {
+		margin-top: 15px;
+	}
+
+	.project .portfolio-text {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.project .portfolio-button {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		border: solid rgba(48,198,169,1) 2px;
+		border-radius: 3px;
+
+		text-align: center;
+
+		color: white;
+		background-color: rgba(48,198,169,1);
+		
+		padding: 8px 30px;
+	}
+	
+	.samsung .text {
+		margin-top: 15px;
+	}
+	
 	
 	/*** SAMSUNG CONTENT ***/
 
@@ -3565,6 +3766,64 @@ hr {
 
 		animation: click 4s 0.8s 1 forwards;
 	}
+	
+	/************************* PORTFOLIO NEW *********************/
+
+	.project {
+		max-width: 375px;
+		padding: 40px;
+	}
+
+	.project .image {
+		max-width: 430px;
+		
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.project .image img {
+		max-width: 430px;
+	}
+
+	.project .text {
+		width: 330px;
+		
+		margin-right: 0;
+		margin-top: 10px;
+	}
+
+	.project strong {
+		font-size: 1.2em;
+	}
+
+	.project p {
+		font-family: 'Titillium', sans-serif;
+		font-size: 1em;	
+	}
+
+	.project hr {
+		margin-top: 15px;
+	}
+
+	.project .portfolio-text {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.project .portfolio-button {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		border: solid rgba(48,198,169,1) 2px;
+		border-radius: 3px;
+
+		text-align: center;
+
+		color: white;
+		background-color: rgba(48,198,169,1);
+		
+		padding: 8px 30px;
+	}
 }	
 
 @media (max-width: 320px) {
@@ -3804,6 +4063,77 @@ hr {
 		display: block;
 		
 		margin-right: 15px;
+	}
+	
+	/************************* PORTFOLIO NEW *********************/
+
+	.project {
+		max-width: 320px;
+		padding: 50px;
+	}
+
+	.project .image {
+		max-width: 470px;
+		
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.project .image img {
+		max-width: 470px;
+	}
+
+	.project .text {
+		width: 280px;
+		
+		margin-right: 0;
+		margin-top: 10px;
+	}
+
+	.project strong {
+		font-size: 1.1em;
+	}
+
+	.project p {
+		font-family: 'Titillium', sans-serif;
+		font-size: 0.9em;	
+	}
+
+	.project hr {
+		margin-top: 15px;
+	}
+
+	.project .portfolio-text {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.project .portfolio-button {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		border: solid rgba(48,198,169,1) 2px;
+		border-radius: 3px;
+
+		text-align: center;
+
+		color: white;
+		background-color: rgba(48,198,169,1);
+		
+		padding: 8px 30px;
+	}
+
+	.project .portfolio-button:hover {
+		color: white;
+		background-color: rgba(48,198,169,1) ; 
+	}
+
+	a .project .portfolio-button {
+		text-decoration: none;
+	}
+	
+	.samsung .text {
+		margin-top: 10px;
 	}
 	
 	/*** SAMSUNG CONTENT ***/
