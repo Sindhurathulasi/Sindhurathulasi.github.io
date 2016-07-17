@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -651,6 +652,170 @@ a .project .portfolio-button {
 .samsung .text {
 	margin-top: 15px;
 }
+
+
+/************ NAVIGATION **********/
+
+.navigation {
+	max-width: 1280px;
+	width: 100%;
+	
+	height: 100px;
+	
+	background-color: rgba(48,198,169,1);
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navLeft {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-left: -120px;
+}
+
+.navRight {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-right: -120px;
+}
+
+.navigation h5 {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 100;
+	
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 10px;
+}
+
+.navigation h6 {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 100;
+	
+	font-family: 'Titillium Web', sans-serif;
+	margin-right: 10px;
+}
+
+.arrowLeft {
+	max-width: 50px;
+	width: 100%;
+	
+}
+
+.arrowRight {
+	max-width: 50px;
+	width: 100%;
+}
+
+/********** CONTACT ANCHOR ************/
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+	background-image: url(../Images/Contact/faceBlur.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+#contact h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: rgba(48,198,169,1);
+	letter-spacing: 20px;
+	margin-top: 175px;
+	margin-left: 30px;
+	
+	border-bottom: 1px solid rgba(48,198,169,1);
+}
+
+#contact a {
+	color: rgba(48,198,169,1);
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+#contact a:hover {
+	color: white;
+}
+
+.mail {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#contact .mailIcon {
+	max-width: 50px;
+	width: 100%;
+	
+	margin-top: -1px;
+}
+
+.call {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-bottom: 150px;
+	margin-left: 30px;
+}
+
+.call a {
+	padding-right: 20px;
+}
+
+#contact .callIcon {
+	max-width: 55px;
+	width: 100%;
+	
+	margin-top: -1px;
+}
+
+.copyright {
+	max-width: 1280px;
+	width: 100%;
+	
+	height: 50px;
+	
+	
+	border-top: 1px solid rgba(48,198,169,1);
+}
+
+#contact span {
+	color: rgba(48,198,169,1);
+	letter-spacing: 3px;
+	font-size: 0.7em;
+	
+	padding-top: 20px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 /*** SAMSUNG CONTENT ***/
@@ -3741,7 +3906,6 @@ hr {
 	}
 	
 	/***************** DRAWING-CONTENT ******************/
-	
 
 	.frame h2 {
 		font-family: 'Tittillium', sans-serif;
