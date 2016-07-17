@@ -1579,16 +1579,19 @@ hr {
 .smile-content {
 }
 
-.smile-content .opening {
-	text-align: center;
+.smile-content .opening {	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.smile-content h1 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 2.5em;
+.smileLogo {
+	max-width: 700px;
+	width: 100%;
 	
-	margin-top: 90px;
-	margin-bottom: 20px;
+	padding-top: 100px;
+	padding-bottom: 140px;
 }
 
 .smile-content p {
@@ -1604,6 +1607,7 @@ hr {
 	width: 100%;
 	
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 .smile-logo {
@@ -1634,7 +1638,7 @@ hr {
 	background-color: white;
 }
 
-.smile-logo .newLogo img {
+.smile-logo video {
 	max-width: 750px;
 	width: 100%;
 }
@@ -1647,17 +1651,21 @@ hr {
 }
 
 .smile-screens {
-	max-width: 850px;
+	max-width: 730px;
 	width: 100%;
 	
 	margin-top: 65px;	
 }
 
 .smile-video {
-	max-width: 400px;
+	background-color: white;
+}
+
+.smile-video video {
+	max-width: 580px;
 	width: 100%;
 	
-	margin: 30px 100px 50px 100px;
+	margin: 30px 100px 0px 100px;
 }
 
 /*** CONTACT ***/
@@ -2434,6 +2442,68 @@ hr {
 		max-width: 790px;
 	}
 	
+	/*** SMILE-CONTENT ***/
+
+	.smileLogo {
+		max-width: 700px;
+		width: 100%;
+
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+
+	.smile-content p {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		text-align: left;
+		margin: 30px 110px;
+	}
+
+	.smile-logo {
+		text-align: center;
+
+		border-bottom: solid rgba(29, 221, 185, 1) 12px;
+	}
+
+	.smile-logo h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 2.2em;
+		font-weight: 600;
+
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+
+	.smile-logo .oldLogo img {
+		max-width: 550px;
+	}
+
+	.smile-intro {
+		max-width: 370px;
+		width: 100%;
+
+		margin: 30px 80px 0 80px;
+	}
+
+	.smile-screens {
+		max-width: 720px;
+		width: 100%;
+
+		margin-top: 65px;	
+	}
+
+	.smile-video {
+		background-color: white;
+	}
+
+	.smile-video video {
+		max-width: 580px;
+		width: 100%;
+
+		margin: 30px 80px 0px 80px;
+	}
+	
 	/*** SCROLL ***/
 	
 	.scroll {
@@ -2889,7 +2959,7 @@ hr {
 		max-width: 103px;
 		width: 100%;
 
-		margin: 10px 40px;
+		margin: 10px 10px;
 	}
 
 	.portfolio .newSmallLogo {
@@ -3290,6 +3360,65 @@ hr {
 		margin-bottom: 50px;
 	}
 	
+	/*** SMILE-CONTENT ***/
+
+	.smileLogo {
+		max-width: 670px;
+		width: 100%;
+
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+
+	.smile-content p {
+		font-family: 'Gillsans';
+		font-size: 1.1em;
+
+		text-align: left;
+		margin: 30px 70px;
+	}
+
+	.smile-logo h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 2.1em;
+		font-weight: 600;
+
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+	
+	.smile-intro {
+		margin: 30px 20px 0 20px;
+	}
+
+	.smile-logo .oldLogo img {
+		max-width: 500px;
+	}
+	
+	.newLogo video {
+		max-width: 560px;
+		width: 100%;
+	}
+
+	.smile-intro {
+		max-width: 350px;
+		width: 100%;
+	}
+
+	.smile-screens {
+		max-width: 550px;
+		width: 100%;
+
+		margin-top: 65px;	
+	}
+
+	.smile-video video {
+		max-width: 540px;
+		width: 100%;
+		
+		margin: 30px 20px 0px 20px;
+	}
+	
 	/*** SCROLL ***/
 	
 	.scroll {
@@ -3383,58 +3512,6 @@ hr {
 		animation: click 4s 0.8s 1 forwards;
 	}
 	
-	/*** HOME-2 ***/
-
-	.header {
-		max-width: 601px;
-	}
-	
-	.small_logo {
-		max-width: 103px;
-		width: 100%;
-
-		margin: 10px 20px;
-	}
-
-	li {
-		display: none;
-	}
-	
-	.menuWhite {
-		display: block;	
-		
-		margin-right: 15px;
-	}
-	
-	.intro-home {
-		left: 30px;
-	}
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 30px;
-		top: 420px;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
-	}
-	
 	/*** ABOUT ***/
 
 	.about {
@@ -3509,9 +3586,6 @@ hr {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio {
-	}
-
 	.portfolio .header {
 		max-width: 601px;
 		
@@ -3520,27 +3594,6 @@ hr {
 		justify-content: center;
 		align-items: center;
 	}
-
-	/***
-	
-	.portfolio .small_logo {
-		max-width: 103px;
-		width: 100%;
-
-		margin: 10px 20px;
-	}
-
-	.portfolio li {
-		display: none;
-	}
-	
-	.menuBlack {
-		display: block;
-		
-		margin-right: 15px;
-	}
-	
-	***/
 	
 	.portfolio .small_logo {
 		display: none;
@@ -3587,22 +3640,6 @@ hr {
 		
 		margin-left: 10px;
 		margin-right: 10px;
-	}
-
-	
-	/*CORRECTION TEST */
-	
-	.portfolio li:hover a {
-		border-bottom: solid white 3px;
-	}
-
-	.portfolio li .selected-page {
-		color: rgba(48, 198, 169, 1);
-		border-bottom: solid rgba(48, 198, 169, 1) 3px;
-	}
-
-	.portfolio-content {
-		max-width: 601px;
 	}
 	
 	/************************* PORTFOLIO NEW *********************/
@@ -3930,6 +3967,65 @@ hr {
 		max-width: 550px;
 		width: 100%;
 		margin: 60px 0;
+	}
+	
+	/*** SMILE-CONTENT ***/
+
+	.smileLogo {
+		max-width: 650px;
+		width: 100%;
+
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.smile-content p {
+		font-family: 'Gillsans';
+		font-size: 1em;
+
+		text-align: left;
+		margin: 30px 40px;
+	}
+
+	.smile-logo h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+	
+	.smile-intro {
+		margin: 30px 0px 0 0px;
+	}
+
+	.smile-logo .oldLogo img {
+		max-width: 500px;
+	}
+	
+	.newLogo video {
+		max-width: 560px;
+		width: 100%;
+	}
+
+	.smile-intro {
+		max-width: 280px;
+		width: 100%;
+	}
+
+	.smile-screens {
+		max-width: 480px;
+		width: 100%;
+
+		margin-top: 65px;	
+	}
+
+	.smile-video video {
+		max-width: 450px;
+		width: 100%;
+		
+		margin: 30px 0px 0px 0px;
 	}
 	
 	/* SCROLL */
@@ -4271,32 +4367,16 @@ hr {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio {
-	}
-
 	.portfolio .header {
 		max-width: 320px;
 	}
 	
-	.portfolio .small_logo {
-		max-width: 90px;
-		width: 100%;
-
-		margin: 10px 20px;
-	}
-
 	.portfolio li {
-		display: none;
-	}
-
-	.portfolio-content {
-		max-width: 320px;
-	}
-	
-	.menuBlack {
-		display: block;
+		display: inline-block;
+		font-family: "gillsans";
+		font-size: 0.8em;
 		
-		margin-right: 15px;
+		margin: 60px 0px 0px 0px;
 	}
 	
 	/************************* PORTFOLIO NEW *********************/
@@ -4637,6 +4717,65 @@ hr {
 		max-width: 450px;
 		width: 100%;
 		margin: 70px 0;
+	}
+	
+	/*** SMILE-CONTENT ***/
+
+	.smileLogo {
+		max-width: 750px;
+		width: 100%;
+
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.smile-content p {
+		font-family: 'Gillsans';
+		font-size: 0.8em;
+
+		text-align: left;
+		margin: 30px 20px;
+	}
+
+	.smile-logo h2 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.6em;
+		font-weight: 600;
+
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	
+	.smile-intro {
+		margin: 30px 0px 0 0px;
+	}
+
+	.smile-logo .oldLogo img {
+		max-width: 370px;
+	}
+	
+	.newLogo video {
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.smile-intro {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.smile-screens {
+		max-width: 400px;
+		width: 100%;
+
+		margin-top: 25px;	
+	}
+
+	.smile-video video {
+		max-width: 400px;
+		width: 100%;
+		
+		margin: 20px 0px 10px 0px;
 	}
 	
 	/*** SCROLL ***/
