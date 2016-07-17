@@ -205,6 +205,104 @@ p {
 	margin-bottom: 10px;
 }
 
+/********** CONTACT ANCHOR ************/
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+	background-image: url(../Images/Contact/faceBlur.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#contact h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: rgba(48,198,169,1);
+	letter-spacing: 20px;
+	
+	margin-top: 220px;
+	margin-left: 30px;
+	
+	border-bottom: 1px solid rgba(48,198,169,1);
+}
+
+#contact a {
+	color: rgba(48,198,169,1);
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+#contact a:hover {
+	color: white;
+}
+
+.mail {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#contact .mailIcon {
+	max-width: 50px;
+	width: 100%;
+	
+	margin-top: -1px;
+}
+
+.call {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	margin-bottom: 220px;
+	margin-left: 30px;
+}
+
+.call a {
+	padding-right: 20px;
+}
+
+#contact .callIcon {
+	max-width: 55px;
+	width: 100%;
+	
+	margin-top: -1px;
+}
+
+.copyright {
+	max-width: 1280px;
+	width: 100%;
+	
+	height: 50px;
+	
+	border-top: 1px solid rgba(48,198,169,1);
+}
+
+#contact span {
+	color: rgba(48,198,169,1);
+	letter-spacing: 3px;
+	font-size: 0.7em;
+	
+	padding-top: 20px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 @media (max-width: 1024px) {
 
 /*** PORTFOLIO and PORTFOLIO CONTENT ***/
