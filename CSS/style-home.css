@@ -99,7 +99,6 @@ html body main {
 	width: 100%;
 	margin: 0;
 	
-	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -190,7 +189,7 @@ p {
 	
 	font-family: 'Titillium Web', 'san-serif';
 	font-size: 1.3em;
-	line-height: 30px;
+	line-height: 27px;
 	
 	padding-bottom: 30px;
 	margin: 0 170px;
@@ -203,6 +202,10 @@ p {
 	font-size: 1.4em;
 	
 	margin-bottom: 10px;
+}
+
+.cv {
+	display: block;
 }
 
 /********** CONTACT ANCHOR ************/
@@ -360,6 +363,104 @@ p {
 		max-width: 1024px;
 		width: 100%;
 	}
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG h1 {
+		position: absolute;
+		top: 53%;
+		left: 8%;
+		font-size: 2.1em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiTablet-12.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+		z-index: 2;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100vh;
+	}
+
+	.notFixedBG .ui {
+	}
+
+	.ui img {
+		max-width: 600px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 2em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 550px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 2em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.2em;
+		line-height: 30px;
+
+		padding-bottom: 40px;
+		margin: 0 110px;
+	}
+
+	.notFixedBG a {
+		color: white;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.4em;
+
+		margin-bottom: 10px;
+	}
+
+	.cv {
+		display: block;
+	}
 }
 
 @media (max-width: 960px) {
@@ -454,6 +555,170 @@ p {
 	.portfolio-content {
 		max-width: 768px;
 	}
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG h1 {
+		position: absolute;
+		top: 55%;
+		left: 8%;
+		font-size: 2em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile768-13.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+		z-index: 2;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100vh;
+	}
+
+	.ui img {
+		max-width: 500px;
+		width: 100%;
+		margin-top: 20%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 2em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 550px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.7em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+		
+		margin: 0 30px;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.1em;
+		line-height: 30px;
+
+		padding-bottom: 60px;
+		margin: 0 70px;
+	}
+
+	.notFixedBG a {
+		color: white;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.4em;
+
+		margin-bottom: 10px;
+	}
+
+	.cv {
+		display: block;
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact {
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	#contact h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.3em;
+		letter-spacing: 20px;
+
+		margin-top: 220px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		color: rgba(48,198,169,1);
+		font-family: 'Titillium Web', sans-serif;
+		line-height: 40px;
+		font-size: 1.1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 50px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 55px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
 }
 
 @media (max-width: 601px) {
@@ -472,27 +737,6 @@ p {
 		align-items: center;
 	}
 
-	/***
-	
-	.portfolio .small_logo {
-		max-width: 103px;
-		width: 100%;
-
-		margin: 10px 20px;
-	}
-
-	.portfolio li {
-		display: none;
-	}
-	
-	.menuBlack {
-		display: block;
-		
-		margin-right: 15px;
-	}
-	
-	***/
-	
 	.portfolio .small_logo {
 		display: none;
 	}
@@ -542,54 +786,38 @@ p {
 	
 	/********** PARALLAX SCROLL **********/
 
-
-	.main-content {
-		height: 100%;
-		position: relative;
-		z-index: -1;
-	}
-
 	.fixedBG {
 		position: relative;
-		
-		height: 395px;
-		
+		height: 500px;
+
 		width: 100%;
 		margin: 0;
 
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-attachment: scroll;
 
 		z-index: -1;
 	}
-
+	
 	.fixedBG h1 {
-		color: white;
-		z-index: 1;
-
 		position: absolute;
-		top: 50%;
-		left: 10%;
-
-		font-family: 'Titillium', 'san-serif';
-		font-size: 1.3em;
+		top: 85%;
+		left: 8%;
+		font-size: 1.7em;
 	}
 
 	.bg-1 {
 		background-image: url("../Images/HomeTrail/Myface.png");
-		
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicMobile-09.png");
-		
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiMobile-10.png");
-		
+		background-image: url("../Images/HomeTrail/ChennaiTablet2-13.png");
 	}
 
 	.notFixedBG {
@@ -600,21 +828,14 @@ p {
 
 	.notFixedBG .container {
 		background-color: rgba(32, 209, 154, 1);
-		height: 340px;
-	}
-	
-	.story .container {
-		height: 100vh;
-	}
-
-	.notFixedBG .ui {
+		height: 100%;
 	}
 
 	.ui img {
-		max-width: 300px;
+		max-width: 330px;
 		width: 100%;
 
-		margin-top: 10%;
+		margin-top: 30%;
 	}
 
 	h2 {
@@ -622,17 +843,17 @@ p {
 		letter-spacing: 10px;
 
 		font-family: 'Titillium Web', 'san-serif';
-		font-size: 2em;
+		font-size: 1.8em;
 
-		padding-top: 4%;
+		padding-top: 5%;
 		padding-bottom: 3%;
 	}
 
 	.frontEnd img {
-		max-width: 260px;
+		max-width: 350px;
 		width: 100%;
 
-		margin-top: 10%;
+		margin-top: 25%;
 	}
 
 	h3 {
@@ -640,10 +861,12 @@ p {
 		letter-spacing: 10px;
 
 		font-family: 'Titillium Web', 'san-serif';
-		font-size: 1em;
+		font-size: 1.3em;
 
 		padding-top: 3%;
 		padding-bottom: 5%;
+		
+		margin: 0 30px;
 
 		z-index: 1;
 	}
@@ -654,21 +877,317 @@ p {
 
 		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1em;
-		line-height: 23px;
+		line-height: 27px;
 
 		padding-bottom: 30px;
-		margin: 0 30px;
+		margin: 20px 40px;
 	}
 
 	.notFixedBG a {
 		color: white;
 
 		font-family: 'Titillium Web', 'san-serif';
-		font-size: 1.4em;
+		font-size: 1.1em;
 
 		margin-bottom: 10px;
 	}
 	
+	/********** CONTACT ANCHOR ************/
+
+
+	#contact h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.2em;
+		letter-spacing: 20px;
+
+		margin-top: 200px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		color: rgba(48,198,169,1);
+		font-family: 'Titillium Web', sans-serif;
+		line-height: 40px;
+		font-size: 1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
 	
+}
+
+@media (max-width:400px) {
+	
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100%;
+	}
+	
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+
+	#contact h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 10px;
+	}
+
+	#contact a {
+		color: rgba(48,198,169,1);
+		font-family: 'Titillium Web', sans-serif;
+		line-height: 40px;
+		font-size: 1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.6em;
+
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG {
+		position: relative;
+		height: 500px;
+
+		width: 100%;
+		margin: 0;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+
+		z-index: -1;
+	}
+	
+	.fixedBG h1 {
+		position: absolute;
+		top: 85%;
+		left: 8%;
+		font-size: 1.5em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicMobileNew-14.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+		z-index: 2;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100%;
+	}
+	
+	.ui img {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 28%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.6em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 12%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.1em;
+
+		padding-top: 2%;
+		padding-bottom: 5%;
+		
+		margin: 0 40px;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 0.8em;
+		line-height: 22px;
+
+		padding-bottom: 30px;
+		margin: 0 20px;
+	}
+
+	.notFixedBG a {
+		color: white;
+
+		font-family: 'Titillium Web', 'san-serif';
+		font-size: 1.1em;
+
+		margin-bottom: 10px;
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+
+	#contact h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 8px;
+	}
+
+	#contact a {
+		font-size: 0.8em;
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 30px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 35px;
+		width: 100%;
+
+		margin-top: -1px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.4em;
+
+		padding-top: 20px;
+	}
 }
 
