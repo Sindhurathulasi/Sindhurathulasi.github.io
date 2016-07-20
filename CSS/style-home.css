@@ -16,6 +16,8 @@ html body main {
 	height: 100px;
 	text-align: center;
 	background-color: white;
+	
+	z-index: 1;
 }
 
 .portfolio .header {
@@ -82,14 +84,12 @@ html body main {
 	border-bottom: solid rgba(48, 198, 169, 1) 3px;
 }
 
-
 /********** PARALLAX SCROLL **********/
 
 
 .main-content {
 	height: 100%;
 	position: relative;
-	z-index: -1;
 }
 
 .fixedBG {
@@ -134,7 +134,7 @@ html body main {
 .notFixedBG {
 	text-align: center;
 	position: relative;
-	z-index: 2;
+	z-index: -1;
 }
 
 .notFixedBG .container {
@@ -388,7 +388,7 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: 2;
+		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -580,7 +580,7 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: 2;
+		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -661,7 +661,6 @@ p {
 	}
 
 	#contact h4 {
-		font-family: 'Titillium Web', sans-serif;
 		font-size: 1.3em;
 		letter-spacing: 20px;
 
@@ -670,8 +669,6 @@ p {
 	}
 
 	#contact a {
-		color: rgba(48,198,169,1);
-		font-family: 'Titillium Web', sans-serif;
 		line-height: 40px;
 		font-size: 1.1em;
 	}
@@ -687,9 +684,6 @@ p {
 
 	#contact .mailIcon {
 		max-width: 50px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	.call {
@@ -703,8 +697,6 @@ p {
 
 	#contact .callIcon {
 		max-width: 55px;
-		width: 100%;
-
 		margin-top: -1px;
 	}
 
@@ -713,7 +705,6 @@ p {
 	}
 
 	#contact span {
-		color: rgba(48,198,169,1);
 		letter-spacing: 3px;
 		font-size: 0.7em;
 
@@ -823,7 +814,7 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: 2;
+		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -894,9 +885,7 @@ p {
 	
 	/********** CONTACT ANCHOR ************/
 
-
 	#contact h4 {
-		font-family: 'Titillium Web', sans-serif;
 		font-size: 1.2em;
 		letter-spacing: 20px;
 
@@ -905,8 +894,6 @@ p {
 	}
 
 	#contact a {
-		color: rgba(48,198,169,1);
-		font-family: 'Titillium Web', sans-serif;
 		line-height: 40px;
 		font-size: 1em;
 	}
@@ -922,9 +909,6 @@ p {
 
 	#contact .mailIcon {
 		max-width: 40px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	.call {
@@ -938,9 +922,6 @@ p {
 
 	#contact .callIcon {
 		max-width: 45px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	.copyright {
@@ -970,9 +951,7 @@ p {
 	
 	/********** CONTACT ANCHOR ************/
 
-
 	#contact h4 {
-		font-family: 'Titillium Web', sans-serif;
 		font-size: 1.1em;
 		letter-spacing: 15px;
 
@@ -981,10 +960,8 @@ p {
 	}
 
 	#contact a {
-		color: rgba(48,198,169,1);
-		font-family: 'Titillium Web', sans-serif;
 		line-height: 40px;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	#contact a:hover {
@@ -998,9 +975,6 @@ p {
 
 	#contact .mailIcon {
 		max-width: 40px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	.call {
@@ -1014,13 +988,9 @@ p {
 
 	#contact .callIcon {
 		max-width: 45px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	#contact span {
-		color: rgba(48,198,169,1);
 		letter-spacing: 3px;
 		font-size: 0.6em;
 
@@ -1069,7 +1039,7 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: 2;
+		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -1142,7 +1112,6 @@ p {
 
 
 	#contact h4 {
-		font-family: 'Titillium Web', sans-serif;
 		font-size: 1em;
 		letter-spacing: 15px;
 
@@ -1161,9 +1130,6 @@ p {
 
 	#contact .mailIcon {
 		max-width: 30px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	.call {
@@ -1177,13 +1143,9 @@ p {
 
 	#contact .callIcon {
 		max-width: 35px;
-		width: 100%;
-
-		margin-top: -1px;
 	}
 
 	#contact span {
-		color: rgba(48,198,169,1);
 		letter-spacing: 3px;
 		font-size: 0.4em;
 

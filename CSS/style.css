@@ -678,7 +678,7 @@ a .project .portfolio-button {
 	max-width: 1280px;
 	width: 100%;
 	
-	height: 100px;
+	height: 90px;
 	
 	background-color: rgba(48,198,169,1);
 	
@@ -686,6 +686,8 @@ a .project .portfolio-button {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	
+	margin-top: 50px;
 }
 
 .navLeft {
@@ -694,7 +696,7 @@ a .project .portfolio-button {
 	justify-content: center;
 	align-items: center;
 	
-	margin-left: -120px;
+	margin-left: -150px;
 }
 
 .navRight {
@@ -703,7 +705,7 @@ a .project .portfolio-button {
 	justify-content: center;
 	align-items: center;
 	
-	margin-right: -120px;
+	margin-right: -150px;
 }
 
 .navigation h5 {
@@ -725,12 +727,12 @@ a .project .portfolio-button {
 }
 
 .arrowLeft {
-	max-width: 50px;
+	max-width: 45px;
 	width: 100%;
 }
 
 .arrowRight {
-	max-width: 50px;
+	max-width: 45px;
 	width: 100%;
 }
 
@@ -748,13 +750,14 @@ a .project .portfolio-button {
 	background-size: cover;
 }
 
-#contact h2 {
+#contact h4 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.5em;
 	font-weight: 600;
 	color: rgba(48,198,169,1);
 	letter-spacing: 20px;
-	margin-top: 175px;
+	
+	margin-top: 220px;
 	margin-left: 30px;
 	
 	border-bottom: 1px solid rgba(48,198,169,1);
@@ -794,7 +797,7 @@ a .project .portfolio-button {
 	justify-content: center;
 	align-items: center;
 	
-	margin-bottom: 150px;
+	margin-bottom: 220px;
 	margin-left: 30px;
 }
 
@@ -810,11 +813,9 @@ a .project .portfolio-button {
 }
 
 .copyright {
-	max-width: 1280px;
 	width: 100%;
 	
 	height: 50px;
-	
 	
 	border-top: 1px solid rgba(48,198,169,1);
 }
@@ -1638,8 +1639,6 @@ a .project .portfolio-button {
 
 .smile-logo {
 	text-align: center;
-	
-	border-bottom: solid rgba(29, 221, 185, 1) 12px;
 }
 
 .smile-logo h2 {
@@ -2488,8 +2487,6 @@ a .project .portfolio-button {
 
 	.smile-logo {
 		text-align: center;
-
-		border-bottom: solid rgba(29, 221, 185, 1) 12px;
 	}
 
 	.smile-logo h2 {
@@ -3355,6 +3352,65 @@ a .project .portfolio-button {
 		max-width: 768px;
 	}
 	
+	/********** CONTACT ANCHOR ************/
+
+	#contact {
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	#contact h4 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+
+		margin-top: 220px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 1.1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 50px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 55px;
+		margin-top: -1px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
+	
 	/***************** DRAWING-CONTENT ******************/
 	
 
@@ -3854,6 +3910,40 @@ a .project .portfolio-button {
 		margin-bottom: 50px;
 	}
 	
+	/************ NAVIGATION **********/
+
+	.navigation {
+		height: 80px;
+		margin-top: 70px;
+	}
+
+	.navLeft {
+		margin-left: -130px;
+	}
+
+	.navRight {
+		margin-right: -130px;
+	}
+
+	.navigation h5 {
+		font-size: 1.1em;
+		margin-left: 10px;
+	}
+
+	.navigation h6 {
+		color: white;
+		font-size: 1.1em;
+		margin-right: 10px;
+	}
+
+	.arrowLeft {
+		max-width: 40px;
+	}
+
+	.arrowRight {
+		max-width: 40px;
+	}
+	
 	/*** SCROLL ***/
 	
 	.scroll {
@@ -4304,6 +4394,59 @@ a .project .portfolio-button {
 		margin-top: 15px;
 	}
 	
+	/********** CONTACT ANCHOR ************/
+
+	#contact h4 {
+		font-size: 1.2em;
+		letter-spacing: 20px;
+
+		margin-top: 200px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
+	
 	
 	/*** SAMSUNG CONTENT ***/
 
@@ -4691,6 +4834,40 @@ a .project .portfolio-button {
 		padding: 5px 0;
 	}
 	
+	/************ NAVIGATION **********/
+
+	.navigation {
+		height: 70px;
+		margin-top: 70px;
+	}
+
+	.navLeft {
+		margin-left: -80px;
+	}
+
+	.navRight {
+		margin-right: -80px;
+	}
+
+	.navigation h5 {
+		font-size: 1.1em;
+		margin-left: 10px;
+	}
+
+	.navigation h6 {
+		color: white;
+		font-size: 1.1em;
+		margin-right: 10px;
+	}
+
+	.arrowLeft {
+		max-width: 35px;
+	}
+
+	.arrowRight {
+		max-width: 35px;
+	}
+	
 	/* SCROLL */
 	
 	.scroll {
@@ -4701,6 +4878,57 @@ a .project .portfolio-button {
 		right: 5px;
 	}
 	
+}
+	
+@media (max-width: 400px) {
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact h4 {
+		font-size: 1.1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 10px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 0.9em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.6em;
+
+		padding-top: 20px;
+	}	
 }
 	
 /*************  IPHONE 6 *******************/
@@ -5258,6 +5486,50 @@ a .project .portfolio-button {
 		margin-top: 10px;
 	}
 	
+	/********** CONTACT ANCHOR ************/
+
+
+	#contact h4 {
+		font-size: 1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 8px;
+	}
+
+	#contact a {
+		font-size: 0.8em;
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 30px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 35px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.4em;
+
+		padding-top: 20px;
+	}
+	
 	/*** SAMSUNG CONTENT ***/
 
 
@@ -5651,6 +5923,39 @@ a .project .portfolio-button {
 	
 	.hyphen {
 		padding: 5px 0;
+	}
+	
+	/************ NAVIGATION **********/
+
+	.navigation {
+		height: 55px;
+		margin-top: 40px;
+	}
+
+	.navLeft {
+		margin-left: -50px;
+	}
+
+	.navRight {
+		margin-right: -50px;
+	}
+
+	.navigation h5 {
+		font-size: 1em;
+		margin-left: 10px;
+	}
+
+	.navigation h6 {
+		font-size: 1em;
+		margin-right: 10px;
+	}
+
+	.arrowLeft {
+		max-width: 30px;
+	}
+
+	.arrowRight {
+		max-width: 30px;
 	}
 	
 	/*** SCROLL ***/
