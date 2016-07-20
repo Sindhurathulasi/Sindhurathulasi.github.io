@@ -723,7 +723,7 @@ p {
 		max-width: 601px;
 		
 		display: flex;
-		flex-direction: row wrap;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 	}
