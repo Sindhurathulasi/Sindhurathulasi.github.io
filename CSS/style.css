@@ -1182,17 +1182,16 @@ a .project .portfolio-button {
 /*** BYE CONTENT ***/
 
 .bye-content {
-}
-
-.bye-content .first {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .bye-content h1 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 2.5em;
 	
-	padding-top: 70px;
 	margin-top: 100px;
 	margin-bottom: 0;
 }
@@ -1203,7 +1202,7 @@ a .project .portfolio-button {
 	font-weight: 400;
 	
 	margin-top: 0;
-	margin-bottom: 90px;
+	margin-bottom: 30px;
 }
 
 .bye-content p {
@@ -1215,59 +1214,35 @@ a .project .portfolio-button {
 }
 
 .bye-landing {
-	text-align: center; 
-}
-
-.bye-landing img {
 	max-width: 280px;
 	width: 100%;
 	
 	margin: 20px 0;
 }
 
-.bye-content .second {
-	margin: 20px 0;
-}
-
-.bye-content .second .homeImg {	
+.byeBlackBG {
 	background-color: rgba(43, 43, 43, 1);
+	width: 100%;
 	text-align: center;
 }
 
-.second .homeImg img {
+.byeBlackBG img {
 	max-width: 730px;
 	width: 100%;
 }
 
-.bye-content .second p {
-	margin: 90px 170px;
-}
-
-.bye-content .third {
-	margin: 20px 0;
-	
-	text-align: center;
-	background-color: rgba(43, 43, 43, 1);
-}
-
-.bye-content .third .about {
-	max-width: 730px;
+.byeBlackBG .about {
+	max-width: 800px;
 	width: 100%;
-}
-
-.bye-content .fourth {
-	margin: 20px 0;
-	text-align: center;
 }
 
 .donateIcon {
 	max-width: 165px;
 	width: 100%;
-	
-	margin: 60px 170px;
+	margin: 60px 0px;
 }
 
-.donateScreens img {
+.donateScreens {
 	max-width: 730px;
 	width: 100%;
 }
@@ -1276,37 +1251,18 @@ a .project .portfolio-button {
 	margin-top: 50px;
 }
 
-.bye-content .fourth p {
-	font-size: 1.2em;
-	
-	margin-top: 50px;
-	margin-bottom: 60px;
-}
-
-.bye-content .fifth {
-	margin: 20px 0;
-	text-align: center;
-	
-	background-color: rgba(43, 43, 43, 1);
-}
-
-.bye-content .volunteer {
+.byeBlackBG .volunteer {
 	max-width: 750px;
 	width: 100%;
-}
-
-.bye-content .sixth {
-	text-align: center;
 }
 
 .feedIcon {
 	max-width: 220px;
 	width: 100%;
-	
 	margin: 60px 0;
 }
 
-.feedImg img {
+.feedImg {
 	max-width: 300px;
 	width: 100%;
 }
@@ -1318,35 +1274,25 @@ a .project .portfolio-button {
 	margin: 50px;
 }
 
-.bye-content .sixth p {
-	margin-bottom: 100px;
-}
-
-.feedScreens {
-	background-color: rgba(43, 43, 43, 1);
-}
-
-.feedScreens img {
+.byeBlackBG .feedScreens {
 	max-width: 950px;
 	width: 100%;
 }
 
-.bye-content .seventh {
-	margin: 20px 0;
-	text-align: center;
-	
-	border-bottom: solid rgba(216, 180, 32, 1) 15px;
-}
-
-.bye-content .seventh h2 {
-	margin-top: 120px;
-}
-
-.bye-content .seventh .contact-screen {
+.contact-screen {
 	max-width: 300px;
 	width: 100%;
 	
 	margin-bottom: 60px;
+}
+
+.bye-content h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+	font-weight: 600;
+	
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 /*** EUROPE-CONTENT ***/
@@ -2689,6 +2635,87 @@ a .project .portfolio-button {
 		max-width: 1000px;
 		width: 100%;
 	}
+	
+	/*** BYE CONTENT ***/
+
+	.bye-content h1 {
+		font-size: 2.4em;
+
+		margin-top: 90px;
+		margin-bottom: 0;
+	}
+
+	.bye-content h2 {
+		font-size: 1.9em;
+		font-weight: 400;
+
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.bye-content p {
+		font-size: 1.1em;
+		margin: 30px 110px;
+	}
+
+	.bye-landing {
+		max-width: 260px;
+		margin: 20px 0;
+	}
+
+	.byeBlackBG img {
+		max-width: 700px;
+	}
+
+	.byeBlackBG .about {
+		max-width: 740px;
+	}
+
+	.donateIcon {
+		max-width: 150px;
+		margin: 50px 0px;
+	}
+
+	.donateScreens {
+		max-width: 700px;
+	}
+
+	.bye-content .buttons {
+		margin-top: 50px;
+	}
+
+	.byeBlackBG .volunteer {
+		max-width: 750px;
+	}
+
+	.feedIcon {
+		max-width: 190px;
+		margin: 50px 0;
+	}
+
+	.feedImg {
+		max-width: 290px;
+	}
+
+	.feedButtons {
+		max-width: 550px;
+    	margin: 50px;
+	}
+
+	.byeBlackBG .feedScreens {
+		max-width: 850px;
+	}
+
+	.contact-screen {
+		max-width: 280px;
+		margin-bottom: 60px;
+	}
+
+	.bye-content h3 {
+		font-size: 2em;
+
+		margin-top: 60px;
+	}
 
 	/*** SCROLL ***/
 	
@@ -2717,48 +2744,6 @@ a .project .portfolio-button {
 		max-width: 50px;	
 	}
 	
-	/*** HOME-2 ***/
-
-	.header {
-		max-width: 960px;
-	}
-
-	li {
-		display: inline-block;
-		font-size: 1.1em;
-	
-		padding: 10px 0;
-		margin: 20px 40px;
-	}
-
-	.intro-home {
-		left: 60px;
-	}
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 60px;
-		top: 440px;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
-	}
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
@@ -3009,55 +2994,6 @@ a .project .portfolio-button {
 		animation: click 4s 1 forwards;
 	}
 
-	/*** HOME-2 ***/
-
-	.header {
-		max-width: 768px;
-	}
-	
-	.small_logo {
-		max-width: 103px;
-		width: 100%;
-
-		margin: 10px 40px;
-	}
-
-	li {
-		font-size: 1em;
-	
-		padding: 40px 0;
-		margin: 20px 30px;
-	}
-
-	.intro-home {
-		left: 50px;
-	}
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 50px;
-		top: 440px;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
-	}
-	
 	/*** ABOUT ***/
 
 	.about {
@@ -3793,125 +3729,82 @@ a .project .portfolio-button {
 	}
 	
 	/*** BYE CONTENT ***/
-	
+
 	.bye-content h1 {
-		font-size: 2.2em;
+		font-size: 2.4em;
+
+		margin-top: 80px;
+		margin-bottom: 0;
 	}
 
 	.bye-content h2 {
-		font-size: 2em;
+		font-size: 1.8em;
+		margin-top: 0;
+		margin-bottom: 20px;
 	}
 
 	.bye-content p {
-		font-family: 'Gillsans';
 		font-size: 1.1em;
-
-		text-align: left;
-		margin: 20px 100px;
+		margin: 30px 70px;
 	}
 
-	.bye-landing img {
-		max-width: 260px;
-		width: 100%;
-
-		margin: 30px 0;
-	}
-
-	.bye-content .second {
+	.bye-landing {
+		max-width: 240px;
 		margin: 20px 0;
 	}
 
-	.second .homeImg img {
-		max-width: 660px;
-		width: 100%;
+	.byeBlackBG img {
+		max-width: 670px;
 	}
 
-	.bye-content .second p {
-		margin: 70px 100px;
-	}
-
-	.bye-content .third .about {
-		max-width: 700px;
-		width: 100%;
-	}
-
-	.bye-content .fourth {
-		margin: 20px 0;
+	.byeBlackBG .about {
+		max-width: 680px;
 	}
 
 	.donateIcon {
 		max-width: 140px;
-		width: 100%;
-
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin: 40px 0px;
 	}
 
 	.donateScreens {
-		margin: 20px 50px;
-
 		max-width: 650px;
-		width: 100%;	
 	}
 
 	.bye-content .buttons {
-		margin-top: 50px;
-		margin-bottom: 30px;
+		margin-top: 40px;
 	}
 
-	.bye-content .fifth {
-		margin: 50px 0;
-	}
-
-	.bye-content .volunteer {
+	.byeBlackBG .volunteer {
 		max-width: 700px;
-		width: 100%;
 	}
 
 	.feedIcon {
 		max-width: 180px;
-		width: 100%;
-
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin: 50px 0;
 	}
 
 	.feedImg {
-		margin: 40px 250px;
-
-		max-width: 300px;
-		width: 100%;
+		max-width: 280px;
 	}
 
 	.feedButtons {
-		max-width: 490px;
-		width: 100%;
-
-		margin: 30px;
+		max-width: 530px;
+    	margin: 30px;
 	}
 
-	.bye-content .sixth p {
-		margin-bottom: 100px;
+	.byeBlackBG .feedScreens {
+		max-width: 820px;
 	}
 
-	.feedScreens img {
-		max-width: 800px;
-		width: 100%;
+	.contact-screen {
+		max-width: 270px;
+		margin-bottom: 0px;
 	}
 
-	.bye-content .seventh {
-		margin: 20px 0;
-	}
+	.bye-content h3 {
+		font-size: 1.8em;
 
-	.bye-content .seventh h2 {
-		margin-top: 90px;
-	}
-
-	.bye-content .seventh .contact {
-		max-width: 300px;
-		width: 100%;
-		
-		margin-bottom: 50px;
+		margin-top: 60px;
 	}
 	
 	/*** SMILE-CONTENT ***/
@@ -4858,6 +4751,70 @@ a .project .portfolio-button {
 		margin-bottom: 0px;
 	}
 	
+	/*** BYE CONTENT ***/
+
+	.bye-content h1 {
+		font-size: 2.2em;
+
+		margin-top: 70px;
+		margin-bottom: 0;
+	}
+
+	.bye-content h2 {
+		font-size: 1.6em;
+		margin-bottom: 0px;
+	}
+
+	.bye-content p {
+		font-size: 1em;
+		margin: 20px 40px;
+	}
+
+	.bye-landing {
+		max-width: 200px;
+		margin: 20px 0;
+	}
+
+	.byeBlackBG img {
+		max-width: 570px;
+	}
+
+	.donateIcon {
+		max-width: 120px;
+		margin: 30px 0px;
+	}
+
+	.buttons {
+		max-width: 300px;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.feedIcon {
+		max-width: 160px;
+		margin: 30px 0;
+	}
+
+	.feedImg {
+		max-width: 260px;
+	}
+
+	.feedButtons {
+		max-width: 350px;
+    	margin: 20px;
+	}
+
+	.contact-screen {
+		max-width: 250px;
+		margin-bottom: 0px;
+	}
+
+	.bye-content h3 {
+		font-size: 1.6em;
+
+		margin-top: 50px;
+	}
+	
 	/***************** DRAWING-CONTENT ******************/
 
 	.frame h2 {
@@ -5305,59 +5262,7 @@ a .project .portfolio-button {
 
 		animation: click 4s 0.8s 1 forwards;
 	}
-	
-	/*** HOME-2 ***/
 
-	.header {
-		max-width: 320px;
-	}
-	
-	.small_logo {
-		max-width: 90px;
-		width: 100%;
-
-		margin: 10px 15px;
-	}
-
-	li {
-		display: none;
-	}
-
-	.intro-home {
-		left: 20px;
-	}
-
-	.intro-home p {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-family: 'Gillsans';
-		font-size: 1.1em;
-
-		color: white;
-		border: solid white 2px;
-		border-radius: 3px;
-
-		position: absolute;
-		left: 20px;
-		top: 430px;
-
-		margin: 0;
-		padding: 12px 50px;
-	}
-	
-	h3:hover {
-		color: white;
-		background: none;
-	}
-	
-	.menuWhite {
-		display: block;
-		
-		margin-right: 15px;
-	}
-	
 	/************ INDEX ANIMATION *************/
 
 	#homeBG {
@@ -5590,6 +5495,11 @@ a .project .portfolio-button {
 		font-size: 0.8em;
 		
 		margin: 60px 0px 0px 0px;
+	}
+	
+	.portfolio-content {
+		max-width: 320px;
+		width: 100%;
 	}
 	
 	/************************* PORTFOLIO NEW *********************/
@@ -5856,7 +5766,6 @@ a .project .portfolio-button {
 	
 	/*** EUROPE-CONTENT ***/
 	
-
 	.europe-content h1 {
 		font-size: 2.1em;
 
@@ -5984,6 +5893,66 @@ a .project .portfolio-button {
 		max-width: 750px;
 		
 		margin-bottom: 0px;
+	}
+	
+	/*** BYE CONTENT ***/
+
+	.bye-content h1 {
+		font-size: 2.1em;
+
+		margin-top: 60px;
+		margin-bottom: 0;
+	}
+
+	.bye-content h2 {
+		font-size: 1.5em;
+		margin-bottom: 0px;
+	}
+
+	.bye-content p {
+		font-size: 0.8em;
+		margin: 10px 20px;
+	}
+
+	.bye-landing {
+		max-width: 180px;
+		margin: 20px 0;
+	}
+
+	.donateIcon {
+		max-width: 90px;
+		margin: 30px 0px;
+	}
+
+	.buttons {
+		max-width: 270px;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.feedIcon {
+		max-width: 140px;
+		margin: 30px 0;
+	}
+
+	.feedImg {
+		max-width: 240px;
+	}
+
+	.feedButtons {
+		max-width: 280px;
+    	margin: 20px;
+	}
+
+	.contact-screen {
+		max-width: 230px;
+		margin-bottom: 0px;
+	}
+
+	.bye-content h3 {
+		font-size: 1.6em;
+
+		margin-top: 50px;
 	}
 	
 	/***************** DRAWING-CONTENT ******************/
