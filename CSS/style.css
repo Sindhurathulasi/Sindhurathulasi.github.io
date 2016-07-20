@@ -610,7 +610,7 @@ a .project .portfolio-button {
 }
 
 .third h4 {
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.6em;
 }
 
@@ -628,10 +628,8 @@ a .project .portfolio-button {
 	margin-top: 80px;
 }
 
-.third .font {
-	font-family: 'Ailerons';
-	font-size: 3em;
-	margin-top: 90px;
+.ailerons {
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -641,7 +639,7 @@ a .project .portfolio-button {
 }
 
 .fourth h4 {
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.6em;
 }
 
