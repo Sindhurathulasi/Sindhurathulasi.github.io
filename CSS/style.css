@@ -722,7 +722,7 @@ a .project .portfolio-button {
 }
 
 .intro h2 {
-	font-family: 'Titillium';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 2em;
 	margin-top: 90px;
 	margin-bottom: 50px;
@@ -1341,7 +1341,7 @@ a .project .portfolio-button {
 
 .contact h1 {
 	color: rgba(48, 198, 169, 1);
-	font-family: 'Titillium', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 2.5em;
 	font-weight: 400;
 	letter-spacing: 10px;
@@ -1362,7 +1362,7 @@ a .project .portfolio-button {
 
 .contact p {
 	font-size: 1.1em;
-	font-family: 'Titillium', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .callIcon {
@@ -1389,7 +1389,7 @@ a .project .portfolio-button {
 }
 
 .frame h2 {
-	font-family: 'Tittillium', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: 400;
 	font-size: 1.5em;
 	letter-spacing: 5px;
@@ -1693,7 +1693,7 @@ a .project .portfolio-button {
 		margin: 30px 110px;
 	}
 	.intro h2 {
-		font-family: 'Titillium';
+		font-family: 'Titillium Web', sans-serif;
 		font-size: 1.9em;
 		margin-top: 70px;
 		margin-bottom: 50px;
@@ -2046,7 +2046,7 @@ a .project .portfolio-button {
 		width: 100%;
 	}
 	.frame h2 {
-		font-family: 'Tittillium', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 		font-weight: 400;
 		font-size: 1.4em;
 		letter-spacing: 5px;
@@ -3024,7 +3024,7 @@ a .project .portfolio-button {
 		}
 		/***************** DRAWING-CONTENT ******************/
 		.frame h2 {
-			font-family: 'Tittillium', sans-serif;
+			font-family: 'Titillium Web', sans-serif;
 			font-weight: 400;
 			font-size: 1.1em;
 			letter-spacing: 5px;
@@ -3695,7 +3695,7 @@ a .project .portfolio-button {
 		}
 		/***************** DRAWING-CONTENT ******************/
 		.frame h2 {
-			font-family: 'Tittillium', sans-serif;
+			font-family: 'Titillium Web', sans-serif;
 			font-weight: 400;
 			font-size: 1em;
 			letter-spacing: 5px;
