@@ -62,9 +62,8 @@ html body main {
 .portfolio li {
 	display: inline-block;
 	
-	font-family: "gillsans";
-	font-size: 1.1em;
-	
+	font-family: 'Cuprum', sans-serif;
+	font-size: 1.3em;
 	
 	padding: 40px 0;
 	margin: 20px 90px;	
@@ -115,7 +114,7 @@ html body main {
 	top: 50%;
 	left: 10%;
 	
-	font-family: 'Titillium', 'san-serif';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 2.2em;
 }
 
@@ -156,7 +155,7 @@ h2 {
 	color: white;
 	letter-spacing: 10px;
 	
-	font-family: 'Titillium Web', 'san-serif';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 2em;
 	
 	padding-top: 4%;
@@ -174,7 +173,7 @@ h3 {
 	color: white;
 	letter-spacing: 10px;
 	
-	font-family: 'Titillium Web', 'san-serif';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 2em;
 	
 	padding-top: 3%;
@@ -187,7 +186,7 @@ p {
 	color: white;
 	text-align: left;
 	
-	font-family: 'Titillium Web', 'san-serif';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.3em;
 	line-height: 27px;
 	
@@ -198,7 +197,7 @@ p {
 .notFixedBG a {
 	color: white;
 	
-	font-family: 'Titillium Web', 'san-serif';
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.4em;
 	
 	margin-bottom: 10px;
@@ -338,9 +337,7 @@ p {
 
 	.portfolio li {
 		display: inline-block;
-
-		font-family: "gillsans";
-		font-size: 1.1em;
+		font-size: 1.2em;
 		
 		margin: 20px 60px;
 	}
@@ -409,8 +406,6 @@ p {
 	h2 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 2em;
 
 		padding-top: 5%;
@@ -427,8 +422,6 @@ p {
 	h3 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 2em;
 
 		padding-top: 3%;
@@ -440,8 +433,6 @@ p {
 	p {
 		color: white;
 		text-align: left;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.2em;
 		line-height: 30px;
 
@@ -451,8 +442,6 @@ p {
 
 	.notFixedBG a {
 		color: white;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.4em;
 
 		margin-bottom: 10px;
@@ -495,9 +484,7 @@ p {
 	}
 
 	.portfolio li {
-		display: inline-block;
-		font-size: 1.1em;
-	
+		display: inline-block;	
 		padding: 10px 0;
 		margin: 20px 40px;
 	}
@@ -545,9 +532,7 @@ p {
 
 	.portfolio li {
 		display: inline-block;
-
-		font-family: "gillsans";
-		font-size: 1em;
+		font-size: 1.1em;
 		
 		margin: 20px 30px;
 	}
@@ -597,8 +582,6 @@ p {
 	h2 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 2em;
 
 		padding-top: 5%;
@@ -615,8 +598,6 @@ p {
 	h3 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.7em;
 
 		padding-top: 3%;
@@ -630,8 +611,6 @@ p {
 	p {
 		color: white;
 		text-align: left;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.1em;
 		line-height: 30px;
 
@@ -641,8 +620,6 @@ p {
 
 	.notFixedBG a {
 		color: white;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.4em;
 
 		margin-bottom: 10px;
@@ -760,10 +737,7 @@ p {
 	
 	.portfolio li {
 		display: inline-block;
-		font-family: "gillsans";
-		font-size: 0.9em;
-
-		
+		font-size: 1em;	
 		margin: 60px 0px 0px 0px;
 	}
 	
@@ -832,8 +806,6 @@ p {
 	h2 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.8em;
 
 		padding-top: 5%;
@@ -850,8 +822,6 @@ p {
 	h3 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.3em;
 
 		padding-top: 3%;
@@ -865,8 +835,6 @@ p {
 	p {
 		color: white;
 		text-align: left;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1em;
 		line-height: 27px;
 
@@ -876,8 +844,6 @@ p {
 
 	.notFixedBG a {
 		color: white;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.1em;
 
 		margin-bottom: 10px;
@@ -1057,8 +1023,6 @@ p {
 	h2 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.6em;
 
 		padding-top: 5%;
@@ -1075,8 +1039,6 @@ p {
 	h3 {
 		color: white;
 		letter-spacing: 10px;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.1em;
 
 		padding-top: 2%;
@@ -1089,9 +1051,6 @@ p {
 
 	p {
 		color: white;
-		text-align: left;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 0.8em;
 		line-height: 22px;
 
@@ -1101,8 +1060,6 @@ p {
 
 	.notFixedBG a {
 		color: white;
-
-		font-family: 'Titillium Web', 'san-serif';
 		font-size: 1.1em;
 
 		margin-bottom: 10px;
