@@ -57,16 +57,6 @@ article {
 	align-items: flex-end;
 }
 
-/***
-animation: homeAnimation 2.1s linear 5s 1 forwards;
-@keyframes homeAnimation {
-	0% {top: 0; opacity: 1;}
-	70% {top: -600; opacity: 0;}
-	100% {top: -900px; opacity: 0;}
-}
-
-***/
-
 .sindhuLogo {
 }
 
@@ -187,16 +177,21 @@ animation: homeAnimation 2.1s linear 5s 1 forwards;
 	100% {top: 180px; left: -180px;}
 }
 
-.cart {
+.cartWheel {
 	position: absolute;
+	top: 56%;
+	left: 0;
+}
+
+.cart {
+	position: relative;
+	top: -212px;
+	left: 96px;
 	
 	width: 200px;
 	height: 200px;
 	
 	border-radius: 50%;
-	
-	top: 58%;
-	left: 95px;
 	
 	animation: cartwheel 12s linear 0.5s infinite;
 }
@@ -208,8 +203,7 @@ animation: homeAnimation 2.1s linear 5s 1 forwards;
 
 .wheel {
 	width: 230px;
-	
-	position: absolute;
+	position: relative;
 	top: 56%;
 	left: 80px;
 	
@@ -219,22 +213,21 @@ animation: homeAnimation 2.1s linear 5s 1 forwards;
 .cartHolder {
 	width: 260px;
 	
-	position: absolute;
-	top: 484px;
-	left: 65px;
+	position: relative;
+	top: 85px;
+	left: -168px;
 }
 
 .cart1 {
-	position: relative;
+	position: absolute;
 	top: 2px;
 	left: 7px;
-	
 	
 	animation: cart 12s linear 0.5s infinite;
 }
 
 .cart2 {
-	position: absolute;
+	position: relative;
 	top: 140px;
 	left: 0;
 	
@@ -288,6 +281,7 @@ animation: homeAnimation 2.1s linear 5s 1 forwards;
 	
 	animation: cart 12s linear 0.9s infinite;
 }
+
 
 @keyframes cart {
 	0% {transform: rotate(0deg);}
@@ -1784,8 +1778,6 @@ a .project .portfolio-button {
 
 /********************************* MEDIA QUERY ***************/
 
-
-
 @media (max-width: 1135px) {
 	
 	/********** PORTFOLIO NEW **********/
@@ -2202,9 +2194,7 @@ a .project .portfolio-button {
 		margin-top: 15px;
 	}
 	
-	
 	/*** SAMSUNG CONTENT ***/
-
 
 	.samsung-top {
 		max-width: 350px;
@@ -2359,7 +2349,6 @@ a .project .portfolio-button {
 	
 	/*** EUROPE-CONTENT ***/
 	
-
 	.europe-content h1 {
 		font-size: 2.3em;
 
@@ -3098,8 +3087,8 @@ a .project .portfolio-button {
 		width: 100%;
 
 		position: absolute;
-		top: 42.5%;
-		left: 49%;
+		top: 40%;
+		left: 44%;
 
 		opacity: 0;
 
@@ -3117,7 +3106,7 @@ a .project .portfolio-button {
 		
 		position: absolute;
 		top: 60%;
-		left: 44%;
+		left: 39%;
 
 		font-size: 1.1em;
 		font-weight: 200;
@@ -3139,7 +3128,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud1 {
-		max-width: 140px;
+		max-width: 130px;
 		width: 100%;
 
 		overflow: hidden;
@@ -3157,7 +3146,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud2 {
-		max-width: 150px;
+		max-width: 120px;
 		width: 100%;
 
 		overflow: hidden;
@@ -3175,7 +3164,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud3 {
-		max-width: 140px;
+		max-width: 130px;
 		width: 100%;
 
 		overflow: hidden;
@@ -3193,7 +3182,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud4 {
-		max-width: 160px;
+		max-width: 150px;
 		width: 100%;
 
 		overflow: hidden;
@@ -3209,17 +3198,22 @@ a .project .portfolio-button {
 		0% {top: 180px; left: 200px;}
 		100% {top: 180px; left: -180px;}
 	}
+	
+	.cartWheel {
+		position: absolute;
+		top: 55%;
+		left: -7%;
+	}
 
 	.cart {
-		position: absolute;
+		position: relative;
+		top: -212px;
+		left: 96px;
 
 		width: 200px;
 		height: 200px;
 
 		border-radius: 50%;
-
-		top: 58%;
-		left: 55px;
 
 		animation: cartwheel 12s linear 0.5s infinite;
 	}
@@ -3231,10 +3225,9 @@ a .project .portfolio-button {
 
 	.wheel {
 		width: 230px;
-
-		position: absolute;
+		position: relative;
 		top: 56%;
-		left: 40px;
+		left: 80px;
 
 		animation: cartwheel 12s linear 0.5s infinite;
 	}
@@ -3242,86 +3235,11 @@ a .project .portfolio-button {
 	.cartHolder {
 		width: 260px;
 
-		position: absolute;
-		top: 484px;
-		left: 25px;
-	}
-
-	.cart1 {
 		position: relative;
-		top: 2px;
-		left: 7px;
-
-
-		animation: cart 12s linear 0.5s infinite;
+		top: 85px;
+		left: -168px;
 	}
 
-	.cart2 {
-		position: absolute;
-		top: 140px;
-		left: 0;
-
-		animation: cart 12s linear 0.5s infinite;
-	}
-
-	.cart3 {
-		position: relative;
-		top: -25px;
-		right: -23px;
-
-		animation: cart 12s linear 0.5s infinite;
-	}
-
-	.cart4 {
-		position: relative;
-		top: 5px;
-		left: 35px;
-
-		animation: cart 12s linear 0.8s infinite; 
-	}
-
-	.cart5 {
-		position: relative;
-		top: 26px;
-		right: 20px;
-
-		animation: cart 12s linear 0.8s infinite;
-	}
-
-	.cart6 {
-		position: relative;
-		top: 125px;
-		left: 18px;
-
-		animation: cart 12s linear 0.8s infinite;
-	}
-
-	.cart7 {
-		position: relative;
-		top: 25px;
-		left: 65px;
-
-		animation: cart 12s linear 0.5s infinite;
-	}
-
-	.cart8 {
-		position: relative;
-		top: 48px;
-		left: 142px;
-
-		animation: cart 12s linear 0.9s infinite;
-	}
-
-	@keyframes cart {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(-360deg);}
-	}
-
-	@keyframes cartwheel {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(360deg);}
-	}
-	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
 	.portfolio {
@@ -4067,24 +3985,8 @@ a .project .portfolio-button {
 		top: 0;
 
 		overflow: hidden;
-
 		opacity: 1;
-
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: flex-end;
 	}
-
-	/***
-	animation: homeAnimation 2.1s linear 5s 1 forwards;
-	@keyframes homeAnimation {
-		0% {top: 0; opacity: 1;}
-		70% {top: -600; opacity: 0;}
-		100% {top: -900px; opacity: 0;}
-	}
-
-	***/
 
 	.logo {
 		max-width: 80px;
@@ -4092,7 +3994,7 @@ a .project .portfolio-button {
 
 		position: absolute;
 		top: 42.5%;
-		left: 40%;
+		left: 43%;
 
 		opacity: 0;
 
@@ -4110,7 +4012,7 @@ a .project .portfolio-button {
 		
 		position: absolute;
 		top: 60%;
-		left: 30%;
+		left: 37%;
 
 		font-size: 1em;
 		font-weight: 200;
@@ -4132,7 +4034,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud1 {
-		max-width: 140px;
+		max-width: 120px;
 		width: 100%;
 
 		overflow: hidden;
@@ -4150,7 +4052,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud2 {
-		max-width: 150px;
+		max-width: 110px;
 		width: 100%;
 
 		overflow: hidden;
@@ -4168,7 +4070,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud3 {
-		max-width: 140px;
+		max-width: 130px;
 		width: 100%;
 
 		overflow: hidden;
@@ -4186,7 +4088,7 @@ a .project .portfolio-button {
 	}
 
 	.cloud4 {
-		max-width: 160px;
+		max-width: 150px;
 		width: 100%;
 
 		overflow: hidden;
@@ -5013,7 +4915,7 @@ a .project .portfolio-button {
 	
 }
 	
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 	
 	/********** CONTACT ANCHOR ************/
 
@@ -5061,7 +4963,26 @@ a .project .portfolio-button {
 		font-size: 0.6em;
 
 		padding-top: 20px;
-	}	
+	}
+	
+	/*** index animation ***/
+	
+	.logo {
+		max-width: 80px;
+		width: 100%;
+
+		position: absolute;
+		top: 42.5%;
+		left: 39%;
+	}
+
+	#homeBG h1 {
+		color: white;
+		
+		position: absolute;
+		top: 57%;
+		left: 29%;
+	}
 }
 	
 /*************  IPHONE 6 *******************/
@@ -5120,6 +5041,36 @@ a .project .portfolio-button {
 		color: rgba(48, 198, 169, 1);
 
 		animation: click 4s 0.8s 1 forwards;
+	}
+	
+	/*** INDEX ANIMATION ***/
+	
+	.logo {
+		max-width: 80px;
+		width: 100%;
+
+		position: absolute;
+		top: 42.5%;
+		left: 37%;
+
+		opacity: 0;
+
+		animation: logo 0.8s linear 2s 1 forwards;
+	}
+
+	#homeBG h1 {
+		color: white;
+		
+		position: absolute;
+		top: 57%;
+		left: 27%;
+
+		font-size: 1em;
+		font-weight: 200;
+
+		opacity: 0;
+
+		animation: name 0.8s linear 2s 1 forwards;
 	}
 	
 	/************************* PORTFOLIO NEW *********************/
@@ -5275,22 +5226,7 @@ a .project .portfolio-button {
 		overflow: hidden;
 
 		opacity: 1;
-
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: flex-end;
 	}
-
-	/***
-	animation: homeAnimation 2.1s linear 5s 1 forwards;
-	@keyframes homeAnimation {
-		0% {top: 0; opacity: 1;}
-		70% {top: -600; opacity: 0;}
-		100% {top: -900px; opacity: 0;}
-	}
-
-	***/
 
 	.logo {
 		max-width: 80px;
@@ -5298,7 +5234,7 @@ a .project .portfolio-button {
 
 		position: absolute;
 		top: 42.5%;
-		left: 39%;
+		left: 37%;
 
 		opacity: 0;
 
@@ -5316,7 +5252,7 @@ a .project .portfolio-button {
 		
 		position: absolute;
 		top: 60%;
-		left: 28%;
+		left: 26%;
 
 		font-size: 1em;
 		font-weight: 200;
