@@ -30,6 +30,8 @@ html body main {
 	flex-flow: row;
 	justify-content: space-between;
 	align-items: center;
+	
+	z-index: 1;
 }
 
 .portfolio .small_logo {
@@ -84,7 +86,6 @@ html body main {
 
 /********** PARALLAX SCROLL **********/
 
-
 .main-content {
 	height: 100%;
 	position: relative;
@@ -100,8 +101,7 @@ html body main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: fixed;
-	
+	background-attachment: fixed;	
 	z-index: -1;
 }
 
@@ -132,12 +132,16 @@ html body main {
 .notFixedBG {
 	text-align: center;
 	position: relative;
-	z-index: -1;
 }
 
 .notFixedBG .container {
 	background-color: rgba(32, 209, 154, 1);
 	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .notFixedBG .ui {
@@ -157,14 +161,13 @@ h2 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 2em;
 	
-	padding-top: 4%;
+	padding-top: 2%;
 	padding-bottom: 3%;
 }
 
 .frontEnd img {
 	max-width: 550px;
-	width: 100%;
-	
+	width: 100%;	
 	margin-top: 10%;
 }
 
@@ -182,6 +185,7 @@ h3 {
 }
 
 p {
+	max-width: 1024px;
 	color: white;
 	text-align: left;
 	
@@ -189,21 +193,18 @@ p {
 	font-size: 1.3em;
 	line-height: 27px;
 	
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 	margin: 0 170px;
 }
 
 .notFixedBG a {
-	color: white;
+	width: 250px;
+	height: 40px;
+	padding: 9px 20px;
+	color: rgba(32, 209, 154, 1);
 	
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.4em;
-	
-	margin-bottom: 10px;
-}
-
-.cv {
-	display: block;
+	font-size: 1em;
+	background-color: white;
 }
 
 /********** CONTACT ANCHOR ************/
@@ -384,7 +385,6 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -435,19 +435,17 @@ p {
 		font-size: 1.2em;
 		line-height: 30px;
 
-		padding-bottom: 40px;
+		padding-bottom: 60px;
 		margin: 0 110px;
 	}
 
 	.notFixedBG a {
-		color: white;
-		font-size: 1.4em;
+		width: 250px;
+		height: 40px;
+		padding: 9px 20px;
+		color: rgba(32, 209, 154, 1);
 
-		margin-bottom: 10px;
-	}
-
-	.cv {
-		display: block;
+		font-size: 1em;
 	}
 }
 
@@ -455,9 +453,6 @@ p {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio {
-	}
-
 	.portfolio .header {
 		max-width: 960px;
 	}
@@ -495,6 +490,12 @@ p {
 	.portfolio-content {
 		max-width: 1024px;
 		width: 100%;
+	}
+	
+	/** about **/
+	
+	.notFixedBG a {
+		color: rgba(32, 209, 154, 1);
 	}
 }
 
@@ -564,7 +565,6 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -618,14 +618,7 @@ p {
 	}
 
 	.notFixedBG a {
-		color: white;
-		font-size: 1.4em;
-
-		margin-bottom: 10px;
-	}
-
-	.cv {
-		display: block;
+		color: rgba(32, 209, 154, 1);
 	}
 	
 	/********** CONTACT ANCHOR ************/
@@ -787,7 +780,6 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -837,15 +829,13 @@ p {
 		font-size: 1em;
 		line-height: 27px;
 
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 		margin: 20px 40px;
 	}
 
 	.notFixedBG a {
-		color: white;
-		font-size: 1.1em;
-
-		margin-bottom: 10px;
+		color: rgba(32, 209, 154, 1);
+		margin-bottom: 30px;
 	}
 	
 	/********** CONTACT ANCHOR ************/
@@ -1016,7 +1006,6 @@ p {
 	.notFixedBG {
 		text-align: center;
 		position: relative;
-		z-index: -1;
 	}
 
 	.notFixedBG .container {
@@ -1028,7 +1017,7 @@ p {
 		max-width: 300px;
 		width: 100%;
 
-		margin-top: 28%;
+		margin-top: 17%;
 	}
 
 	h2 {
@@ -1044,7 +1033,7 @@ p {
 		max-width: 300px;
 		width: 100%;
 
-		margin-top: 12%;
+		margin-top: 10%;
 	}
 
 	h3 {
@@ -1055,7 +1044,7 @@ p {
 		padding-top: 2%;
 		padding-bottom: 5%;
 		
-		margin: 0 40px;
+		margin: 0 20px 20px 20px;
 
 		z-index: 1;
 	}
@@ -1070,14 +1059,13 @@ p {
 	}
 
 	.notFixedBG a {
-		color: white;
-		font-size: 1.1em;
-
-		margin-bottom: 10px;
+		color: rgba(32, 209, 154, 1);
+		margin-bottom: 30px;
+		font-size: 0.8em;
+		width: 190px;
 	}
 	
 	/********** CONTACT ANCHOR ************/
-
 
 	#contact h4 {
 		font-size: 1em;
