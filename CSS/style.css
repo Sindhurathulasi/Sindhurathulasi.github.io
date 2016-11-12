@@ -309,24 +309,16 @@
 	height: 100px;
 	text-align: center;
 	background-color: white;
+	box-shadow: 0px 9px 27px -9px rgba(184,184,184,1);
 }
 
 .portfolio .header {
 	max-width: 1280px;
 	height: 100px;
 	margin: 0 auto;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
 	flex-direction: row;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
 	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -363,7 +355,7 @@
 
 .portfolio li a {
 	color: black;
-	padding: 36px 0;
+	padding: 34px 0;
 }
 
 .portfolio li:hover a {
@@ -384,6 +376,70 @@
 
 /************************* PORTFOLIO NEW *********************/
 
+.project {
+	max-width: 1280px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.project h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #353535;
+	font-size: 2em;
+	letter-spacing: 2px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+
+.project .text {
+	width: 600px;
+	margin-top: 40px;
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-text {
+	font-weight: 200;
+	text-align: left;
+}
+
+.project .portfolio-button {
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	border: solid rgba(48, 198, 169, 1) 2px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 13px 30px;
+	color: rgba(48, 198, 169, 1);
+	margin-top: 40px;	
+}
+
+.project .portfolio-button:hover {
+	color: white;
+	background-color: rgba(48, 198, 169, 1);
+}
+
+.project .image {
+	max-width: 600px;
+	width: 100%;
+	margin: 40px 0 30px 0;
+}
+
+.project .big {
+	max-width: 700px;
+	width: 100%;
+	margin: 40px 0 30px 0;
+}
+
+/***
 .project {
 	max-width: 1280px;
 	width: 100%;
@@ -1543,66 +1599,16 @@ a .project .portfolio-button {
 
 @media (max-width: 1135px) {
 	/********** PORTFOLIO NEW **********/
-	.project {
-		max-width: 1135px;
+	
+	.project h3 {
+		padding-top: 80px;
 	}
-	.project .image {
-		max-width: 520px;
-		width: 100%;
-		margin-left: 50px;
-	}
-	.project .image img {
-		max-width: 520px;
-	}
-	.project .text {
-		width: 270px;
-		margin-right: 120px;
-		margin-top: 0px;
-	}
-	.project strong {
-		font-size: 1.5em;
-	}
-	.project p {
-		font-size: 1.1em;
-	}
-	.project hr {
-		margin-top: 20px;
-	}
-	.project .portfolio-text {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.project .portfolio-button {
-		font-size: 1.2em;
-		border: solid rgba(48, 198, 169, 1) 2px;
-		border-radius: 3px;
-		text-align: center;
-		color: rgba(48, 198, 169, 1);
-		padding: 12px 30px;
-	}
+	
 	.project .portfolio-button:hover {
+		color: white;
 		background-color: rgba(48, 198, 169, 1);
-		color: rgba(249, 249, 249, 1);
 	}
-	a .project .portfolio-button {
-		text-decoration: none;
-	}
-	.project:nth-child(even) .image {
-		order: 1;
-		margin-right: 70px;
-		margin-left: 0;
-	}
-	.project:nth-child(even) .image img {
-		margin-right: 70px;
-		margin-left: 0;
-	}
-	.project:nth-child(even) .text {
-		margin-left: 110px;
-		margin-right: 0;
-	}
-	.samsung .text {
-		margin-top: 15px;
-	}
+	
 }
 
 @media (max-width: 1024px) {
@@ -1646,74 +1652,37 @@ a .project .portfolio-button {
 		width: 100%;
 	}
 	/************************* PORTFOLIO NEW *********************/
+	
 	.project {
 		max-width: 1024px;
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: center;
-		align-items: center;
-		border-bottom: 1px dotted black;
-		padding: 60px;
 	}
-	.project .image {
-		max-width: 520px;
-		margin-left: 0;
-		margin-top: 30px;
+
+	.project h3 {
+		padding-top: 60px;
 	}
-	.project .image img {
-		max-width: 520px;
-	}
-	.project .text {
-		width: 400px;
-		margin-right: 0;
-		margin-top: 20px;
-	}
-	.project strong {
-		font-size: 1.4em;
-	}
-	.project p {
-		font-size: 1.1em;
-	}
-	.project hr {
-		margin-top: 20px;
-	}
-	.project .portfolio-text {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
+
 	.project .portfolio-button {
+		width: 250px;
+		font-family: 'Roboto', sans-serif;
 		font-size: 1.2em;
 		border: solid rgba(48, 198, 169, 1) 2px;
 		border-radius: 3px;
 		text-align: center;
-		color: rgba(48, 198, 169, 1);
+		padding: 13px 30px;
 		color: white;
 		background-color: rgba(48, 198, 169, 1);
-		padding: 12px 30px;
+		margin-top: 40px;	
 	}
+
 	.project .portfolio-button:hover {
 		color: white;
 		background-color: rgba(48, 198, 169, 1);
 	}
-	a .project .portfolio-button {
-		text-decoration: none;
+
+	.project .big {
+		max-width: 720px;
 	}
-	.project:nth-child(even) .image {
-		order: 0;
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.project:nth-child(even) .image img {
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.project:nth-child(even) .text {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.samsung .text {
-		margin-top: 15px;
-	}
+	
 	/*** SAMSUNG CONTENT ***/
 	.samsung-top {
 		max-width: 350px;
@@ -2278,6 +2247,26 @@ a .project .portfolio-button {
 		.portfolio-content {
 			max-width: 768px;
 		}
+		
+		/*** PORTFOLIO NEW ***/
+		
+		.project {
+			max-width: 768px;
+		}
+
+		.project h3 {
+			font-size: 1.8em;
+			padding-top: 60px;
+		}
+
+		.project .text {
+			width: 500px;
+		}
+
+		.project .portfolio-button {
+			padding: 11px 30px;
+		}
+		
 		/********** CONTACT ANCHOR ************/
 		#contact a {
 			line-height: 40px;
@@ -2749,55 +2738,35 @@ a .project .portfolio-button {
 		}
 		.portfolio li a {
 			color: black;
-			padding: 10px 0;
+			padding: 7px 0;
 			margin-left: 10px;
 			margin-right: 10px;
 		}
 		/************************* PORTFOLIO NEW *********************/
 		.project {
 			max-width: 601px;
-			padding: 60px;
-			display: flex;
-			flex-flow: column;
-			height: 100%;
 		}
-		.project .image {
-			max-width: 420px;
-			margin-left: 0;
-			margin-top: 15px;
+
+		.project h3 {
+			font-size: 2em;
+			letter-spacing: 2px;
+			padding-top: 50px;
 		}
-		.project .image img {
-			max-width: 420px;
-		}
+
 		.project .text {
-			width: 360px;
-			margin-right: 0;
-			margin-top: 10px;
+			width: 400px;
 		}
-		.project strong {
-			font-size: 1.2em;
-		}
-		.project p {
-			font-size: 1em;
-		}
-		.project hr {
-			margin-top: 15px;
-		}
-		.project .portfolio-text {
-			margin-top: 25px;
-			margin-bottom: 25px;
-		}
+
 		.project .portfolio-button {
-			font-size: 1.1em;
-			border: solid rgba(48, 198, 169, 1) 2px;
-			border-radius: 3px;
-			text-align: center;
-			color: white;
-			background-color: rgba(48, 198, 169, 1);
-			padding: 8px 30px;
+			color: white;	
 		}
-		.samsung .text {
-			margin-top: 15px;
+
+		.project .image {
+			max-width: 550px;
+		}
+
+		.project .big {
+			max-width: 590px;
 		}
 		/********** CONTACT ANCHOR ************/
 		#contact h2 {
@@ -3301,40 +3270,14 @@ a .project .portfolio-button {
 		/************************* PORTFOLIO NEW *********************/
 		.project {
 			max-width: 375px;
-			padding: 40px;
 		}
-		.project .image {
-			max-width: 430px;
-			margin-left: 0;
-			margin-top: 15px;
+
+		.project h3 {
+			font-size: 1.5em;
 		}
-		.project .image img {
-			max-width: 430px;
-		}
+
 		.project .text {
-			width: 330px;
-			margin-right: 0;
-			margin-top: 10px;
-		}
-		.project strong {
-			font-size: 1.2em;
-		}
-		.project p {
-			font-size: 1em;
-		}
-		.project hr {
-			margin-top: 15px;
-		}
-		.project .portfolio-text {
-			margin-top: 25px;
-			margin-bottom: 25px;
-		}
-		.project .portfolio-button {
-			font-size: 1.1em;
-			border: solid rgba(48, 198, 169, 1) 2px;
-			border-radius: 3px;
-			background-color: rgba(48, 198, 169, 1);
-			padding: 8px 30px;
+			width: 300px;
 		}
 	}
 	@media (max-width: 320px) {
@@ -3390,50 +3333,38 @@ a .project .portfolio-button {
 		/************************* PORTFOLIO NEW *********************/
 		.project {
 			max-width: 320px;
-			padding: 50px;
 		}
-		.project .image {
-			max-width: 470px;
-			margin-left: 0;
-			margin-top: 15px;
+
+		.project h3 {
+			font-size: 1.5em;
+			letter-spacing: 2px;
+			padding-top: 40px;
 		}
-		.project .image img {
-			max-width: 470px;
-		}
+
 		.project .text {
-			width: 280px;
-			margin-right: 0;
-			margin-top: 10px;
+			width: 250px;
+			margin-top: 30px;
 		}
-		.project strong {
-			font-size: 1.1em;
+
+		.portfolio-text {
+			font-size: 0.8em;
 		}
-		.project p {
-			font-size: 0.9em;
-		}
-		.project hr {
-			margin-top: 15px;
-		}
-		.project .portfolio-text {
-			margin-top: 25px;
-			margin-bottom: 25px;
-		}
+
 		.project .portfolio-button {
-			font-size: 1.1em;
-			border: solid rgba(48, 198, 169, 1) 2px;
-			border-radius: 3px;
-			background-color: rgba(48, 198, 169, 1);
-			padding: 8px 30px;
+			width: 250px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 1em;
+			padding: 8px 20px;
+			margin-top: 20px;	
 		}
-		.project .portfolio-button:hover {
-			color: white;
-			background-color: rgba(48, 198, 169, 1);
+
+		.project .image {
+			max-width: 280px;
+			margin: 30px 0 20px 0;
 		}
-		a .project .portfolio-button {
-			text-decoration: none;
-		}
-		.samsung .text {
-			margin-top: 10px;
+
+		.project .big {
+			margin: 30px 0 20px 0;
 		}
 		/********** CONTACT ANCHOR ************/
 		#contact h2 {
