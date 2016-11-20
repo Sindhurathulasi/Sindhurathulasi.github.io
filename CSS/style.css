@@ -859,6 +859,17 @@
 	margin: 80px 0 20px 0;
 }
 
+.rayban-content h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 1.5em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin: 40px 0 0 0;
+}
+
 .rayban-content p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
@@ -871,8 +882,8 @@
 	width: 100%;
 }
 
-.rayban-content .big {
-	max-width: 800px;
+.rayban-content .biggest {
+	max-width: 900px;
 	width: 100%;
 }
 
@@ -1546,6 +1557,21 @@
 	.nike-content .promotions {
 		max-width: 450px;
 	}
+	
+	/*** RAYBAN ***/
+
+	.rayban-content p {
+		max-width: 700px;
+		margin: 20px 0 10px 0;
+	}
+
+	.rayban-content .image {
+		max-width: 600px;
+	}
+
+	.rayban-content .biggest {
+		max-width: 800px;
+	}
 	/*** SCROLL ***/
 	.scroll {
 		max-width: 55px;
@@ -1991,6 +2017,20 @@
 		.nike-content .small {
 			max-width: 550px;
 		}
+		
+		/*** RAYBAN ***/
+		.rayban-content p {
+			max-width: 550px;
+			margin: 20px 0 0 0;
+		}
+
+		.rayban-content .image {
+			max-width: 550px;
+		}
+
+		.rayban-content .biggest {
+			max-width: 750px;
+		}
 		/************ NAVIGATION **********/
 		.navigation {
 			height: 80px;
@@ -2425,6 +2465,32 @@
 			max-width: 500px;
 			margin-top: 30px;
 		}
+		
+		/*** RAYBAN ***/
+		
+		.rayban-content h2 {
+			font-size: 1.6em;
+			margin-top: 40px;
+		}
+		
+		.rayban-content h3 {
+			font-size: 0.9em;
+		}
+		
+		.rayban-content p {
+			max-width: 380px;
+			font-size: 0.9em;
+			margin: 20px 0 0 0;
+		}
+
+		.rayban-content .image {
+			max-width: 400px;
+		}
+
+		.rayban-content .biggest {
+			max-width: 600px;
+		}
+		
 		/************ NAVIGATION **********/
 		.navigation {
 			height: 70px;
@@ -2678,6 +2744,31 @@
 			font-size: 0.8em;
 			margin: 20px 0 30px 0;
 		}
+		
+		/*** RAYBAN ***/
+		.rayban-content h2 {
+			font-size: 1.5em;
+			margin-top: 30px;
+		}
+		
+		.rayban-content h3 {
+			font-size: 0.8em;
+		}
+		
+		.rayban-content p {
+			max-width: 300px;
+			font-size: 0.8em;
+			margin: 20px 0 0 0;
+		}
+		
+		.rayban-content .image {
+			max-width: 300px;
+		}
+		
+		.rayban-content .biggest {
+			max-width: 400px;
+		}	
+		
 	}
 	@media (max-width: 320px) {
 		/************ INDEX ANIMATION *************/
@@ -2949,6 +3040,29 @@
 		.hyphen-content p {
 			max-width: 250px;
 			font-size: 0.7em;
+		}
+		
+		/*** RAYBAN ***/
+		.rayban-content h2 {
+			margin-top: 20px;
+		}
+		
+		.rayban-content h3 {
+			font-size: 0.6em;
+		}
+		
+		.rayban-content p {
+			max-width: 250px;
+			font-size: 0.7em;
+			margin: 20px 0 0 0;
+		}
+		
+		.rayban-content .image {
+			max-width: 300px;
+		}
+		
+		.rayban-content .biggest {
+			max-width: 350px;
 		}
 		/************ NAVIGATION **********/
 		.navigation {
