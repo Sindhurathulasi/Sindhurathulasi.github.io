@@ -17,7 +17,7 @@ html body main {
 	align-items: center;
 }
 
-#logoAnimation video {
+#logoAnimation img {
 	max-width: 150px;
 	width: 100%;
 }
