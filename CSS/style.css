@@ -699,6 +699,17 @@
 	margin: 30px 0 30px 0;
 }
 
+.bottega-content h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+	color: #353535;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+	margin: 30px 0 20px 0;
+}
+
 .bottega-content h4 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
@@ -713,52 +724,13 @@
 .bottega-content .image {
 	max-width: 600px;
 	width: 100%;
-	margin-top: -50px;
+	margin-top: -20px;
 }
 
-/**
-
-.journey_container {
-	position: relative;
+.bottega-content .biggest {
+	max-width: 900px;
+	width: 100%;
 }
-
-.textOverlay {
-	position: absolute;
-	margin: auto;
-	top: 5%;
-	left: 2.5%;
-	height: 90%;
-	width: 95%;
-	background-color: white;
-	opacity: 0;
-	transition: opacity 0.5s;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.textOverlay:hover {
-	opacity: 0.9;
-}
-
-.textOverlay h4 {
-	font-family: 'Roboto', sans-serif;
-	color: saddlebrown;
-	border-bottom: 1px solid grey;
-	padding-bottom: 10px;
-}
-
-.textOverlay .sub-text {
-	position: relative;
-	top: -10px;
-	font-family: 'Roboto', sans-serif;
-	color: saddlebrown;
-	padding: 0 80px;
-}
-
-**/
 
 .bottega-content .big {
 	max-width: 700px;
@@ -767,7 +739,7 @@
 }
 
 .bottega-content .sub-text {
-	max-width: 700px;
+	max-width: 600px;
 }
 
 /*** NIKE ***/
@@ -1334,7 +1306,6 @@
 	margin-top: 50px;
 }
 
-
 /********************************* MEDIA QUERY ***************/
 
 @media (max-width: 1135px) {
@@ -1571,6 +1542,29 @@
 
 	.rayban-content .biggest {
 		max-width: 800px;
+	}
+
+	/*** BOTTEGA CONTENT ***/
+	.bottega-logo {
+		max-width: 450px;
+	}
+
+	.bottega-content p {
+		max-width: 700px;
+		margin: 30px 0 20px 0;
+	}
+
+	.bottega-content h3 {
+		margin: 40px 0 10px 0;
+	}
+
+	.bottega-content h4 {
+		margin: 20px 0 10px 0;
+	}
+
+	.bottega-content .image {
+		max-width: 600px;
+		margin-top: -20px;
 	}
 	/*** SCROLL ***/
 	.scroll {
@@ -2030,6 +2024,29 @@
 
 		.rayban-content .biggest {
 			max-width: 750px;
+		}
+		
+		/*** BOTTEGA CONTENT ***/
+		.bottega-content p {
+			max-width: 550px;
+			margin: 20px 0 10px 0;
+		}
+		
+		.bottega-content .image {
+			max-width: 550px;
+			margin-top: 10px;
+		}
+
+		.bottega-content .biggest {
+			max-width: 900px;
+		}
+
+		.bottega-content .big {
+			max-width: 640px;
+		}
+
+		.bottega-content .sub-text {
+			max-width: 600px;
 		}
 		/************ NAVIGATION **********/
 		.navigation {
@@ -2491,6 +2508,45 @@
 			max-width: 600px;
 		}
 		
+		/*** BOTTEGA CONTENT ***/
+		.bottega-logo {
+			max-width: 400px;
+			margin-top: 70px;
+		}
+		
+		.bottega-content h3 {
+			font-size: 1.6em;
+			margin-top: 40px;
+		}
+		
+		.bottega-content h4 {
+			font-size: 1.6em;
+			margin-top: 30px;
+		}
+		
+		.bottega-content p {
+			max-width: 380px;
+			font-size: 0.9em;
+			margin: 20px 0 10px 0;
+		}
+		
+		.bottega-content .image {
+			max-width: 500px;
+			margin-top: 10px;
+		}
+
+		.bottega-content .biggest {
+			max-width: 900px;
+		}
+
+		.bottega-content .big {
+			max-width: 640px;
+		}
+
+		.bottega-content .sub-text {
+			max-width: 380px;
+		}
+		
 		/************ NAVIGATION **********/
 		.navigation {
 			height: 70px;
@@ -2767,7 +2823,42 @@
 		
 		.rayban-content .biggest {
 			max-width: 400px;
-		}	
+		}
+		
+		/*** BOTTEGA ***/
+		.bottega-logo {
+			max-width: 300px;
+		}
+		
+		.bottega-content h3 {
+			font-size: 1.3em;
+			margin-top: 20px;
+		}
+		
+		.bottega-content h4 {
+			font-size: 1.5em;
+			margin-top: 30px;
+		}
+		
+		.bottega-content p {
+			max-width: 300px;
+			font-size: 0.8em;
+			margin: 20px 0 10px 0;
+		}
+		
+		.bottega-content .image {
+			max-width: 350px;
+			margin-top: 10px;
+		}
+		
+		.bottega-content .big {
+			max-width: 400px;
+		}
+		
+		
+		.bottega-content .sub-text {
+			max-width: 300px;
+		}
 		
 	}
 	@media (max-width: 320px) {
@@ -3105,5 +3196,38 @@
 			max-width: 250px;
 			font-size: 0.7em;
 			margin: 20px 0 20px 0;
+		}
+		
+		/*** BOTTEGA ***/
+		.bottega-logo {
+			max-width: 280px;
+			margin-top: 60px;
+		}
+		
+		.bottega-content h3 {
+			font-size: 1.2em;
+			margin-top: 20px;
+		}
+		
+		.bottega-content h4 {
+			margin-top: 20px;
+		}
+		
+		.bottega-content p {
+			max-width: 250px;
+			font-size: 0.7em;
+		}
+		
+		.bottega-content .image {
+			max-width: 300px;
+			margin-top: 10px;
+		}
+		
+		.bottega-content .big {
+			max-width: 340px;
+		}
+		
+		.bottega-content .sub-text {
+			max-width: 280px;
 		}
 	}
