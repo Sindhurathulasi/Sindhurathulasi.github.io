@@ -13,3 +13,24 @@ $(function() {
     }
   });
 });
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+	
+	setTimeout(function(){
+		$( "#logoAnimation" ).hide();
+	}, 4000);
+	
+	setTimeout(function(){
+		$( ".portfolio" ).show().fadeIn();
+	}, 4000);
+	
+	/** setTimeout(function(){
+		$( "#logoAnimation" ).hide();
+	}, 4000);
+	setTimeout(function(){
+		$( ".portfolio" ).fadein({opacity: '0.5'});
+	}, 4000);
+	
+	**/
+});

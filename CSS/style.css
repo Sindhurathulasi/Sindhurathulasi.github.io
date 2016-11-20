@@ -17,7 +17,9 @@
 	align-items: flex-end;
 }
 
-.sindhuLogo {}
+.sindhuLogo {
+	
+}
 
 .logo {
 	max-width: 100px;
@@ -317,7 +319,7 @@
 }
 
 .portfolio .small_logo img {
-	max-width: 103px;
+	max-width: 75px;
 	width: 100%;
 	margin: 10px 50px;
 }
@@ -424,7 +426,7 @@
 }
 
 .project .big {
-	max-width: 700px;
+	max-width: 750px;
 	width: 100%;
 	margin: 40px 0 30px 0;
 }
@@ -766,6 +768,107 @@
 
 .bottega-content .sub-text {
 	max-width: 700px;
+}
+
+/*** NIKE ***/
+
+.nike-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nike-content h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 2.5em;
+	padding-top: 80px;
+	margin-bottom: 0;
+}
+
+.nike-content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 2.2em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.nike-content h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 2.2em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin: 90px 0 20px 0;
+}
+
+.nike-content p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	max-width: 800px;
+	margin: 20px 0 30px 0;
+}
+
+.nike-content .image {
+	max-width: 600px;
+	width: 100%;
+}
+
+.nike-content .big {
+	max-width: 1024px;
+	width: 100%;
+}
+
+.nike-content .small {
+	max-width: 600px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.nike-content .promotions {
+	max-width: 500px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+/*** RAYBAN ***/
+
+.rayban-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.rayban-content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 2.2em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin: 80px 0 20px 0;
+}
+
+.rayban-content p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	max-width: 800px;
+	margin: 30px 0 20px 0;
+}
+
+.rayban-content .image {
+	max-width: 700px;
+	width: 100%;
 }
 
 /*** HYPHEN PRESS CONTENT ***/
@@ -1241,8 +1344,7 @@
 		display: block;
 	}
 	.portfolio .small_logo img {
-		max-width: 103px;
-		width: 100%;
+		max-width: 75px;
 		margin: 10px 50px;
 	}
 	.portfolio .newSmallLogo {
@@ -1421,6 +1523,24 @@
 	.bye-content .feedicons {
 		max-width: 500px;
 	}
+	
+	/*** NIKE ***/
+	.nike-content p {
+		max-width: 700px;
+	}
+
+	.nike-content .image {
+		max-width: 650px;
+	}
+	
+	.nike-content .small {
+		max-width: 560px;
+		margin-bottom: 20px;
+	}
+
+	.nike-content .promotions {
+		max-width: 450px;
+	}
 	/*** SCROLL ***/
 	.scroll {
 		max-width: 55px;
@@ -1448,11 +1568,6 @@
 	}
 	.portfolio .small_logo {
 		display: block;
-	}
-	.portfolio .small_logo img {
-		max-width: 103px;
-		width: 100%;
-		margin: 10px 50px;
 	}
 	.portfolio .newSmallLogo {
 		display: none;
@@ -1628,10 +1743,6 @@
 		/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 		.portfolio .header {
 			max-width: 768px;
-		}
-		.portfolio .small_logo img {
-			max-width: 103px;
-			margin: 10px 10px;
 		}
 		.portfolio li {
 			font-size: 1em;
@@ -1852,6 +1963,28 @@
 		.hyphen-content p {
 			max-width: 560px;
 			margin: 30px 0 30px 0;
+		}
+		
+		/*** NIKE ***/
+		.nike-content h2 {
+			margin-bottom: 20px;
+		}
+
+		.nike-content h3 {
+			margin: 60px 0 20px 0;
+		}
+
+		.nike-content p {
+			max-width: 560px;
+			margin: 20px 0 30px 0;
+		}
+
+		.nike-content .image {
+			max-width: 600px;
+		}
+
+		.nike-content .small {
+			max-width: 550px;
 		}
 		/************ NAVIGATION **********/
 		.navigation {
@@ -2252,6 +2385,41 @@
 			font-size: 0.9em;
 			margin: 20px 0 20px 0;
 		}
+		
+		/*** NIKE ***/
+		.nike-content h1 {
+			font-size: 2em;
+		}
+
+		.nike-content h2 {
+			font-size: 1.6em;
+			margin-bottom: 20px;
+		}
+
+		.nike-content h3 {
+			font-size: 1.6em;
+			margin: 60px 0 20px 0;
+		}
+
+		.nike-content p {
+			max-width: 380px;
+			font-size: 0.9em;
+			margin: 20px 0 10px 0;
+		}
+
+		.nike-content .image {
+			max-width: 500px;
+		}
+
+		.nike-content .small {
+			max-width: 400px;
+			margin-bottom: 20px;
+		}
+
+		.nike-content .promotions {
+			max-width: 500px;
+			margin-top: 30px;
+		}
 		/************ NAVIGATION **********/
 		.navigation {
 			height: 70px;
@@ -2485,6 +2653,26 @@
 		.calonge-content .big {
 			max-width: 440px;
 		}
+		
+		/*** NIKE ***/
+		.nike-content h1 {
+			font-size: 1.8em;
+		}
+
+		.nike-content h2 {
+			font-size: 1.5em;
+		}
+
+		.nike-content h3 {
+			font-size: 1.5em;
+			margin: 50px 0 20px 0;
+		}
+
+		.nike-content p {
+			max-width: 300px;
+			font-size: 0.8em;
+			margin: 20px 0 30px 0;
+		}
 	}
 	@media (max-width: 320px) {
 		/************ INDEX ANIMATION *************/
@@ -2536,7 +2724,7 @@
 			max-width: 320px;
 			width: 100%;
 		}
-		/************************* PORTFOLIO NEW *********************/
+		/************ PORTFOLIO NEW ***********/
 		.project {
 			max-width: 320px;
 		}
@@ -2781,5 +2969,22 @@
 		}
 		.arrowRight {
 			max-width: 30px;
+		}
+		
+		/*** NIKE ***/
+		.nike-content h1 {
+			font-size: 1.7em;
+			padding-top: 30px;
+		}
+
+		.nike-content h3 {
+			font-size: 1.3em;
+			margin: 40px 0 20px 0;
+		}
+
+		.nike-content p {
+			max-width: 250px;
+			font-size: 0.7em;
+			margin: 20px 0 20px 0;
 		}
 	}
