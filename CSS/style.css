@@ -871,6 +871,11 @@
 	width: 100%;
 }
 
+.rayban-content .big {
+	max-width: 800px;
+	width: 100%;
+}
+
 /*** HYPHEN PRESS CONTENT ***/
 
 .hyphen-content {
