@@ -2,12 +2,33 @@ html body main {
 	height: 100%;
 }
 
-/********** HEADER *********/
+/*** Logo Animation ***/
 
-.portfolio {
+#logoAnimation {
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
-.portfolio .header-wrap {
+#logoAnimation img {
+	max-width: 150px;
+	width: 100%;
+}
+
+/********** HEADER *********/
+
+#portfolio {
+	display: none;
+}
+
+#portfolio .header-wrap {
 	
 	position: fixed;
 	top: 0;
@@ -20,7 +41,7 @@ html body main {
 	z-index: 1;
 }
 
-.portfolio .header {
+#portfolio .header {
 	max-width: 1280px;
 	height: 100px;
 	
@@ -43,33 +64,33 @@ html body main {
 	z-index: 1;
 }
 
-.portfolio .small_logo {
+#portfolio .small_logo {
 	display: block;
 }
 
-.portfolio .small_logo img {
+#portfolio .small_logo img {
 	max-width: 75px;
 	width: 100%;
 	margin: 10px 50px;
 }
 
-.portfolio .newSmallLogo {
+#portfolio .newSmallLogo {
 	display: none;
 }
 
-.portfolio .newSmallLogo img {
+#portfolio .newSmallLogo img {
 	max-width: 200px;
 	width: 100%;
 }
 
-.portfolio nav {
+#portfolio nav {
 }
 
-.portfolio ul {
+#portfolio ul {
 	
 }
 
-.portfolio li {
+#portfolio li {
 	display: inline-block;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.1em;
@@ -78,16 +99,16 @@ html body main {
 	margin: 20px 90px;	
 }
 
-.portfolio li a {
+#portfolio li a {
 	color: black;
 	padding: 34px 0;
 }
 
-.portfolio li:hover a {
+#portfolio li:hover a {
 	border-bottom: solid rgba(48, 198, 169, 1) 3px;
 }
 
-.portfolio li .selected-page {
+#portfolio li .selected-page {
 	color: rgba(48, 198, 169, 1);
 	border-bottom: solid rgba(48, 198, 169, 1) 3px;
 }
@@ -365,43 +386,43 @@ p {
 
 /*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio {
+	#portfolio {
 	}
 
-	.portfolio .header {
+	#portfolio .header {
 		max-width: 1024px;
 	}
 	
-	.portfolio .small_logo {
+	#portfolio .small_logo {
 		display: block;
 	}
 
-	.portfolio .newSmallLogo {
+	#portfolio .newSmallLogo {
 		display: none;
 	}
 
-	.portfolio .newSmallLogo img {
+	#portfolio .newSmallLogo img {
 		max-width: 200px;
 		width: 100%;
 	}
 
-	.portfolio li {
+	#portfolio li {
 		display: inline-block;
 		font-size: 1.1em;
 		
 		margin: 20px 60px;
 	}
 	
-	.portfolio li:hover a {
+	#portfolio li:hover a {
 		color: black;
 		border-bottom: none;
 	}
 	
-	.portfolio a {
+	#portfolio a {
 		color: black;
 	}
 	
-	.portfolio li .selected-page:hover {
+    #portfolio li .selected-page:hover {
 		color: rgba(48, 198, 169, 1);
 		border-bottom: solid rgba(48, 198, 169, 1) 3px;
 	}
@@ -503,30 +524,30 @@ p {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio .header {
+	#portfolio .header {
 		max-width: 960px;
 	}
 	
-	.portfolio .small_logo {
+	#portfolio .small_logo {
 		display: block;
 	}
 
-	.portfolio .newSmallLogo {
+	#portfolio .newSmallLogo {
 		display: none;
 	}
 
-	.portfolio .newSmallLogo img {
+	#portfolio .newSmallLogo img {
 		max-width: 200px;
 		width: 100%;
 	}
 
-	.portfolio li {
+	#portfolio li {
 		display: inline-block;
 		padding: 10px 0;
 		margin: 20px 40px;
 	}
 
-	.portfolio a {
+	#portfolio a {
 		color: black;
 	}
 
@@ -546,27 +567,27 @@ p {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
 	
-	.portfolio {
+	#portfolio {
 	}
 
-	.portfolio .header {
+	#portfolio .header {
 		max-width: 768px;
 	}
 	
-	.portfolio .small_logo {
+	#portfolio .small_logo {
 		display: block;
 	}
 
-	.portfolio .newSmallLogo {
+	#portfolio .newSmallLogo {
 		display: none;
 	}
 
-	.portfolio .newSmallLogo img {
+	#portfolio .newSmallLogo img {
 		max-width: 200px;
 		width: 100%;
 	}
 
-	.portfolio li {
+	#portfolio li {
 		display: inline-block;
 		font-size: 1em;
 		
@@ -720,11 +741,7 @@ p {
 @media (max-width: 601px) {
 	
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
-	
-	.portfolio {
-	}
-
-	.portfolio .header {
+	#portfolio .header {
 		max-width: 601px;
 		
 		display: -webkit-box;
@@ -744,11 +761,11 @@ p {
 		align-items: center;
 	}
 
-	.portfolio .small_logo {
+	#portfolio .small_logo {
 		display: none;
 	}
 	
-	.portfolio .newSmallLogo {
+	#portfolio .newSmallLogo {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -766,11 +783,11 @@ p {
 		margin: 0 auto;
 	}
 
-	.portfolio .newSmallLogo img {
+	#portfolio .newSmallLogo img {
 		display: block;
 	}
 	
-	.portfolio nav {
+	#portfolio nav {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -780,17 +797,17 @@ p {
 		width: 100%;
 	}
 	
-	.portfolio ul{
+	#portfolio ul{
 		display: inline-block;
 	}
 	
-	.portfolio li {
+	#portfolio li {
 		display: inline-block;
 		font-size: 0.9em;	
 		margin: 60px 0px 0px 0px;
 	}
 	
-	.portfolio li a {
+	#portfolio li a {
 		color: black;
 		padding: 7px 0;
 		
@@ -1012,10 +1029,10 @@ p {
 
 @media (max-width: 320px) {
 	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
-		.portfolio .header {
+		#portfolio .header {
 			max-width: 320px;
 		}
-		.portfolio li {
+		#portfolio li {
 			display: inline-block;
 			font-size: 0.8em;
 			margin: 60px 0px 0px 0px;

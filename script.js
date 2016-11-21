@@ -22,7 +22,7 @@ $( document ).ready(function() {
 	}, 4000);
 	
 	setTimeout(function(){
-		$( ".portfolio" ).show();
+		$( "#portfolio" ).show();
 	}, 4000);
 	
 	/** setTimeout(function(){
