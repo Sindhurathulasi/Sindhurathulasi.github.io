@@ -221,7 +221,7 @@ h2 {
 
 p {
 	max-width: 1220px;
-	color: #949494;
+	color: #3C3C3C;
 	text-align: justify;	
 	font-family: 'Lato', sans-serif;
     font-weight: 100;
@@ -639,6 +639,7 @@ h3 {
 
     .work-content p {
         max-width: 700px;
+        color: #1A1A1A;
     }
 
     .work_fixed {
@@ -660,6 +661,7 @@ h3 {
 
     .work_right p {
         margin: 10px 80px;
+        color: #1A1A1A;
     }
 
     .content_image {
