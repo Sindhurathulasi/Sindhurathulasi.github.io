@@ -50,7 +50,7 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header-wrap").style.top = "0";
-  } else {
+  } else {  
     document.getElementById("header-wrap").style.top = "-117px";
   }
   prevScrollpos = currentScrollPos;
