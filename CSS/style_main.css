@@ -813,7 +813,7 @@ h3 {
     
 /********** HEADER *********/
     
-    .portfolio .header-wrap {
+    .portfolio #header-wrap {
         height: 117px;
     }
 
@@ -823,7 +823,7 @@ h3 {
 		justify-content: center;
 		align-items: center;
 	}
-
+    
 	.portfolio .small_logo {
 		display: none;
 	}
