@@ -1,0 +1,129 @@
+html body main {
+	height: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_container_1 {
+    width: 40%;
+    background-color: black;
+}
+
+.left_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+	max-width: 40%;
+	width: 100%;
+}
+
+.bg1 {
+    background-image: url("../Images/About/sindhu_BW.jpg");
+    background-size: contain;
+    background-position: 70px bottom;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 40px;
+}
+
+li {
+    
+}
+
+a {
+    color: white;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+	font-size: 1em;
+}
+
+.selected-page {
+    border-bottom: solid white 2px;
+    font-weight: 700;
+}
+
+.sub_container_2 {
+    width: 60%;
+}
+
+.right_content {    
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.75);
+}
+
+h2 {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	padding-bottom: 3%;
+}
+
+p {
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+	font-size: 1em;
+	line-height: 27px;
+	padding: 0 20px 20px 20px;
+}
+
+.right_content a {
+	height: 40px;
+	padding: 7px 25px;
+	color: black;
+	font-size: 1em;
+	background-color: white;
+    border: solid 1px;
+}
+
+.right_content a:hover {
+	color: white;	
+	font-size: 1em;
+	background-color: rgba(1,1,1,1);
+    border: solid black 1px;
+}
+
+/*** Works ***/
+
+.work_headings {
+    padding: 10%;
+}
+
+.heading {
+    width: 100%;
+    color: #D1D1D1;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+	font-size: 1.1em;
+    display: flex;
+}
+
+.heading p {
+    color: #606060;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.1em;
+}
+
+.work_shortdesc {
+    
+}
+
+.intro_img {
+    max-width: 70%;
+    width: 100%;
+}
+

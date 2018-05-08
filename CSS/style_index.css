@@ -1,0 +1,1174 @@
+html body main {
+	height: 100%;
+}
+
+::-moz-selection { background-color: #63C7C4; 
+color: #fff; } 
+
+::selection { background-color: #63C7C4; 
+color: #fff; }
+
+/*** Logo Animation ***/
+
+#logoAnimation {
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#logoAnimation img {
+	max-width: 150px;
+	width: 100%;
+}
+
+/********** HEADER *********/
+
+#portfolio {
+    display: none;
+}
+
+#header-wrap {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	background-color: black;
+    transition: top 0.3s;
+	z-index: 1;
+}
+
+.header {
+	height: 75px;	
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;	
+	z-index: 1;
+}
+
+#portfolio .small_logo {
+	display: block;
+}
+
+#portfolio .small_logo img {
+	max-width: 75px;
+	width: 100%;
+	margin: 10px 40px;
+}
+
+#portfolio .newSmallLogo {
+	display: none;
+}
+
+#portfolio .newSmallLogo img {
+	max-width: 230px;
+	width: 100%;
+}
+
+#portfolio ul {
+    margin-right: 10px;
+}
+
+#portfolio li {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	padding: 5px 0;
+	margin: 20px 30px;	
+}
+
+#portfolio li a {
+	color: gray;
+	padding: 24px 0;
+}
+
+#portfolio li:hover a {
+	color: white;
+}
+
+#portfolio li .selected-page {
+	color: white;
+	border-bottom: solid white 3px;
+}
+
+/********** CONTENT *********/
+
+.main-content-about {
+	height: 100%;
+	position: relative;
+}
+
+.fixedBG {
+	position: relative;
+	height: 100vh;	
+	width: 100%;
+	margin: 0;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;	
+	z-index: -1;
+}
+
+.bg-1 {
+	background-image: url("../Imgs/About/sindhu_BW.jpg");
+}
+
+.bg-2 {
+    background-image: url("../Imgs/WorkPages/black-17.png");
+}
+
+.intro {
+	position: absolute;
+	top: 65%;
+	left: 5%;
+}
+
+.intro_name {
+    color: #63C7C4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+	font-size: 2em; 
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    background-color: #63C7C4;
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.intro_text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+    font-weight: 300i;
+    margin: 0;
+    padding: 15px 0 30px 0;
+}
+
+.scroll {
+    width: 100%;
+    position: absolute;
+	top: 75%;
+    text-align: center;
+}
+
+.scroll p {
+    text-align: center;
+}
+
+.scroll img {
+    width: 7%;
+}
+
+.notFixedBG {
+	text-align: center;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+hr {
+    width: 3px;
+    height: 100px;
+    background-color: grey;
+    margin: 0;
+}
+
+.container {
+	background-color: white;
+    width: 80%;
+    margin: 30px;
+    box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.85);
+}
+
+.photoContainer {
+    background-color: white;
+    width: 27%;
+    margin: 15px 30px;
+    padding: 25px 20px 0px 20px;
+    box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoMemories {
+    max-width: 300px;
+    width: 100%;
+}
+
+.photoContainer p {
+    width: 100%;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.journeyDates {
+    padding: 20px 0;
+    color: grey;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.first {
+    margin-top: 60px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+	font-size: 1.8em;
+	padding-top: 4%;
+	padding-bottom: 3%;
+    text-transform: uppercase;  
+}
+
+.noCaps {
+    text-transform: none;  
+}
+
+p {
+	max-width: 1220px;
+	color: #949494;
+	text-align: justify;	
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	font-size: 1.1em;
+	line-height: 27px;
+	padding-bottom: 40px;
+	margin: 0 140px;
+}
+
+.button {
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 10;
+}
+
+.button a {
+    color: white;
+	padding: 10px 20px;
+	font-size: 1em;
+	background-color: #63C7C4;
+    border: solid #63C7C4 2px;
+    z-index: 100;
+}
+
+.button a:hover {
+	color: #63C7C4;
+	background-color: white;
+}
+
+/********** SKILLS *********/
+
+.skills {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.skill_icon {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.skill_icon img {
+    max-width: 230px;
+    width: 100%;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+	font-size: 1em; 
+    margin-bottom: 40px;
+}
+
+/********** CONTACT *********/
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;   
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+#contact h4 {
+    font-family: 'Shadows Into Light', cursive;
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-left: 6%;
+	border-bottom: 1px solid black;
+}
+
+#contact a {
+	color: rgba(0,0,0,1);
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+#contact a:hover {
+	color: #63C7C4;
+}
+
+.mail {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+	margin-top: 20px;
+	margin-left: 6%;
+}
+
+.call {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-left: 6%;
+}
+
+#contact strong {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+}
+
+.call a {
+	padding-right: 20px;
+}
+
+.copyright {
+	width: 100%;
+	height: 50px;	
+	border-top: 1px solid rgba(0,0,0,1);
+    background-color: #e7e7e7;
+}
+
+#contact span {
+	color: rgba(0,0,0,1);
+	letter-spacing: 3px;
+	font-size: 0.7em;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/********** WORKS PAGE *********/
+
+.work_name {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.work_name p {
+    color: #63C7C4;
+    margin: 0;
+    padding: 10px;
+}
+
+.names {
+    color: #939393;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    padding: 0 15px;
+}
+
+.names:hover {
+    color: #63C7C4;
+}
+
+.first_name {
+    padding: 0 15px 0 0;
+}
+
+.work_image {
+    max-width: 450px;
+	width: 100%;
+}
+
+.ImgShadow {
+    box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.85);
+}
+
+/********** INDIVIDUAL WORK PAGE *********/
+
+.work-content {
+    position: relative;
+    width: 100%;
+}
+
+.work-content p {
+	max-width: 800px;
+	margin: 20px 0 30px 0;
+    z-index: 100;
+}
+
+.cross_mark {
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    z-index: 10000;
+}
+
+.cross_mark img {
+    max-width: 45px;
+    width: 100%;
+}
+
+.work_fixed {
+    background-color: #F2F2F2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_left_image {
+    max-width: 550px;
+	width: 100%;
+}
+
+
+.work_left h3 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 2em;
+	color: #353535;
+	padding-bottom: 10px;
+	margin: 50px 0 20px 0;
+}
+
+.work_right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_right p {
+	color: #595959;
+	text-align: justify;	
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	font-size: 1.1em;
+	padding-bottom: 20px;
+	margin: 10px 70px;
+}
+
+.work-content {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;   
+}
+
+.content_image {
+    max-width: 550px;
+	width: 100%;
+    padding-bottom: 70px;
+}
+
+.small {
+    max-width: 350px;
+    width: 100%;
+}
+
+.big {
+    max-width: 700px;
+	width: 100%;
+}
+
+.biggest {
+    max-width: 830px;
+	width: 100%;
+    margin-bottom: -30px;
+}
+
+.shadow {
+   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.4); 
+   margin-bottom: 60px;
+}
+
+.full_image {
+    width: 100%;
+}
+
+.small-logo {
+    max-width: 300px;
+    width: 100%;
+    margin: 30px;
+}
+
+.bye_icons {
+    max-width: 150px;
+    width: 100%;
+}
+
+.work-content h3 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 2em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin: 50px 0 20px 0;
+}
+
+.work-content h4 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 1.5em;
+	color: #353535;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin: 50px 0 20px 0;
+}
+
+.europe_BG {
+    background-color: rgba(225, 225, 225, 1);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+}
+
+/********** NAVIGATION *********/
+
+.navigation {
+    width: 100%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    margin-bottom: -50px;
+}
+
+.navLeft {
+    margin-left: 70px;
+}
+
+.navRight {
+    margin-right: 70px;
+}
+
+.navigation h5 {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	margin-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media (max-width: 1024px) {
+
+/********** HEADER *********/
+    
+    #portfolio li:hover a {
+        color: gray;
+    }
+
+/********** CONTENT *********/
+ 
+    .bg-1 {
+        background-image: url("../Imgs/About/sindhu_BW_portrait.jpg");
+    }
+    
+    .intro_name {
+        font-size: 1.8em;
+        font-weight: 300;
+    }
+
+    .intro_text {
+        font-size: 1.1em;
+    }
+
+    .scroll {
+        top: 78%;
+    }
+    
+    .photoContainer {
+        width: 35%;
+    }
+
+    .photoMemories {
+        max-width: 400px;
+    }
+
+    .photoContainer p {
+        padding-top: 10px;
+    }
+
+    .journeyDates {
+        padding: 10px 0;
+    }
+    
+/********** WORKS PAGE *********/
+
+    .names {
+        font-size: 1.1em;
+        padding: 0 12px;
+    }
+
+    .names:hover {
+        color: #939393;
+    } 
+    
+/********** INDIVIDUAL WORK PAGE *********/
+
+    .work-content p {
+        max-width: 700px;
+    }
+
+    .work_fixed {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .work_left {
+        width: 100%;
+    }
+
+    .work_left h3 {
+        margin: 40px 0 10px 0;
+    }
+
+    .work_right {
+        width: 100%;
+    }
+
+    .work_right p {
+        margin: 10px 80px;
+    }
+
+    .content_image {
+        padding-bottom: 50px;
+    }
+
+    .big {
+        max-width: 700px;
+    }
+
+    .small-logo {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+
+/********** HEADER *********/
+    
+    #portfolio li {
+        font-size: 1em;
+        padding: 5px 0;
+        margin: 20px 14px;	
+    }
+
+    #portfolio li a {
+        padding: 26px 0;
+    }
+    
+    #portfolio .small_logo img {
+        max-width: 60px;
+	    margin: 10px 20px;
+    }
+    
+/********** CONTENT *********/
+
+    .fixedBG {
+        background-position: right bottom;
+        background-size: cover;
+    }
+    
+    .intro {
+        top: 70%;
+    }
+    
+    .intro_name {
+        font-size: 1.5em;
+    }
+
+    .intro_text {
+        font-size: 1em;
+    }
+
+    .scroll {
+        display: none;
+    }
+    
+    hr {
+        height: 80px;
+    }
+    
+    .photoContainer {
+        width: 48%;
+    }
+
+    .journeyDates {
+        padding: 10px 0;
+        font-size: 1.4em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        margin: 0 80px;
+    }
+
+    /********** SKILLS *********/
+    
+    .skill_icon {
+        width: 29%;
+    }
+    
+    /********** INDIVIDUAL WORK PAGE *********/
+
+    .work-content p {
+        max-width: 550px;
+    }
+
+    .work_fixed {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .work_left {
+        width: 75%;
+    }
+
+    .work_right {
+        width: 80%;
+    }
+
+    .work_left h3 {
+        margin: 40px 0 10px 0;
+    }
+
+    .work_right p {
+        margin: 10px 80px;
+    }
+
+    .content_image {
+        padding-bottom: 40px;
+    }
+
+    .big {
+        max-width: 650px;
+    }
+    
+    .biggest {
+        max-width: 700px;
+    }
+
+    .small-logo {
+        max-width: 900px;
+    }
+    
+    .bye_icons {
+        max-width: 140px;
+    }  
+}
+
+@media (max-width: 575px) {
+    #portfolio li {
+        margin: 20px 3px;	
+    }
+    
+    .work_name p {
+        font-size: 1em;
+    }
+    
+    .names {
+        font-size: 1.1em;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 420px) {
+    
+/********** HEADER *********/
+    
+    #portfolio .header-wrap {
+        height: 117px;
+    }
+
+    #portfolio .header {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#portfolio .small_logo {
+		display: none;
+	}
+	
+	#portfolio .newSmallLogo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position:absolute;
+		width: 100%;
+		padding: 10px;
+		margin: 8px auto;
+	}
+
+	#portfolio .newSmallLogo img {
+		display: block;
+	}
+    
+    #portfolio ul {
+        margin-right: 0px;
+    }
+	
+	#portfolio li {
+		font-size: 0.9em;
+        padding: 0px 0;
+		margin: 110px 0px 0px 0px;
+	}
+	
+	#portfolio li a {
+		padding: 15px 0;	
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+    
+/********** CONTENT *********/
+    
+    .fixedBG {
+        background-position: center center;
+    }
+    
+    .intro {
+        top: 78%;
+        left: 10%;
+    }
+    
+    .intro_name {
+        font-size: 1.5em;
+    }
+
+    .intro_text {
+        font-size: 1em;
+    }
+    
+    .intro .button {
+        display: none;
+    }
+
+    .scroll {
+        display: none;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .first {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 1.4em; 
+    }
+
+    p {
+        font-size: 1em;
+        padding-bottom: 30px;
+        margin: 0 20px;
+    }
+      
+    hr {
+        height: 70px;
+    }
+    
+    .photoContainer {
+        width: 77%;   
+        margin: 5px 10px;
+        padding: 15px 15px 0px 15px;
+    }
+    
+    .photoContainer p {
+        font-size: 1em;
+    }
+
+    .journeyDates {
+        padding: 10px 0;
+        font-size: 1.3em;
+    }
+
+    .button {
+        margin-bottom: 40px;
+    }
+
+    .button a {
+        font-size: 0.9em;
+    }
+
+    .button a:hover {
+        color: white;
+        background-color: #63C7C4;
+    }
+
+    /********** SKILLS *********/
+
+    .skills {
+        flex-flow: column;
+    }
+    
+    .skill_icon {
+        width: 80%;
+        margin: 0px 0px;
+    }
+
+    .skill_icon img {
+        max-width: 250px;
+    }
+
+    h3 {
+        font-size: 0.9em; 
+        margin-bottom: 30px;
+    }
+    
+/********** CONTACT *********/
+    
+    .copyright {
+        width: 100%;
+        height: 70px;
+    }
+    
+    #contact span {
+        font-size: 0.7em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+        
+/********** WORKS PAGE *********/
+
+    .work_name {
+        padding-bottom: 30px;
+    }
+
+    .work_name p {
+        color: #63C7C4;
+        font-size: 0.9em;
+    }
+
+    .work_image {
+        max-width: 320px;
+    }
+    
+    .names {
+        font-size: 1.1em;
+        padding: 0 10px;
+    }
+    
+/********** INDIVIDUAL WORK PAGE *********/
+
+    .work-content p {
+        max-width: 300px;
+    }
+
+    .work_left {
+        width: 90%;
+    }
+
+    .work_right {
+        width: 100%;
+	    margin: 0 0 0 0;
+    }
+
+    .work_left h3 {
+        font-size: 1.6em;
+        margin: 40px 0 10px 0;
+    }
+
+    .work_right p {
+        font-size: 1em;
+        margin: 10px 40px;
+    }
+
+    .content_image {
+        max-width: 350px;
+        padding-bottom: 40px;
+    }
+
+    .big {
+        max-width: 650px;
+    }
+    
+    .biggest {
+        max-width: 800px;
+    }
+    
+    .work-content h3 {
+        font-size: 1.5em;
+        margin: 30px 0 20px 0;
+    }
+
+    .work-content h4 {
+        font-size: 1.2em;
+        margin: 30px 0 10px 0;
+        border: none;
+    }
+    
+    .bye_icons {
+        max-width: 130px;
+    }
+    
+    /********** NAVIGATION *********/
+
+    .navLeft {
+        margin-left: 20px;
+    }
+
+    .navRight {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+  
+/********** HEADER *********/
+    
+    #portfolio li a {	
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+    
+ /********** CONTENT *********/  
+    
+    .intro {
+        top: 74%;
+        left: 8%;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+    hr {
+        height: 50px;
+    }
+    
+    .photoContainer {
+        width: 90%;   
+        margin: 5px 10px;
+        padding: 15px 15px 0px 15px;
+    }
+    
+    .photoContainer p {
+        font-size: 1em;
+    }
+
+    .journeyDates {
+        padding: 10px 0;
+        font-size: 1.3em;
+    }
+    
+/********** WORKS PAGE *********/
+
+    .work_name p {
+        font-size: 0.8em;
+        padding: 0;
+    }
+
+    .work_image {
+        max-width: 240px;
+    }
+    
+    .names {
+        font-size: 1em;
+        padding: 0 3px;
+    }
+    
+/********** INDIVIDUAL WORK PAGE *********/
+
+    .work-content p {
+        max-width: 280px;
+    }
+    
+    .work_left h3 {
+        font-size: 1.4em;
+    }
+
+    .work_right p {
+        font-size: 0.9em;
+        margin: 0px 20px;
+    }
+
+    .content_image {
+        padding-bottom: 30px;
+    }
+    
+    .work-content h3 {
+        font-size: 1.2em;
+    }
+
+    .work-content h4 {
+        font-size: 1.2em;
+        margin: 30px 0 10px 0;
+    }
+    
+    .bye_icons {
+        max-width: 100px;
+    }
+    
+/********** NAVIGATION *********/
+
+    .navLeft {
+        margin-left: 10px;
+    }
+
+    .navRight {
+        margin-right: 10px;
+    }
+}

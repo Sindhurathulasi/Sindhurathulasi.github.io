@@ -34,3 +34,22 @@ $( document ).ready(function() {
 	
 	**/
 });
+
+$(window).scroll(function(){
+    $(".scroll").css("opacity", 1 - $(window).scrollTop() / 175);
+});
+
+$(window).scroll(function(){
+    $(".intro").css("opacity", 1 - $(window).scrollTop() / 175);
+});
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header-wrap").style.top = "0";
+  } else {
+    document.getElementById("header-wrap").style.top = "-75px";
+  }
+  prevScrollpos = currentScrollPos;
+}

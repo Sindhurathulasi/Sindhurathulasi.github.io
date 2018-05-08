@@ -1,0 +1,1174 @@
+html body main {
+	height: 100%;
+}
+
+/********** HEADER *********/
+
+.portfolio {
+}
+
+.portfolio .header-wrap {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: black;
+	z-index: 1;
+}
+
+.portfolio .header {
+	max-width: 1280px;
+	height: 100px;
+	
+	margin: 0 auto;
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-ms-flex-flow: row;
+	flex-flow: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	
+	z-index: 1;
+}
+
+.portfolio .small_logo {
+	display: block;
+}
+
+.portfolio .small_logo img {
+	max-width: 80px;
+	width: 100%;
+	margin: 10px 50px;
+}
+
+.portfolio .newSmallLogo {
+	display: none;
+}
+
+.portfolio .newSmallLogo img {
+	max-width: 200px;
+	width: 100%;
+}
+
+.portfolio nav {
+}
+
+.portfolio ul {
+	
+}
+
+.portfolio li {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.1em;
+	
+	padding: 40px 0;
+	margin: 20px 40px;	
+}
+
+.portfolio li a {
+	color: gray;
+	padding: 34px 0;
+}
+
+.portfolio li:hover a {
+	border-bottom: solid white 3px;
+}
+
+.portfolio li .selected-page {
+	color: white;
+	border-bottom: solid white 3px;
+}
+
+/********** PARALLAX SCROLL **********/
+
+.main-content {
+	height: 100%;
+	position: relative;
+}
+
+.fixedBG {
+	position: relative;
+	height: 100vh;
+	
+	width: 100%;
+	margin: 0;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;	
+	z-index: -1;
+}
+
+.fixedBG h1 {
+	color: dimgrey;
+    opacity: 0.5;
+	z-index: 1;
+	
+	position: absolute;
+	top: 62%;
+	left: 6%;
+	
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+	font-size: 1.6em;
+}
+
+.bg-1 {
+	background-image: url("../Images/About/sindhu_BW_.jpg");
+}
+
+.notFixedBG {
+	text-align: center;
+    display: -webkit-box;
+	
+	display: -ms-flexbox;
+    
+    display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.notFixedBG .container {
+	background-color: white;
+    width: 80%;
+    height: 100vh;
+    box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.75);
+}
+
+.notFixedBG .ui {
+}
+
+.ui img {
+	max-width: 600px;
+	width: 100%;
+	
+	margin-top: 10%;
+}
+
+h2 {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.frontEnd img {
+	max-width: 550px;
+	width: 100%;	
+	margin-top: 10%;
+}
+
+h3 {
+	color: white;
+	letter-spacing: 10px;
+	
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+	
+	padding-top: 3%;
+	padding-bottom: 5%;
+	
+	z-index: 1;
+}
+
+p {
+	max-width: 1024px;
+	color: #848484;
+	text-align: justify;
+	
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	font-size: 1.1em;
+	line-height: 27px;
+	
+	padding-bottom: 60px;
+	margin: 0 170px;
+}
+
+.notFixedBG a {
+	width: 250px;
+	height: 40px;
+	padding: 9px 20px;
+	color: black;
+	
+	font-size: 1em;
+	background-color: white;
+    border: solid 1px;
+}
+
+.notFixedBG a:hover {
+	color: white;	
+	font-size: 1em;
+	background-color: rgba(1,1,1,1);
+    border: solid black 1px;
+}
+
+/********** CONTACT ANCHOR 
+
+#contact {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	
+	background-image: url(../Images/About/sindhu_BW_blur.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+************/ 
+
+#contact {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+    
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+#contact h4 {
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+	font-size: 1.5em;
+	color: rgba(0,0,0,1);
+	
+	margin-top: 30px;
+	margin-left: 6%;
+	border-bottom: 1px solid rgba(0,0,0,1);
+}
+
+#contact a {
+	color: rgba(0,0,0,1);
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+#contact a:hover {
+	color: grey;
+}
+
+.mail {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+    
+	margin-top: 20px;
+	margin-left: 6%;
+}
+
+.call {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	
+	margin-bottom: 40px;
+	margin-left: 6%;
+}
+
+#contact strong {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+}
+
+.call a {
+	padding-right: 20px;
+}
+
+.copyright {
+	width: 100%;
+	height: 50px;	
+	border-top: 1px solid rgba(0,0,0,1);
+    background-color: #e7e7e7;
+}
+
+#contact span {
+	color: rgba(0,0,0,1);
+	letter-spacing: 3px;
+	font-size: 0.7em;
+	
+	padding-top: 20px;
+	display: -webkit-box;	
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+@media (max-width: 1024px) {
+
+/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 1024px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+		font-size: 1.1em;
+		
+		margin: 20px 60px;
+	}
+	
+	.portfolio li:hover a {
+		color: black;
+		border-bottom: none;
+	}
+	
+	.portfolio a {
+		color: black;
+	}
+	
+	.portfolio li .selected-page:hover {
+		color: rgba(48, 198, 169, 1);
+		border-bottom: solid rgba(48, 198, 169, 1) 3px;
+	}
+
+	.portfolio-content {
+		max-width: 1024px;
+		width: 100%;
+	}
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG h1 {
+		position: absolute;
+		top: 53%;
+		left: 8%;
+		font-size: 2.1em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiTablet-12.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100vh;
+	}
+
+	.notFixedBG .ui {
+	}
+
+	.ui img {
+		max-width: 600px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 2em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 550px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 2em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+		font-size: 1.2em;
+		line-height: 30px;
+
+		padding-bottom: 60px;
+		margin: 0 110px;
+	}
+
+	.notFixedBG a {
+		width: 250px;
+		height: 40px;
+		padding: 9px 20px;
+		color: rgba(32, 209, 154, 1);
+
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 960px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio .header {
+		max-width: 960px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+		padding: 10px 0;
+		margin: 20px 40px;
+	}
+
+	.portfolio a {
+		color: black;
+	}
+
+	.portfolio-content {
+		max-width: 1024px;
+		width: 100%;
+	}
+	
+	/** about **/
+	
+	.notFixedBG a {
+		color: rgba(32, 209, 154, 1);
+	}
+}
+
+@media (max-width: 768px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 768px;
+	}
+	
+	.portfolio .small_logo {
+		display: block;
+	}
+
+	.portfolio .newSmallLogo {
+		display: none;
+	}
+
+	.portfolio .newSmallLogo img {
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.portfolio li {
+		display: inline-block;
+		font-size: 1em;
+		
+		margin: 20px 30px;
+	}
+
+	.portfolio-content {
+		max-width: 768px;
+	}
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG h1 {
+		position: absolute;
+		top: 55%;
+		left: 8%;
+		font-size: 2em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile768-13.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100vh;
+	}
+
+	.ui img {
+		max-width: 500px;
+		width: 100%;
+		margin-top: 20%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 2em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 550px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 1.7em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+		
+		margin: 0 30px;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+		font-size: 1.1em;
+		line-height: 30px;
+
+		padding-bottom: 60px;
+		margin: 0 70px;
+	}
+
+	.notFixedBG a {
+		color: rgba(32, 209, 154, 1);
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact {
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	#contact h4 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+
+		margin-top: 220px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 1.1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 50px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 55px;
+		margin-top: -1px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 601px) {
+	
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+	
+	.portfolio {
+	}
+
+	.portfolio .header {
+		max-width: 601px;
+		
+		display: -webkit-box;
+		
+		display: -ms-flexbox;
+		
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.portfolio .small_logo {
+		display: none;
+	}
+	
+	.portfolio .newSmallLogo {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	
+		position:absolute;
+	
+		width: 100%;
+		padding:0;
+		margin: 0 auto;
+	}
+
+	.portfolio .newSmallLogo img {
+		display: block;
+	}
+	
+	.portfolio nav {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100%;
+	}
+	
+	.portfolio ul{
+		display: inline-block;
+	}
+	
+	.portfolio li {
+		display: inline-block;
+		font-size: 0.9em;	
+		margin: 60px 0px 0px 0px;
+	}
+	
+	.portfolio li a {
+		color: black;
+		padding: 7px 0;
+		
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG {
+		position: relative;
+		height: 500px;
+
+		width: 100%;
+		margin: 0;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+
+		z-index: -1;
+	}
+	
+	.fixedBG h1 {
+		position: absolute;
+		top: 85%;
+		left: 8%;
+		font-size: 1.7em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiTablet2-13.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100%;
+	}
+
+	.ui img {
+		max-width: 330px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 1.8em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 350px;
+		width: 100%;
+
+		margin-top: 15%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 1.3em;
+
+		padding-top: 3%;
+		padding-bottom: 5%;
+		
+		margin: 0 30px;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		text-align: left;
+		font-size: 1em;
+		line-height: 27px;
+
+		padding-bottom: 20px;
+		margin: 20px 40px;
+	}
+
+	.notFixedBG a {
+		color: rgba(32, 209, 154, 1);
+		margin-bottom: 30px;
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact h4 {
+		font-size: 1.2em;
+		letter-spacing: 20px;
+
+		margin-top: 200px;
+		margin-left: 30px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 1em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 30px;
+	}
+
+	.call a {
+		padding-right: 20px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+	}
+
+	.copyright {
+		height: 50px;
+	}
+
+	#contact span {
+		color: rgba(48,198,169,1);
+		letter-spacing: 3px;
+		font-size: 0.7em;
+
+		padding-top: 20px;
+	}
+	
+}
+
+@media (max-width:400px) {
+	
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100%;
+	}
+	
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact h4 {
+		font-size: 1.1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 10px;
+	}
+
+	#contact a {
+		line-height: 40px;
+		font-size: 0.9em;
+	}
+
+	#contact a:hover {
+		color: rgba(48,198,169,1);
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 40px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 45px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.6em;
+
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	/*** PORTFOLIO and PORTFOLIO CONTENT ***/
+		.portfolio .header {
+			max-width: 320px;
+		}
+		.portfolio li {
+			display: inline-block;
+			font-size: 0.8em;
+			margin: 60px 0px 0px 0px;
+		}
+		.portfolio-content {
+			max-width: 320px;
+			width: 100%;
+		}
+	/********** PARALLAX SCROLL **********/
+
+	.fixedBG {
+		position: relative;
+		height: 500px;
+
+		width: 100%;
+		margin: 0;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+
+		z-index: -1;
+	}
+	
+	.fixedBG h1 {
+		position: absolute;
+		top: 85%;
+		left: 8%;
+		font-size: 1.5em;
+	}
+
+	.bg-1 {
+		background-image: url("../Images/HomeTrail/Myface.png");
+	}
+
+	.bg-2 {
+		background-image: url("../Images/HomeTrail/GraphicMobileNew-14.png");
+	}
+
+	.bg-3 {
+		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+	}
+
+	.notFixedBG {
+		text-align: center;
+		position: relative;
+	}
+
+	.notFixedBG .container {
+		background-color: rgba(32, 209, 154, 1);
+		height: 100%;
+	}
+	
+	.ui img {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 17%;
+	}
+
+	h2 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 1.6em;
+
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+
+	.frontEnd img {
+		max-width: 300px;
+		width: 100%;
+
+		margin-top: 10%;
+	}
+
+	h3 {
+		color: white;
+		letter-spacing: 10px;
+		font-size: 1.1em;
+
+		padding-top: 2%;
+		padding-bottom: 5%;
+		
+		margin: 0 20px 20px 20px;
+
+		z-index: 1;
+	}
+
+	p {
+		color: white;
+		font-size: 0.8em;
+		line-height: 22px;
+
+		padding-bottom: 30px;
+		margin: 0 20px;
+	}
+
+	.notFixedBG a {
+		color: rgba(32, 209, 154, 1);
+		margin-bottom: 30px;
+		font-size: 0.8em;
+		width: 190px;
+	}
+	
+	/********** CONTACT ANCHOR ************/
+
+	#contact h4 {
+		font-size: 1em;
+		letter-spacing: 15px;
+
+		margin-top: 160px;
+		margin-left: 8px;
+	}
+
+	#contact a {
+		font-size: 0.8em;
+	}
+
+	.mail {
+		margin-top: 20px;
+		margin-left: 7px;
+	}
+
+	#contact .mailIcon {
+		max-width: 30px;
+	}
+
+	.call {
+		margin-bottom: 220px;
+		margin-left: 6px;
+	}
+
+	.call a {
+		padding-right: 15px;
+	}
+
+	#contact .callIcon {
+		max-width: 35px;
+	}
+
+	#contact span {
+		letter-spacing: 3px;
+		font-size: 0.4em;
+
+		padding-top: 20px;
+	}
+}
+
