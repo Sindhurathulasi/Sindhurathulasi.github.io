@@ -244,6 +244,7 @@ p {
 	font-size: 1em;
 	background-color: #63C7C4;
     border: solid #63C7C4 2px;
+    transition-duration: 1s;
     z-index: 100;
 }
 
