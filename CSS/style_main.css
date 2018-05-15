@@ -815,9 +815,13 @@ h3 {
     
 /********** HEADER *********/
     
+
+/*
     #header-wrap {
-        height: 117px !important;
+        height: 117px;
     }
+*/
+
 
     .portfolio .header {
 		display: flex;
