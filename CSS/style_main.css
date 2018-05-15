@@ -356,6 +356,14 @@ h3 {
 
 /********** WORKS PAGE *********/
 
+.work_menu {
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .work_name {
     background-color: black;
     height: 100vh;
@@ -363,6 +371,16 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.work_intro {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     color: white;
 }
 
@@ -394,6 +412,95 @@ h3 {
 
 .ImgShadow {
     box-shadow: 0px 0px 24px -10px rgba(0,0,0,0.85);
+}
+
+/********** WORKS PAGE 2 *********/
+
+.work_intro {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.work_intro p {
+    max-width: 60%;
+    width: 100%;
+    color: #797979;
+    font-size: 1.8em;
+    line-height: 40px;
+}
+
+.work_intro p strong {
+    color: #63C7C4;
+}
+
+.work_selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.work_selection_left {
+    max-width: 65%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.work_selection_left img {
+    max-width: 700px;
+	width: 100%;
+}
+
+.work_selection_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 35%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.work_selection_right p {
+    max-width: 90%;
+    width: 100%;
+    color: #3C3C3C;
+    margin: 0;
+    text-align: justify;
+}
+
+.work_selection_right a {
+    color: black;
+	padding: 8px 0;
+    margin-top: -10px;
+	font-size: 0.9em;
+	background-color: white;
+    border-bottom: 2px solid black;
+    transition-duration: 0.5s;
+}
+
+.work_selection_right a:hover {
+    color: #63C7C4;
+    border-bottom: 2px solid #63C7C4;
+}
+
+.work_selection_right h3 {
+    color: #63C7C4;
+    text-transform: uppercase;
+    margin-top: -5px;
+    letter-spacing: 2px;
+}
+
+.work_selection_right h4 {
+    margin: -10px 0 5px 0;
 }
 
 /********** INDIVIDUAL WORK PAGE *********/
@@ -582,7 +689,6 @@ h3 {
     padding-right: 10px;
 }
 
-
 @media (max-width: 1024px) {
 
 /********** HEADER *********/
@@ -635,7 +741,55 @@ h3 {
 
     .names:hover {
         color: #939393;
-    } 
+    }
+    
+/********** WORKS PAGE 2 *********/
+
+    .work_intro p {
+        font-size: 1.6em;
+    }
+
+    .work_intro p strong {
+        color: #63C7C4;
+    }
+
+    .work_selection {
+        flex-direction: column;
+        margin: 60px 110px;
+    }
+
+    .work_selection_left {
+        max-width: 100%;
+    }
+    
+    .work_selection_left img {
+        max-width: 800px;
+    }
+
+    .work_selection_right {
+        max-width: 100%;
+    }
+
+    .work_selection_right p {
+        max-width: 80%;
+    }
+
+    .work_selection_right a {
+        margin-top: -20px;
+    }
+
+    .work_selection_right a:hover {
+        color: black;
+        border-bottom: 2px solid black;
+    }
+
+    .work_selection_right h3 {
+        margin-top: -20px;
+    }
+
+    .work_selection_right h4 {
+        margin: -20px 0 5px 0;
+    }
     
 /********** INDIVIDUAL WORK PAGE *********/
 
@@ -748,6 +902,42 @@ h3 {
         width: 29%;
     }
     
+    /********** WORKS PAGE 2 *********/
+    
+    .work_intro {
+        justify-content: flex-end;
+    }
+
+    .work_intro p {
+        max-width: 70%;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .work_selection {
+        margin: 40px 60px;
+    }
+
+    .work_selection_right p {
+        max-width: 90%;
+    }
+
+    .work_selection_right a {
+        margin-top: -22px;
+    }
+    
+    .work_selection_right h2 {
+        margin-top: 10px;
+    }
+
+    .work_selection_right h3 {
+        margin-top: -10px;
+    }
+
+    .work_selection_right h4 {
+        margin: -20px 0 5px 0;
+    }
+    
     /********** INDIVIDUAL WORK PAGE *********/
 
     .work-content p {
@@ -811,17 +1001,13 @@ h3 {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     
 /********** HEADER *********/
     
-
-/*
     #header-wrap {
         height: 117px;
     }
-*/
-
 
     .portfolio .header {
 		display: flex;
@@ -942,7 +1128,7 @@ h3 {
         background-color: #63C7C4;
     }
 
-    /********** SKILLS *********/
+/********** SKILLS *********/
 
     .skills {
         flex-flow: column;
@@ -995,6 +1181,41 @@ h3 {
         font-size: 1.1em;
         padding: 0 10px;
     }
+    
+/********** WORKS PAGE 2 *********/
+
+    .work_intro p {
+        max-width: 70%;
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        line-height: 33px;
+    }
+
+    .work_selection {
+        margin: 30px 30px;
+    }
+
+    .work_selection_right p {
+        max-width: 100%;
+    }
+
+    .work_selection_right a {
+        margin-top: -18px;
+    }
+    
+    .work_selection_right h2 {
+        margin-top: 10px;
+    }
+
+    .work_selection_right h3 {
+        margin-top: -10px;
+        text-align: left;
+    }
+
+    .work_selection_right h4 {
+        margin: -20px 0 5px 0;
+        text-align: left;
+    }    
     
 /********** INDIVIDUAL WORK PAGE *********/
 

@@ -57,3 +57,10 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+$(document).ready(function(){
+    $("#work").click(function(){
+        $("#work").toggle();
+    });
+});
