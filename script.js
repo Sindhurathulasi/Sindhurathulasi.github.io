@@ -38,6 +38,7 @@ $( document ).ready(function() {
 /** HEADER HIDE AND SHOW **/
 
 $(window).scroll(function(){
+    console.log("$(window).scrollTop(",$(window).scrollTop)
     $(".scroll").css("opacity", 1 - $(window).scrollTop() / 175);
 });
 
