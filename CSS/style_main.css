@@ -746,6 +746,10 @@ h3 {
 
 /********** CONTENT *********/
  
+    .fixedBG {
+        background-attachment: initial;
+    }
+    
     .bg-1 {
         background-image: url("../Imgs/About/sindhu_BW_portrait.jpg");
     }
