@@ -105,7 +105,7 @@ color: #fff; }
 
 .intro {
 	position: absolute;
-	top: 65%;
+	top: 86%;
 	left: 5%;
 }
 
@@ -252,6 +252,53 @@ p {
 	color: #63C7C4;
 	background-color: white;
 }
+
+/********** TIMELINE *********/
+
+.timeline_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.timeline_menu a {
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 1.2em;
+}
+
+.journey_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.journey_left {
+    max-width: 50%;
+    width: 100%;
+}
+
+.timeline_img {
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 5px 7px 6px 1px rgba(0,0,0,0.15);
+}
+
+.journey_right {
+    max-width: 50%;
+    width: 100%;
+}
+
+.journey_right p {
+    max-width: 40%;
+    width: 100%;
+}
+
 
 /********** SKILLS *********/
 
@@ -1057,7 +1104,7 @@ h3 {
     }
     
     .intro {
-        top: 78%;
+        top: 89%;
         left: 10%;
     }
     
