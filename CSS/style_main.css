@@ -222,10 +222,10 @@ h2 {
 
 p {
 	max-width: 1220px;
-	color: #3C3C3C;
+	color: #242424;
 	text-align: justify;	
 	font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 	font-size: 1.1em;
 	line-height: 27px;
 	padding-bottom: 40px;
@@ -519,7 +519,7 @@ h3 {
 .work_selection_right p {
     max-width: 90%;
     width: 100%;
-    color: #3C3C3C;
+    color: #242424;
     margin: 0;
     text-align: justify;
 }
@@ -561,7 +561,7 @@ h3 {
 	max-width: 800px;
 	margin: 20px 0 30px 0;
     z-index: 100;
-    color: #3C3C3C;
+    color: #242424;
 }
 
 .cross_mark {
@@ -617,7 +617,7 @@ h3 {
 }
 
 .work_right p {
-	color: #3C3C3C;
+	color: #242424;
 	text-align: justify;	
 	font-family: 'Lato', sans-serif;
     font-weight: 100;
