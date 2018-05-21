@@ -777,6 +777,7 @@ h3 {
 
     .photoContainer p {
         padding-top: 10px;
+        color: #181818;
     }
 
     .journeyDates {
@@ -798,6 +799,7 @@ h3 {
 
     .work_intro p {
         font-size: 1.6em;
+        color: #eaeaea;
     }
 
     .work_intro p strong {
@@ -846,7 +848,7 @@ h3 {
 
     .work-content p {
         max-width: 700px;
-        color: #1A1A1A;
+        color: #111111;
     }
 
     .work_fixed {
@@ -868,7 +870,7 @@ h3 {
 
     .work_right p {
         margin: 10px 80px;
-        color: #1A1A1A;
+        color: #111111;
     }
 
     .content_image {
@@ -911,7 +913,7 @@ h3 {
     }
     
     .intro {
-        top: 70%;
+        top: 89%;
     }
     
     .intro_name {
