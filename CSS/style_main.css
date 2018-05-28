@@ -347,7 +347,7 @@ h3 {
 #contact a {
 	color: rgba(0,0,0,1);
 	font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 	line-height: 40px;
 	font-size: 1.1em;
 }
@@ -730,7 +730,7 @@ h3 {
 .navigation h5 {
 	color: white;
 	font-size: 1.2em;
-	font-weight: 100;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	margin-left: 10px;
     padding-right: 10px;
