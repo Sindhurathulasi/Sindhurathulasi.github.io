@@ -3,7 +3,7 @@ html body main {
 }
 
 body {
-    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 ::-moz-selection { background-color: #63C7C4; 
