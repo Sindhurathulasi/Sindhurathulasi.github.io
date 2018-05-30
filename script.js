@@ -47,7 +47,7 @@ $(window).scroll(function(){
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > (currentScrollPos-5)) {
+  if (prevScrollpos > currentScrollPos) {
     document.getElementById("header-wrap").style.top = "0";
       if(screen.width < 420){
           document.getElementById("header-wrap").style.height = "117px";
