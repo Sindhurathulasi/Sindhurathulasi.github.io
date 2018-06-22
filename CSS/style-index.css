@@ -147,15 +147,15 @@ html body main {
 }
 
 .bg-1 {
-	background-image: url("../Images/HomeTrail/Myface.jpg");
+	background-image: url("../Imgs/HomeTrail/Myface.jpg");
 }
 
 .bg-2 {
-	background-image: url("../Images/HomeTrail/GraphicText-08.png");
+	background-image: url("../Imgs/HomeTrail/GraphicText-08.png");
 }
 
 .bg-3 {
-	background-image: url("../Images/HomeTrail/Chennai-08.png");
+	background-image: url("../Imgs/HomeTrail/Chennai-08.png");
 }
 
 .notFixedBG {
@@ -264,7 +264,7 @@ p {
 	-ms-flex-align: start;
 	align-items: flex-start;
 	
-	background-image: url(../Images/Contact/faceBlur.png);
+	background-image: url(../Imgs/Contact/faceBlur.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -442,15 +442,15 @@ p {
 	}
 
 	.bg-1 {
-		background-image: url("../Images/HomeTrail/Myface.png");
+		background-image: url("../Imgs/HomeTrail/Myface.png");
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+		background-image: url("../Imgs/HomeTrail/GraphicText-08.png");
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiTablet-12.png");
+		background-image: url("../Imgs/HomeTrail/ChennaiTablet-12.png");
 	}
 
 	.notFixedBG {
@@ -608,15 +608,15 @@ p {
 	}
 
 	.bg-1 {
-		background-image: url("../Images/HomeTrail/Myface.png");
+		background-image: url("../Imgs/HomeTrail/Myface.png");
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+		background-image: url("../Imgs/HomeTrail/GraphicText-08.png");
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiMobile768-13.png");
+		background-image: url("../Imgs/HomeTrail/ChennaiMobile768-13.png");
 	}
 
 	.notFixedBG {
@@ -840,15 +840,15 @@ p {
 	}
 
 	.bg-1 {
-		background-image: url("../Images/HomeTrail/Myface.png");
+		background-image: url("../Imgs/HomeTrail/Myface.png");
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicText-08.png");
+		background-image: url("../Imgs/HomeTrail/GraphicText-08.png");
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiTablet2-13.png");
+		background-image: url("../Imgs/HomeTrail/ChennaiTablet2-13.png");
 	}
 
 	.notFixedBG {
@@ -975,7 +975,7 @@ p {
 	}
 	
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+		background-image: url("../Imgs/HomeTrail/ChennaiMobile320-15.png");
 	}
 	
 	/********** CONTACT ANCHOR ************/
@@ -1066,15 +1066,15 @@ p {
 	}
 
 	.bg-1 {
-		background-image: url("../Images/HomeTrail/Myface.png");
+		background-image: url("../Imgs/HomeTrail/Myface.png");
 	}
 
 	.bg-2 {
-		background-image: url("../Images/HomeTrail/GraphicMobileNew-14.png");
+		background-image: url("../Imgs/HomeTrail/GraphicMobileNew-14.png");
 	}
 
 	.bg-3 {
-		background-image: url("../Images/HomeTrail/ChennaiMobile320-15.png");
+		background-image: url("../Imgs/HomeTrail/ChennaiMobile320-15.png");
 	}
 
 	.notFixedBG {
