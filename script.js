@@ -20,9 +20,10 @@ $( document ).ready(function() {
 	setTimeout(function(){
 		$( "#logoAnimation" ).hide();
 	}, 4000);
-	
+    
 	setTimeout(function(){
-		$( "#portfolio" ).show();
+		window.location.href = "./projects.html";
+	
 	}, 4000);
 	
 	/** setTimeout(function(){
