@@ -14,6 +14,7 @@ $(function() {
   });
 });
 
+/**
 // A $( document ).ready() block.
 $( document ).ready(function() {
 	
@@ -23,7 +24,6 @@ $( document ).ready(function() {
     
 	setTimeout(function(){
 		window.location.href = "./projects.html";
-	
 	}, 4000);
 	
 	/** setTimeout(function(){
@@ -33,9 +33,9 @@ $( document ).ready(function() {
 		$( ".portfolio" ).fadein({opacity: '0.5'});
 	}, 4000);
 	
-	**/
+	
 });
-
+**/
 /** HEADER HIDE AND SHOW **/
 
 $(window).scroll(function(){
