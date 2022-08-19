@@ -655,8 +655,14 @@ h3 {
     padding-bottom: 70px;
 }
 
+
 .small {
     max-width: 350px;
+    width: 100%;
+}
+
+.medium {
+    max-width: 450px;
     width: 100%;
 }
 
